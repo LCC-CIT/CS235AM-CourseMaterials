@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Screen1DefaultText">No Pokes Yet</string>
+	<string name="Screen2DefaultText">No Pokes From Screen One</string>
+	<string name="Screen1Button">Poke Screen 2</string>
+	<string name="Screen2Button">Poke Screen 1</string>
+	<string name="ErrorString">An Error Occured</string>
+	<string name="app_name">MultiScreen</string>
+</resources>

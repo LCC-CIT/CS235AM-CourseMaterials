@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="0.42.1" package="edu.lanecc.bbtidetable">
+	<uses-sdk />
+	<application android:label="TideTable"></application>
+</manifest>

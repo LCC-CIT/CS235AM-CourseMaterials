@@ -1,0 +1,12 @@
+UI with C#
+-1 Main.axml should only containt LinearLayout
+-1 strings should be stored in string constant
+-4 no working reset button
+-5 no event handler for reset button
+
+UI with AXML
+-3 no Resources/values/Strings.xml "reset"
+-3 only one button
+-2 only one event handler
+
+total -19

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{ED1850E9-9805-45AD-A897-EC074C50CBB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{99F667EA-AC0A-4046-8EEC-3D7A9493E062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "AndroidApplication1\Application.csproj", "{5D6D3359-478E-4AD2-9950-36AB0D613AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Debug|x86.Build.0 = Debug|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D6D3359-478E-4AD2-9950-36AB0D613AAD}.Release|x86.Build.0 = Release|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Debug|x86.Build.0 = Debug|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Release|x86.ActiveCfg = Release|Any CPU
+		{99F667EA-AC0A-4046-8EEC-3D7A9493E062}.Release|x86.Build.0 = Release|Any CPU
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Debug|x86.ActiveCfg = Debug|x86
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Debug|x86.Build.0 = Debug|x86
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Release|Any CPU.ActiveCfg = Release|x86
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Release|x86.ActiveCfg = Release|x86
+		{ED1850E9-9805-45AD-A897-EC074C50CBB4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = AndroidApplication1\Application.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

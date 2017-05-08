@@ -1,0 +1,9 @@
+Is there code to retrieve the second Activity’s
+message from this Activity’s Intent property and 
+put it in the TextView?
+
+-5 Your activity 1 and activity 2 are getting strings
+from their own activity, you should be sending a string
+from activity 1 to activity 2 via an intent, and then
+sending a string from activity 2 to activity 1 with an
+intent as well.

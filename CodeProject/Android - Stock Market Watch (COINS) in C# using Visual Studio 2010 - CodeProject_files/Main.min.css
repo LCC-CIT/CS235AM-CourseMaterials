@@ -1,0 +1,4557 @@
+.theme1-color {
+	color: rgb(255, 153, 0);
+}
+.theme1-background {
+	background-color: rgb(255, 153, 0);
+}
+.theme1-border {
+	border-color: rgb(255, 153, 0) !important;
+}
+.theme2-color {
+	color: rgb(255, 204, 102);
+}
+.theme2-background {
+	background-color: rgb(255, 204, 102);
+}
+.theme2-border {
+	border-color: rgb(255, 204, 102) !important;
+}
+.theme3-color {
+	color: rgb(255, 248, 223);
+}
+.theme3-background {
+	background-color: rgb(255, 248, 223);
+}
+.theme2-border {
+	border-color: rgb(255, 248, 223) !important;
+}
+.contrast1-color {
+	color: rgb(102, 102, 102);
+}
+.contrast1-background {
+	background-color: white;
+}
+.contrast1-border {
+	border-color: white !important;
+}
+.contrast2-color {
+	color: rgb(255, 153, 0);
+}
+.contrast2-background {
+	background-color: rgb(255, 153, 0);
+}
+.contrast1-border {
+	border-color: rgb(255, 153, 0) !important;
+}
+.blank-background {
+	background-color: white;
+}
+html {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+div {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+span {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+applet {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+object {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+iframe {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+a {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+abbr {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+acronym {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+big {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+cite {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+code {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+del {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+dfn {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+em {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+font {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+img {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ins {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+kbd {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+q {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+s {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+samp {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+small {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+strike {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+strong {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+sub {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+sup {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+tt {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+var {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+label {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+table {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+tbody {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+tfoot {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+thead {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+tr {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+th {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+td {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+q::before {
+	content: "";
+}
+q::after {
+	content: "";
+}
+blockquote::before {
+	content: "";
+}
+blockquote::after {
+	content: "";
+}
+html {
+	font-size: 100.01%; -webkit-font-smoothing: antialiased; font-smooth: always;
+}
+body {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+p {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+h1 {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+h2 {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+h3 {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+h4 {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+h5 {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+h6 {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+li {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+tr {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+td {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+th {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+dd {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+dt {
+	color: rgb(17, 17, 17); line-height: normal; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 14px;
+}
+body {
+	margin: 0px;
+}
+h1 {
+	font-weight: bold;
+}
+h3 {
+	font-weight: bold;
+}
+h4 {
+	font-weight: bold;
+}
+h5 {
+	font-weight: bold;
+}
+th {
+	font-weight: bold;
+}
+h1 {
+	margin: 0px 0px 7px; padding: 0px; text-align: left; color: rgb(51, 51, 51);
+}
+h2 {
+	margin: 20px 0px 11px; padding: 0px 0px 10px; color: rgb(51, 51, 51); font-size: 30px; font-weight: 200;
+}
+h2 a {
+	color: rgb(51, 51, 51);
+}
+h3 {
+	color: rgb(102, 102, 102);
+}
+h5 {
+	color: gray;
+}
+h1 {
+	font-size: 29px; font-weight: 200;
+}
+h3 {
+	font-size: 18px; font-weight: normal;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px; font-weight: bold; margin-bottom: 2px;
+}
+h6 {
+	color: rgb(102, 102, 102); font-size: 65%; font-weight: normal;
+}
+acronym {
+	border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: dashed; cursor: help;
+}
+pre {
+	font: 9pt/normal Consolas, "Courier New", Courier, mono; padding: 6px; border: 1px solid rgb(251, 237, 187); color: black; overflow: auto !important; white-space: pre; font-size-adjust: none; font-stretch: normal; background-color: rgb(251, 237, 187);
+}
+.ie7 pre {
+	-ms-word-wrap: break-word;
+}
+.ie6 pre {
+	-ms-word-wrap: break-word;
+}
+code {
+	font: 11pt/normal Consolas, "Courier New", Courier, mono; color: rgb(153, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+kbd {
+	border-width: 1px 3px 3px 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(136, 136, 136) rgb(187, 187, 187); padding: 2px 4px; color: rgb(0, 0, 0); white-space: nowrap; background-color: rgb(238, 238, 238);
+}
+table {
+	background-color: transparent;
+}
+img {
+	-ms-interpolation-mode: bicubic;
+}
+dt {
+	font-weight: bold; margin-top: 10px; margin-bottom: 6px;
+}
+dd {
+	margin-bottom: 6px; margin-left: 25px;
+}
+a {
+	color: rgb(0, 87, 130); text-decoration: none;
+}
+a:visited {
+	color: purple;
+}
+a:active {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:focus {
+	
+}
+img:focus {
+	
+}
+a:not([href]) {
+	color: inherit; text-decoration: none;
+}
+tt.equation {
+	font-family: "Times New Roman",serif; font-size: 16px; font-style: italic; white-space: pre;
+}
+input[type='text'] {
+	border: 1px solid rgb(215, 215, 215); font-size: 12px;
+}
+input[type='url'] {
+	border: 1px solid rgb(215, 215, 215); font-size: 12px;
+}
+input[type='search'] {
+	border: 1px solid rgb(215, 215, 215); font-size: 12px;
+}
+input[type='email'] {
+	border: 1px solid rgb(215, 215, 215); font-size: 12px;
+}
+select {
+	border: 1px solid rgb(215, 215, 215); font-size: 12px;
+}
+textarea {
+	border: 1px solid rgb(215, 215, 215); font-size: 12px;
+}
+input[type='text']:focus {
+	border: 1px solid rgb(160, 172, 191);
+}
+input[type='url']:focus {
+	border: 1px solid rgb(160, 172, 191);
+}
+input[type='search']:focus {
+	border: 1px solid rgb(160, 172, 191);
+}
+input[type='email']:focus {
+	border: 1px solid rgb(160, 172, 191);
+}
+select:focus {
+	border: 1px solid rgb(160, 172, 191);
+}
+textarea:focus {
+	border: 1px solid rgb(160, 172, 191);
+}
+input[type=radio] {
+	border: currentColor;
+}
+option.group-header {
+	color: gray; font-style: italic; font-weight: bold; background-color: white;
+}
+option.subitem {
+	padding-left: 10px; background-color: white;
+}
+a.button {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); color: white; font-size: 100%; text-decoration: none !important; white-space: nowrap; cursor: pointer; background-color: rgb(224, 137, 0);
+}
+a.button-large {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); color: white; font-size: 100%; text-decoration: none !important; white-space: nowrap; cursor: pointer; background-color: rgb(224, 137, 0);
+}
+.button {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); color: white; font-size: 100%; text-decoration: none !important; white-space: nowrap; cursor: pointer; background-color: rgb(224, 137, 0);
+}
+.button-large {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); color: white; font-size: 100%; text-decoration: none !important; white-space: nowrap; cursor: pointer; background-color: rgb(224, 137, 0);
+}
+button.button {
+	font-size: 90%;
+}
+.button-large {
+	padding: 4px 9px; font-size: 16px !important;
+}
+button.minor {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); background-color: rgb(242, 242, 242);
+}
+.minor.button {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); background-color: rgb(242, 242, 242);
+}
+button.minor:hover {
+	background-color: rgb(204, 204, 204);
+}
+.minor.button:hover {
+	background-color: rgb(204, 204, 204);
+}
+a.safe.button {
+	color: white !important;
+}
+a.unsafe.button {
+	color: white !important;
+}
+.compose.button {
+	border-color: rgb(209, 72, 54) !important; color: white !important; background-color: rgb(209, 72, 54) !important;
+}
+.compose.button a {
+	color: white !important;
+}
+.compose.button a:hover {
+	color: white !important;
+}
+.compose.button:hover {
+	border-color: rgb(197, 55, 39) !important;
+}
+.unsafe.button {
+	border-color: red;
+}
+.unsafe.button:hover {
+	border-color: rgb(197, 55, 39);
+}
+.safe.button {
+	border-color: rgb(118, 171, 64);
+}
+.safe.button:hover {
+	border-color: rgb(87, 125, 48);
+}
+.long-element {
+	width: 500px;
+}
+.short-element {
+	width: 50px;
+}
+.tiny-text {
+	font-size: 11px;
+}
+table.small-text td {
+	font-size: 12px !important;
+}
+ul.small-text li {
+	font-size: 12px !important;
+}
+ol.small-text li {
+	font-size: 12px !important;
+}
+.small-text {
+	font-size: 12px !important;
+}
+.medium-text {
+	font-size: 16px;
+}
+.large-text {
+	font-size: 29px; font-weight: bold;
+}
+.highlight {
+	background-color: yellow !important;
+}
+.emphasis {
+	color: red !important;
+}
+.Hidden {
+	visibility: hidden;
+}
+.hidden {
+	visibility: hidden;
+}
+.invisible {
+	display: none;
+}
+.subdue {
+	color: gray;
+}
+.transparent {
+	background-color: transparent;
+}
+.bold {
+	font-weight: bold;
+}
+.offblack {
+	color: rgb(51, 51, 51);
+}
+.normal {
+	color: rgb(51, 51, 51); font-weight: normal;
+}
+.align-left {
+	text-align: left !important;
+}
+.align-right {
+	text-align: right !important;
+}
+.align-center {
+	text-align: center;
+}
+.align-justify {
+	text-align: justify;
+}
+.align-top {
+	vertical-align: top;
+}
+.align-middle {
+	vertical-align: middle;
+}
+.align-bottom {
+	vertical-align: bottom;
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+.float-center {
+	margin: auto;
+}
+.top-left-fixed {
+	left: 0px; top: 0px; position: relative;
+}
+.z-index-top {
+	z-index: 10000;
+}
+.z-index-bottom {
+	z-index: 0;
+}
+.extended {
+	width: 100%;
+}
+.padded {
+	padding: 20px;
+}
+.padded-top {
+	padding-top: 20px !important;
+}
+.tight {
+	margin: 0px !important; padding: 0px !important;
+}
+.spaced {
+	margin: 10px;
+}
+table.spaced > tbody > tr > td {
+	padding: 5px;
+}
+table.spaced > tr > td {
+	padding: 5px;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.wrap {
+	white-space: normal;
+}
+.fixed-layout {
+	table-layout: fixed;
+}
+.clip-text {
+	-ms-text-overflow: ellipsis;
+}
+.clipped {
+	overflow: hidden;
+}
+.fluid {
+	width: auto !important; max-width: 10000px !important;
+}
+.no-color {
+	color: black !important;
+}
+.no-colour {
+	color: black !important;
+}
+.raised {
+	border: 1px solid rgb(204, 204, 204); box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.4); background-color: rgb(255, 248, 223); -moz-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.4); -webkit-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.4);
+}
+.border-none {
+	
+}
+.border-none-left {
+	border-left-style: none !important;
+}
+.border-none-right {
+	border-right-style: none !important;
+}
+.border-none-sides {
+	border-right-style: none !important; border-left-style: none !important;
+}
+.border-none-top {
+	border-top-style: none !important;
+}
+.border-none-bottom {
+	border-bottom-style: none !important;
+}
+.border-top {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.border-bottom {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pre-wrap {
+	white-space: pre-wrap; -ms-word-wrap: break-word; _white-space: pre;
+}
+ol {
+	margin: 10px 0px; padding-left: 40px;
+}
+ul {
+	margin: 10px 0px; padding-left: 40px;
+}
+ol.compact li {
+	font-size: 12px;
+}
+ul.compact li {
+	font-size: 12px;
+}
+ol li.compact {
+	font-size: 12px;
+}
+ul li.compact {
+	font-size: 12px;
+}
+ol.spaced {
+	margin: 3px;
+}
+ul.spaced {
+	margin: 3px;
+}
+ol.spaced li {
+	margin: 10px 0px;
+}
+ul.spaced li {
+	margin: 10px 0px;
+}
+ol.tight {
+	margin: 0px; padding-left: 15px !important;
+}
+ul.tight {
+	margin: 0px; padding-left: 15px !important;
+}
+ol.compact {
+	margin: 0px; line-height: 1.4em; padding-left: 3px; list-style-type: none;
+}
+ul.compact {
+	margin: 0px; line-height: 1.4em; padding-left: 3px; list-style-type: none;
+}
+ol.compactlist {
+	margin-top: 5px; margin-bottom: 5px;
+}
+ul.compactlist {
+	margin-top: 5px; margin-bottom: 5px;
+}
+ul.outdent {
+	padding-left: 15px; margin-top: 5px; margin-bottom: 5px; margin-left: 0px;
+}
+ul.outdent li {
+	padding-bottom: 2px; font-size: 14px;
+}
+ul.download {
+	margin-top: 25px;
+}
+ul.download li {
+	background: url("/images/download24.png") no-repeat left; margin: 0px 0px 6px -40px; padding: 0px 0px 1px 30px; font-weight: bold; vertical-align: middle; list-style-type: none;
+}
+ul li.download {
+	background: url("/images/download24.png") no-repeat left; margin: 0px 0px 6px -40px; padding: 0px 0px 1px 30px; font-weight: bold; vertical-align: middle; list-style-type: none;
+}
+ul.Download li {
+	background: url("/images/download24.png") no-repeat left; margin: 0px 0px 6px -40px; padding: 0px 0px 1px 30px; font-weight: bold; vertical-align: middle; list-style-type: none;
+}
+ul li.Download {
+	background: url("/images/download24.png") no-repeat left; margin: 0px 0px 6px -40px; padding: 0px 0px 1px 30px; font-weight: bold; vertical-align: middle; list-style-type: none;
+}
+ul.horizontal li {
+	padding: 0.2em 1em; display: inline;
+}
+ul.delegate li {
+	list-style-image: url("/images/symbols/delegate.gif");
+}
+li.delegate {
+	list-style-image: url("/images/symbols/delegate.gif");
+}
+ul.enum li {
+	list-style-image: url("/images/symbols/Enum.GIF");
+}
+li.enum {
+	list-style-image: url("/images/symbols/Enum.GIF");
+}
+ul.event li {
+	list-style-image: url("/images/symbols/event.GIF");
+}
+li.event {
+	list-style-image: url("/images/symbols/event.GIF");
+}
+ul.interface li {
+	list-style-image: url("/images/symbols/interface.GIF");
+}
+li.interface {
+	list-style-image: url("/images/symbols/interface.GIF");
+}
+ul.literal li {
+	list-style-image: url("/images/symbols/literal.GIF");
+}
+li.literal {
+	list-style-image: url("/images/symbols/literal.GIF");
+}
+ul.method li {
+	list-style-image: url("/images/symbols/method.GIF");
+}
+li.method {
+	list-style-image: url("/images/symbols/method.GIF");
+}
+ul.namespace li {
+	list-style-image: url("/images/symbols/namespace.GIF");
+}
+li.namespace {
+	list-style-image: url("/images/symbols/namespace.GIF");
+}
+ul.property li {
+	list-style-image: url("/images/symbols/property.GIF");
+}
+li.property {
+	list-style-image: url("/images/symbols/property.GIF");
+}
+ul.struct li {
+	list-style-image: url("/images/symbols/struct.GIF");
+}
+li.struct {
+	list-style-image: url("/images/symbols/struct.GIF");
+}
+ul.compactlist li {
+	font-size: 12px; margin-bottom: 0px; margin-left: -1em; list-style-image: url("/images/smallarrow.gif");
+}
+li.compactlist {
+	font-size: 12px; margin-bottom: 0px; margin-left: -1em; list-style-image: url("/images/smallarrow.gif");
+}
+.callout {
+	margin: 20px 0px; padding: 15px; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); background-color: rgb(255, 255, 225);
+}
+.annotation {
+	margin: 20px 0px; padding: 15px; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); background-color: rgb(255, 255, 225);
+}
+.advise {
+	margin: 20px 0px; padding: 15px; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); background-color: rgb(242, 242, 242);
+}
+.advise a {
+	font-weight: bold;
+}
+.trace {
+	padding: 20px; border: 1px solid red; color: rgb(51, 51, 51); font-size: 11px; background-color: rgb(204, 204, 204);
+}
+caption {
+	font-size: 12px; font-style: italic; font-weight: bold;
+}
+.caption {
+	font-size: 12px; font-style: italic; font-weight: bold;
+}
+.Caption {
+	font-size: 12px; font-style: italic; font-weight: bold;
+}
+.filename {
+	font-style: italic;
+}
+.Filename {
+	font-style: italic;
+}
+.command {
+	font-weight: bold;
+}
+.Command {
+	font-weight: bold;
+}
+div.warning {
+	margin: 20px; padding: 5px; border: 1px solid red; background-color: rgb(255, 227, 224);
+}
+div.Warning {
+	margin: 20px; padding: 5px; border: 1px solid red; background-color: rgb(255, 227, 224);
+}
+span.warning {
+	padding: 0px; border: 0px currentColor; color: red; background-color: transparent;
+}
+span.Warning {
+	padding: 0px; border: 0px currentColor; color: red; background-color: transparent;
+}
+.watermark {
+	color: rgb(187, 187, 187);
+}
+.safe {
+	background-color: rgb(118, 171, 64) !important;
+}
+.unsafe {
+	background-color: rgb(209, 72, 54) !important;
+}
+.available {
+	color: green; font-weight: bold;
+}
+.unavailable {
+	color: rgb(153, 153, 153);
+}
+.expired {
+	color: red; font-weight: bold;
+}
+.pending {
+	color: rgb(51, 51, 51);
+}
+.locked {
+	color: red;
+}
+.new {
+	color: green;
+}
+.updated {
+	color: darkorange;
+}
+.moved {
+	color: darkred;
+}
+.deleted {
+	color: rgb(153, 153, 153);
+}
+.error {
+	color: red;
+}
+div.error {
+	padding: 15px; border: 1px solid rgb(255, 153, 0); color: rgb(17, 17, 17); margin-bottom: 15px;
+}
+.success {
+	color: green; font-weight: bold;
+}
+.failure {
+	color: red; font-weight: bold;
+}
+.divider {
+	margin: 0px; padding: 0px; border: currentColor; height: 1px; color: rgb(255, 153, 0); background-color: rgb(255, 153, 0);
+}
+.divider-faint {
+	margin: 0px; padding: 0px; height: 1px; color: rgb(204, 204, 204); background-color: rgb(204, 204, 204);
+}
+.divider-dark {
+	margin: 0px; padding: 0px; height: 1px; color: rgb(51, 51, 51); background-color: rgb(51, 51, 51);
+}
+table.simple thead td {
+	font-size: 14px; font-weight: bold;
+}
+table.simple th td {
+	font-size: 14px; font-weight: bold;
+}
+table.simple td {
+	margin: 0px; padding: 5px; font-size: 12px;
+}
+table.simple th {
+	margin: 0px; padding: 5px; font-size: 12px;
+}
+table.feature {
+	border-top-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; background-color: white;
+}
+table.feature thead td {
+	color: white; font-size: 14px; font-weight: bold; background-color: rgb(255, 153, 0);
+}
+table.feature th td {
+	color: white; font-size: 14px; font-weight: bold; background-color: rgb(255, 153, 0);
+}
+table.feature thead td a {
+	color: white;
+}
+table.feature th td a {
+	color: white;
+}
+table.feature td {
+	margin: 0px; padding: 5px; font-size: 12px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+table.feature th {
+	margin: 0px; padding: 5px; font-size: 12px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+table.feature tr.alt-item {
+	background-color: rgb(255, 248, 223);
+}
+table.themed {
+	border-top-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.themed thead td {
+	font-size: 12px; font-weight: bold; vertical-align: middle; border-top-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.themed th {
+	font-size: 12px; font-weight: bold; vertical-align: middle; border-top-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.themed .header {
+	font-size: 12px; font-weight: bold; vertical-align: middle; border-top-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.themed tfoot {
+	font-size: 12px; font-weight: bold; vertical-align: middle; border-top-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.themed .footer {
+	font-size: 12px; font-weight: bold; vertical-align: middle; border-top-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.themed td {
+	padding: 2px;
+}
+table.themed th {
+	padding: 2px;
+}
+table.themed .alt-item {
+	background-color: rgb(255, 248, 223);
+}
+table.border-none {
+	
+}
+table.border-none td {
+	
+}
+table.grid {
+	border-top-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; border-collapse: collapse; background-color: white;
+}
+table.grid th {
+	margin: 0px; padding: 5px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+table.grid td {
+	margin: 0px; padding: 5px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+table.grid tr.alt-item {
+	background-color: rgb(255, 248, 223);
+}
+table.grid thead {
+	font-weight: bold; background-color: rgb(235, 246, 255);
+}
+table.grid tfoot {
+	font-weight: bold;
+}
+table.padded > tr > td {
+	padding: 5px;
+}
+.side-menu {
+	margin: 0px;
+}
+.side-menu div.unread {
+	background: url("/images/dot12.png") no-repeat left 3px; padding-left: 13px;
+}
+.side-menu .menu2 {
+	padding: 5px 0px 0px 13px; color: gray; font-size: 14px; font-weight: bold; display: block; cursor: pointer; background-color: white;
+}
+.side-menu .menu2 a {
+	color: gray; text-decoration: none;
+}
+.side-menu .menu2:hover {
+	color: gray; background-color: white;
+}
+.side-menu .menu2 a:hover {
+	color: gray; background-color: white;
+}
+.side-menu .unread.menu2 {
+	background: url("/images/dot12.png") no-repeat left 9px;
+}
+.side-menu .menu3 {
+	color: rgb(102, 102, 102); padding-left: 10px; font-size: 12px; margin-left: 10px; background-color: white;
+}
+.side-menu .menu3 a {
+	padding: 4px 0px 4px 4px; color: rgb(102, 102, 102); text-decoration: none; display: block;
+}
+.side-menu .menu3:hover a {
+	color: white; background-color: rgb(255, 153, 0);
+}
+.side-menu .menu3 a:hover {
+	color: white; background-color: rgb(255, 153, 0);
+}
+.side-menu .unread.menu3 {
+	background: url("/images/dot12.png") no-repeat left 5px;
+}
+.side-menu .selected {
+	background: url("/images/right-selected.gif") no-repeat right;
+}
+.side-menu .selected a {
+	color: rgb(255, 153, 0); font-weight: bold;
+}
+.side-menu .unselected a {
+	color: gray;
+}
+.sidebar {
+	margin: 5px 5px 15px; padding: 8px; border: 1px solid rgb(255, 204, 102); width: 190px; background-color: rgb(255, 255, 239);
+}
+.sidebar-left {
+	margin: 5px 15px 15px 3px; padding: 8px 10px 10px 8px; border: 1px solid rgb(255, 204, 102); width: 190px; float: left; background-color: rgb(255, 255, 239);
+}
+.sidebar-right {
+	margin: 5px 3px 15px 15px; padding: 8px 8px 10px 10px; border: 1px solid rgb(255, 204, 102); width: 190px; float: right; background-color: rgb(255, 255, 239);
+}
+.tab-container {
+	width: 100%; border-bottom-color: rgb(255, 153, 0); border-bottom-width: 1px; border-bottom-style: solid; -ms-zoom: 1;
+}
+.tab-selected {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(255, 153, 0) rgb(255, 153, 0) currentColor; padding: 5px; color: rgb(51, 51, 51); font-size: 14px; font-weight: bold;
+}
+.tab-unselected {
+	border-width: 1px; border-style: solid; border-color: rgb(255, 153, 0) rgb(51, 51, 51) transparent rgb(255, 153, 0); padding: 5px; color: rgb(102, 102, 102); font-size: 14px; font-weight: bold;
+}
+.tab-unselected a {
+	color: rgb(102, 102, 102);
+}
+.tab-unselected:hover {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(255, 204, 102) rgb(255, 204, 102) currentColor; background-color: rgb(255, 204, 102);
+}
+.tab-unselected a:hover {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.tab-panel {
+	padding: 10px; border: 1px solid rgb(242, 242, 242); background-color: rgb(255, 248, 223);
+}
+.tab-panel a {
+	font-size: 12px;
+}
+.tab-nav {
+	padding: 0px; margin-bottom: 1px;
+}
+.tab-nav a {
+	font: 13px/normal "Segoe UI", Arial, Sans-Serif; padding: 5px 5px 4px; border: 1px solid transparent; text-decoration: none; margin-right: -2px; font-size-adjust: none; font-stretch: normal;
+}
+.tab-nav a:hover {
+	border-color: rgb(204, 204, 204); border-color-bottom: transparent;
+}
+.tab-nav a.selected {
+	border-width: 1px; border-style: solid; border-color: rgb(242, 242, 242) rgb(242, 242, 242) rgb(255, 248, 223); background-color: rgb(255, 248, 223);
+}
+.tab-nav img {
+	border: 0px currentColor; margin-bottom: 3px; vertical-align: middle;
+}
+.chrome .tab-nav img {
+	margin-bottom: 2px;
+}
+.opera .tab-nav img {
+	margin-bottom: 4px;
+}
+@media projection, not all, not all
+{
+.ui-tabs-hide {
+	display: none !important;
+}
+}
+.ui-tabs-hide {
+	display: none !important;
+}
+@media print
+{
+.ui-tabs-nav {
+	display: none;
+}
+}
+.ui-wrapper {
+	border: 1px solid rgb(255, 153, 0);
+}
+.ui-wrapper input {
+	border: currentColor;
+}
+.ui-wrapper textarea {
+	border: currentColor;
+}
+.theme.ui-tabs-panel {
+	border-width: 2px !important; background-color: white !important;
+}
+.ui-tabs-nav {
+	list-style: none; margin: 0px; padding: 0px 0px 0px 3px; border: currentColor; background-color: white;
+}
+.ui-tabs-nav::after {
+	clear: both; display: block; content: " ";
+}
+.ui-tabs-nav li {
+	margin: 0px 0px 0px 2px; border: currentColor; font-weight: bold; display: inline;
+}
+.ui-tabs-nav a {
+	font-weight: bold; float: left;
+}
+.ui-tabs-nav a span {
+	font-weight: bold; float: left;
+}
+.ui-tabs-nav a {
+	padding-left: 0px; text-decoration: none; white-space: nowrap;
+}
+.ui-tabs-nav a span {
+	padding: 5px 7px; color: gray; font-weight: normal; margin-bottom: 0px; background-color: rgb(255, 248, 223);
+}
+.ui-tabs-nav a:link {
+	color: rgb(51, 51, 51);
+}
+.ui-tabs-nav a:visited {
+	color: rgb(51, 51, 51);
+}
+.ui-tabs-nav .ui-tabs-selected a {
+	color: rgb(51, 51, 51);
+}
+.ui-tabs-nav .ui-tabs-selected a span {
+	color: white; text-decoration: none; background-color: rgb(255, 153, 0);
+}
+.ui-tabs-nav a:hover span {
+	color: white; text-decoration: none; background-color: rgb(255, 153, 0);
+}
+.ui-tabs-nav .ui-tabs-selected a:link {
+	cursor: text;
+}
+.ui-tabs-nav .ui-tabs-selected a:visited {
+	cursor: text;
+}
+.ui-tabs-nav .ui-tabs-disabled a:link {
+	cursor: text;
+}
+.ui-tabs-nav .ui-tabs-disabled a:visited {
+	cursor: text;
+}
+.ui-tabs-nav a:hover {
+	cursor: pointer;
+}
+.ui-tabs-nav a:focus {
+	cursor: pointer;
+}
+.ui-tabs-nav a:active {
+	cursor: pointer;
+}
+.ui-tabs-nav .ui-tabs-unselect a:hover {
+	cursor: pointer;
+}
+.ui-tabs-nav .ui-tabs-unselect a:focus {
+	cursor: pointer;
+}
+.ui-tabs-nav .ui-tabs-unselect a:active {
+	cursor: pointer;
+}
+.ui-tabs-nav .ui-tabs-disabled a:link {
+	color: rgb(0, 0, 0);
+}
+.ui-tabs-nav .ui-tabs-disabled a:visited {
+	color: rgb(0, 0, 0);
+}
+.ui-tabs-nav .ui-tabs-panel {
+	font-size: 14px;
+}
+.ui-state-hover span {
+	background-color: rgb(255, 153, 0) !important;
+}
+.ui-tabs-disabled {
+	opacity: 0.4;
+}
+.ui-tabs-panel {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(242, 242, 242) !important; clear: both; display: block;
+}
+.ui-tabs ol.tight {
+	margin: 0px; padding-left: 0px !important;
+}
+.ui-tabs ul.tight {
+	margin: 0px; padding-left: 0px !important;
+}
+.pager .indicator {
+	width: 40px; float: left; white-space: nowrap;
+}
+.pager .selectors {
+	padding-left: 100px; float: left;
+}
+.pager .navigation {
+	text-align: right; float: right;
+}
+.pager .page-size {
+	text-align: right; margin-right: 20px; float: right;
+}
+.top.pager {
+	margin-top: 20px;
+}
+.top.pager .divider {
+	margin-top: 7px;
+}
+.bottom.pager {
+	margin-bottom: 20px;
+}
+.bottom.pager .divider {
+	margin-bottom: 7px;
+}
+.pager a {
+	padding: 1px 4px; color: rgb(17, 17, 17);
+}
+.pager .selectors b {
+	padding: 1px 4px; color: rgb(17, 17, 17);
+}
+.pager .page-size b {
+	padding: 1px 4px; color: rgb(17, 17, 17);
+}
+.pager a:hover {
+	color: white !important; text-decoration: none; background-color: rgb(255, 153, 0);
+}
+.pager .selectors b:hover {
+	color: white !important; text-decoration: none; background-color: rgb(255, 153, 0);
+}
+.pager .page-size b:hover {
+	color: white !important; text-decoration: none; background-color: rgb(255, 153, 0);
+}
+.pager a.selected {
+	color: rgb(255, 153, 0); font-weight: bold;
+}
+.pager .selectors b.selected {
+	color: rgb(255, 153, 0); font-weight: bold;
+}
+.pager .page-size b.selected {
+	color: rgb(255, 153, 0); font-weight: bold;
+}
+.pager a.selected:hover {
+	color: rgb(255, 153, 0) !important; background-color: transparent;
+}
+.pager .selectors b.selected:hover {
+	color: rgb(255, 153, 0) !important; background-color: transparent;
+}
+.pager .page-size b.selected:hover {
+	color: rgb(255, 153, 0) !important; background-color: transparent;
+}
+.pager a.disabled {
+	color: gray;
+}
+.pager .selectors b.disabled {
+	color: gray;
+}
+.pager .page-size b.disabled {
+	color: gray;
+}
+.pager a.disabled:hover {
+	color: gray !important; background-color: transparent;
+}
+.pager .selectors b.disabled:hover {
+	color: gray !important; background-color: transparent;
+}
+.pager .page-size b.disabled:hover {
+	color: gray !important; background-color: transparent;
+}
+.container-content {
+	padding: 0px 9px; position: relative; cursor: default; -ms-zoom: 1; background-color: white;
+}
+.container-content-wrap {
+	margin: auto; max-width: 1056px;
+}
+.container-main {
+	padding: 0px; -ms-zoom: 1;
+}
+.container-main .text-sidebar {
+	margin-left: 20px;
+}
+.container-content pre {
+	white-space: pre-wrap; -ms-word-wrap: break-word; _white-space: pre;
+}
+.container-code pre {
+	white-space: pre-wrap; -ms-word-wrap: break-word; _white-space: pre;
+}
+.answer pre {
+	white-space: pre-wrap; -ms-word-wrap: break-word; _white-space: pre;
+}
+.container-code {
+	width: 100%;
+}
+* + html .container-code {
+	width: 640px;
+}
+.container-more {
+	background: url("/images/circle-right.png") no-repeat right 9px; padding: 8px 22px 2px 0px; text-align: right; font-size: 12px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.container-more a {
+	color: gray;
+}
+.mobile .container-more {
+	font-size: 30px;
+}
+.button-group {
+	margin: 0px; padding-right: 1em; white-space: nowrap;
+}
+.hover-container {
+	display: block; position: relative;
+}
+* + html .hover-row .hover-container {
+	position: static;
+}
+* + html .hover-row .hover-container .button-group {
+	float: right; position: relative;
+}
+.hover-container .button-group {
+	display: none;
+}
+.hover-row .button-group {
+	display: none;
+}
+.hover-container .button-group-tight {
+	visibility: hidden;
+}
+.hover-row .button-group-tight {
+	visibility: hidden;
+}
+.hover.hover-row {
+	background-color: rgb(255, 248, 223) !important;
+}
+.hover.hover-row td {
+	background-color: rgb(255, 248, 223) !important;
+}
+.hover-row:hover {
+	background-color: rgb(255, 248, 223) !important;
+}
+.hover-row:hover td {
+	background-color: rgb(255, 248, 223) !important;
+}
+.hover .button-group {
+	margin: 0px; top: 0px; right: 3px; display: block; position: absolute; background-color: inherit;
+}
+.hover-container:hover .button-group {
+	margin: 0px; top: 0px; right: 3px; display: block; position: absolute; background-color: inherit;
+}
+.hover-container:hover .button-group-tight {
+	visibility: visible; background-color: inherit;
+}
+.ie6 .hover-container:hover .button-group {
+	display: none;
+}
+.ie6 .hover-container {
+	display: block; position: static;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.container::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+* html .clearfix {
+	-ms-zoom: 1;
+}
+* html .container {
+	-ms-zoom: 1;
+}
+.clearfix {
+	display: block;
+}
+.container {
+	display: block;
+}
+* + html .clearfix {
+	-ms-zoom: 1;
+}
+* + html .container {
+	-ms-zoom: 1;
+}
+.nav-left {
+	padding: 0px; left: 0px; width: 170px; border-right-color: rgb(242, 242, 242); border-right-width: 1px; border-right-style: solid; position: absolute; z-index: 0;
+}
+.borders-left-nav {
+	padding-left: 10px; border-left-color: transparent; border-left-width: 172px; border-left-style: solid;
+}
+.scroll-list {
+	border: 1px solid gray; height: 150px; text-align: left; overflow: auto; font-size: 12px; -ms-scrollbar-face-color: rgb(255, 153, 0); -ms-scrollbar-arrow-color: white;
+}
+.box .scroll-list {
+	width: 120px; font-size: 11px; white-space: nowrap; -ms-text-overflow: clip;
+}
+.box .scroll-list .sub-item {
+	padding-left: 10px; font-size: 11px; white-space: nowrap; -ms-text-overflow: clip;
+}
+.banner {
+	margin: 0px; padding: 0px; text-align: right;
+}
+.banner .ad {
+	width: 800px; height: 94px;
+}
+.fluid.banner {
+	width: inherit;
+}
+.fluid.banner .ad {
+	width: 100%;
+}
+.fixed.banner .ad {
+	width: 806px;
+}
+.header-mobile {
+	background-color: rgb(255, 153, 0);
+}
+.sub-headerbar {
+	margin: auto; padding-right: 9px; position: relative; max-width: 1044px;
+}
+.sub-headerbar-divider {
+	left: 0px; height: 1px; right: 9px; bottom: 2px; margin-left: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; position: absolute;
+}
+.ie6 .sub-headerbar-divider {
+	margin-top: 2px; position: static;
+}
+.ie7 .sub-headerbar-divider {
+	margin-top: 2px; position: static;
+}
+.ie6 .sub-headerbar {
+	position: static;
+}
+.ie7 .sub-headerbar {
+	position: static;
+}
+.memberbar {
+	height: 25px; color: gray; padding-top: 10px; font-size: 11px;
+}
+.memberbar a {
+	color: gray; font-size: 11px;
+}
+.member-rep-box {
+	margin: 4px; padding: 1px; text-align: center;
+}
+.member-rep-box div {
+	margin-bottom: 3px;
+}
+.nostatus.member-rep-box {
+	border: 1px solid rgb(221, 221, 221); background-color: rgb(255, 255, 255);
+}
+.bronze.member-rep-box {
+	background-color: rgb(239, 178, 119);
+}
+.silver.member-rep-box {
+	background-color: rgb(223, 223, 223);
+}
+.gold.member-rep-box {
+	background-color: rgb(255, 204, 0);
+}
+.platinum.member-rep-box {
+	background-color: rgb(207, 231, 255);
+}
+.open-auth img {
+	vertical-align: middle;
+}
+.member-stats {
+	text-align: left; color: rgb(102, 102, 102); letter-spacing: 0px; font-size: 12px; font-weight: bold;
+}
+.notification-count {
+	padding: 0px 2px; color: white !important; font-weight: bold; margin-right: 3px; background-color: rgb(255, 0, 0) !important;
+}
+.notification-count {
+	color: white;
+}
+.notification-count:hover {
+	color: white;
+}
+.notification-count:visited {
+	color: white;
+}
+.notification-dropdown {
+	left: auto !important; width: 350px !important; right: -115px;
+}
+.notification-dropdown .notification-list {
+	-ms-overflow-y: auto; max-height: 400px;
+}
+.notification-table {
+	border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.notification-table td {
+	padding: 4px;
+}
+.notification-table .subject td {
+	border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid;
+}
+.notification-table .content td {
+	border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; white-space: normal !important;
+}
+div.navbar {
+	white-space: nowrap;
+}
+.navmenu {
+	background: white; list-style: none; margin: 0px; padding: 0px; height: 24px; color: rgb(77, 77, 77); z-index: 200;
+}
+.navmenu ul {
+	margin: 0px; padding: 0px;
+}
+.navmenu li {
+	margin: 0px; padding: 0px;
+}
+.navmenu .has-submenu {
+	right: 5px; padding-left: 10px; position: absolute;
+}
+.navmenu > li:hover > a {
+	border: 1px solid rgb(204, 204, 204);
+}
+.navmenu > li:active > a {
+	border: 1px solid rgb(204, 204, 204);
+}
+.navmenu ul {
+	border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) white;
+}
+.navmenu > li.open:hover > a {
+	border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) white;
+}
+.navmenu > li.open:active > a {
+	border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) white;
+}
+.navmenu > li {
+	margin: 0px 16px 2px 2px;
+}
+.navmenu > li:active {
+	background: white !important; color: rgb(77, 77, 77) !important;
+}
+.navmenu > li:active > a {
+	background: white !important; color: rgb(77, 77, 77) !important;
+}
+.navmenu > li:hover {
+	background: white !important; color: rgb(77, 77, 77) !important;
+}
+.navmenu > li:hover > a {
+	background: white !important; color: rgb(77, 77, 77) !important;
+}
+.navmenu > li > a {
+	padding: 2px 7px 5px; border: 1px solid transparent; font-weight: bold; z-index: 502 !important;
+}
+.navmenu a {
+	padding: 0px 9px; color: rgb(102, 102, 102); font-size: 16px; text-decoration: none; float: left; display: block; white-space: nowrap;
+}
+.navmenu a.fly {
+	white-space: nowrap;
+}
+.navmenu ul {
+	background: white; list-style: none; left: -9999px; top: -9999px; position: absolute;
+}
+.navmenu li {
+	color: rgb(77, 77, 77); float: left;
+}
+.navmenu li.last {
+	height: 9px;
+}
+.navmenu li a:active {
+	color: white; background-color: rgb(255, 153, 0);
+}
+.navmenu li a:hover {
+	color: white; background-color: rgb(255, 153, 0);
+}
+.navmenu li:active {
+	color: rgb(255, 153, 0); position: relative; z-index: 300;
+}
+.navmenu li:active > a {
+	color: rgb(255, 153, 0); position: relative; z-index: 300;
+}
+.navmenu li.heading:active {
+	color: rgb(255, 153, 0); position: relative; z-index: 300;
+}
+.navmenu li:hover {
+	color: rgb(255, 153, 0); position: relative; z-index: 300;
+}
+.navmenu li:hover > a {
+	color: rgb(255, 153, 0); position: relative; z-index: 300;
+}
+.navmenu li.heading:hover {
+	color: rgb(255, 153, 0); position: relative; z-index: 300;
+}
+.navmenu li a.selected {
+	color: rgb(255, 153, 0); position: relative; z-index: 300;
+}
+.navmenu li.openable:active ul {
+	left: 0px; top: 29px; z-index: 500;
+}
+.navmenu li.openable:hover ul {
+	left: 0px; top: 29px; z-index: 500;
+}
+.navmenu li.openable:active li.openable:active > ul {
+	left: -1px; top: -1px; margin-left: 100%; z-index: 500;
+}
+.navmenu li.openable:hover li.openable:active > ul {
+	left: -1px; top: -1px; margin-left: 100%; z-index: 500;
+}
+.navmenu li.openable:active li.openable:hover > ul {
+	left: -1px; top: -1px; margin-left: 100%; z-index: 500;
+}
+.navmenu li.openable:hover li.openable:hover > ul {
+	left: -1px; top: -1px; margin-left: 100%; z-index: 500;
+}
+.navmenu li.openable:active > ul ul {
+	left: -9999px; top: -9999px; width: auto; position: absolute;
+}
+.navmenu li.openable:hover > ul ul {
+	left: -9999px; top: -9999px; width: auto; position: absolute;
+}
+.navmenu li.open {
+	position: relative; z-index: 300;
+}
+.navmenu li.open a {
+	color: white; background-color: rgb(255, 153, 0);
+}
+.navmenu li.open ul {
+	left: 0px; top: 29px; z-index: 500;
+}
+.navmenu li.open li.open ul {
+	left: 100%; top: -1px; margin-left: -1px;
+}
+.navmenu li.open li.open li.open ul {
+	left: 100%; top: -1px; margin-left: -1px;
+}
+.navmenu li.open li.open li.open li.open ul {
+	left: 100%; top: -1px; margin-left: -1px;
+}
+.navmenu li.open li.open li.open li.open li.open ul {
+	left: 100%; top: -1px; margin-left: -1px;
+}
+.navmenu li.open ul ul {
+	left: -9999px; top: -9999px; position: absolute;
+}
+.navmenu li.open li.open ul ul {
+	left: -9999px; top: -9999px; position: absolute;
+}
+.navmenu li.open li.open li.open ul ul {
+	left: -9999px; top: -9999px; position: absolute;
+}
+.navmenu li.open li.open li.open li.open ul ul {
+	left: -9999px; top: -9999px; position: absolute;
+}
+.navmenu li ul {
+	border-bottom-color: rgb(255, 153, 0); border-bottom-width: 5px; border-bottom-style: solid;
+}
+.navmenu li li {
+	float: none;
+}
+.navmenu li li.open > a {
+	color: white; font-weight: normal;
+}
+.navmenu li li:active > a.fly {
+	color: white; background-color: rgb(255, 153, 0);
+}
+.navmenu li li:hover > a.fly {
+	color: white; background-color: rgb(255, 153, 0);
+}
+.navmenu li li a {
+	font-size: 13px; font-weight: normal; float: none;
+}
+.navmenu li li a.fly {
+	padding: 2px 20px; color: rgb(77, 77, 77); background-color: white;
+}
+.navmenu li li a.break {
+	margin-bottom: 15px;
+}
+.navmenu li li a.highlight1 {
+	background-color: rgb(0, 153, 0);
+}
+.navmenu li li a.highlight1:active {
+	background-color: rgb(0, 153, 0);
+}
+.navmenu li li a.highlight1:hover {
+	background-color: rgb(0, 153, 0);
+}
+.navmenu li li a.highlight2 {
+	background-color: rgb(255, 153, 0);
+}
+.navmenu li li a.highlight2:active {
+	background-color: rgb(255, 153, 0);
+}
+.navmenu li li a.highlight2:hover {
+	background-color: rgb(255, 153, 0);
+}
+.navmenu li li a.highlight1 {
+	margin: 5px 0px; padding: 9px 20px; color: white; font-size: 15px;
+}
+.navmenu li li a.highlight2 {
+	margin: 5px 0px; padding: 9px 20px; color: white; font-size: 15px;
+}
+.ie6 .navmenu li li {
+	float: left;
+}
+.ie6 .navmenu ul {
+	width: 2px;
+}
+.ie6 a:hover .fly-menu {
+	
+}
+.ie7 a:hover .fly-menu {
+	
+}
+.mobile .navmenu a {
+	font-size: 30px;
+}
+.mobile .sub-headerbar {
+	padding-bottom: 50px;
+}
+.mobile .memberbar {
+	height: auto; font-size: 22px;
+}
+.mobile .memberbar a {
+	height: auto; font-size: 22px;
+}
+.mobile .tooltip.member-signin > span {
+	
+}
+.alert-bar {
+	left: 0px; top: 0px; width: 100%; color: rgb(51, 51, 51); overflow: hidden; font-weight: bold; border-bottom-color: rgb(255, 153, 0); border-bottom-width: 1px; border-bottom-style: solid; z-index: 105; background-color: rgb(255, 255, 204);
+}
+.alert-bar ul.see-also {
+	font-weight: normal; margin-top: 5px;
+}
+.alert-bar div {
+	padding: 7px;
+}
+.overlay.alert-bar {
+	position: absolute;
+}
+.alert-bar-command {
+	margin: -24px 0px 0px; text-align: right; font-size: 12px; float: right;
+}
+.alert-bar-command a {
+	border-bottom-color: rgb(255, 153, 0); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.close-notify {
+	padding: 0px 6px; border: 2px solid rgb(255, 204, 102); top: 2px; right: 2px; color: black; font-family: Arial,Sans-Serif; font-size: 20px; font-weight: bold; text-decoration: none; position: absolute;
+}
+.close-notify a {
+	color: black;
+}
+.close-notify a:visited {
+	color: black;
+}
+a.close-notify:hover {
+	border: 2px solid rgb(255, 153, 0); text-decoration: none; background-color: rgb(255, 204, 102);
+}
+.page-width {
+	margin: auto; width: 110px;
+}
+.page-width .active {
+	border-bottom-color: rgb(255, 153, 0); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.action-tiles td {
+	padding: 5px 0px 25px;
+}
+.tooltip:active .category-list.tooltip-flyout {
+	left: -14px; top: 20px !important; width: 170px; font-size: 16px;
+}
+.tooltip:hover .category-list.tooltip-flyout {
+	left: -14px; top: 20px !important; width: 170px; font-size: 16px;
+}
+.tooltip:hover .article-types.tooltip-flyout {
+	left: 50px; top: 20px; width: 170px; font-size: 16px;
+}
+.ie .tooltip:hover .category-list.tooltip-flyout {
+	top: 17px;
+}
+.homepage h2 {
+	margin: 0px; padding: 0px 0px 10px; color: rgb(51, 51, 51); font-size: 30px; font-weight: 200;
+}
+.homepage h2 a {
+	color: rgb(51, 51, 51);
+}
+.homepage .content-list {
+	padding-bottom: 10px;
+}
+.homepage .content-list .title a {
+	color: rgb(0, 87, 130); line-height: 125%; font-size: 17px; font-weight: normal;
+}
+.homepage .content-list .title a:hover {
+	color: rgb(0, 102, 153);
+}
+.homepage .summaries .content-list {
+	padding: 0px 15px 0px 0px;
+}
+.homepage .summaries .container-more {
+	margin: 0px 15px 0px 0px;
+}
+.homepage .message-list .location {
+	color: gray;
+}
+.homepage .showcase.content-list .title a {
+	font-size: 17px;
+}
+.homepage .summaries .content-list-item {
+	overflow: hidden; max-width: 315px;
+}
+.homepage .content-list-item {
+	margin: 0px 0px 12px;
+}
+.homepage .content-list-item .entry {
+	margin: -3px 0px 4px;
+}
+.homepage .content-list-item .title {
+	padding: 3px 0px;
+}
+.homepage .content-list-item .summary {
+	padding: 5px 0px 10px;
+}
+.homepage .article.entry {
+	background: url("/images/doc16.png") no-repeat left 3px; padding-left: 20px !important;
+}
+.homepage .blog.entry {
+	background: url("/images/doc16.png") no-repeat left 3px; padding-left: 20px !important;
+}
+.homepage .tip.entry {
+	background: url("/images/doc16.png") no-repeat left 3px; padding-left: 20px !important;
+}
+.homepage .video.entry {
+	background: url("/images/doc16.png") no-repeat left 3px; padding-left: 20px !important;
+}
+.homepage .news.entry {
+	background: url("/images/doc16.png") no-repeat left 3px; padding-left: 20px !important;
+}
+.homepage .question.entry {
+	background: url("/images/doc16.png") no-repeat left 3px; padding-left: 20px !important;
+}
+.homepage .message.entry {
+	background: url("/images/doc16.png") no-repeat left 3px; padding-left: 20px !important;
+}
+.homepage-news {
+	width: 315px;
+}
+.homepage-news .message-list-item {
+	max-width: 300px;
+}
+.homepage-content {
+	padding-right: 31px;
+}
+.mobile .homepage-news {
+	display: none;
+}
+.mobile .homepage-content {
+	padding-right: 0px;
+}
+.pending .heading {
+	color: gray; font-size: 22px;
+}
+.pending .ui-tabs-panel {
+	border-style: solid none !important; padding-left: 5px; border-top-color: rgb(204, 204, 204) !important; border-bottom-color: rgb(204, 204, 204) !important; border-top-width: 1px !important; border-bottom-width: 1px !important;
+}
+.pending .title a {
+	font-weight: normal !important;
+}
+.pending .title {
+	font-weight: normal !important;
+}
+.pending .modified {
+	font-weight: normal !important;
+}
+.pending .author {
+	font-weight: normal !important;
+}
+.pending ul {
+	margin: 0px; padding-top: 0px; padding-bottom: 0px;
+}
+.pending li {
+	margin: 0px; padding-top: 0px; padding-bottom: 0px;
+}
+.searchbar {
+	padding: 0px;
+}
+.searchbar .search {
+	padding: 2px 5px 0px; border: 1px solid rgb(204, 204, 204); margin-bottom: 4px;
+}
+.searchbar .search .subdue {
+	color: rgb(204, 204, 204);
+}
+.searchbar input.search {
+	border: currentColor; width: 210px; font-size: 11px;
+}
+.searchbar .search-advanced {
+	padding: 8px; border: 1px solid rgb(204, 204, 204); top: -4px; width: 205px; right: 0px; position: absolute; z-index: 1000; background-color: white;
+}
+.searchbar .popup {
+	display: none;
+}
+.searchbar:hover .popup {
+	display: block;
+}
+.search-highlight {
+	font-weight: bold; border-bottom-color: rgb(255, 153, 0); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.search td {
+	background-color: white;
+}
+.search-box {
+	padding: 20px 0px; font-size: 14px; font-weight: bold; margin-left: 160px; white-space: nowrap;
+}
+.search-box input {
+	font-size: 18px;
+}
+.filter-options {
+	padding: 10px 0px; background-color: transparent;
+}
+.filter-options label {
+	color: gray;
+}
+.filter-options a {
+	color: gray;
+}
+.filter-options .button {
+	padding: 0px;
+}
+.filter-pane {
+	width: 160px; margin-left: -5px; float: left; background-color: white;
+}
+.filter-pane h2 {
+	margin: 10px 0px 5px; font-size: 17px; font-weight: 200;
+}
+.filter-pane .menu1 {
+	margin: 0px 0px 5px; padding: 10px 2px 3px 0px; border: 0px currentColor; color: gray; letter-spacing: 0px; font-size: 20px; font-weight: 200; background-color: transparent;
+}
+.filter-pane .menu1 a {
+	color: gray;
+}
+.filter-pane .menu2 {
+	border: currentColor; font-size: 12px; font-weight: normal; margin-bottom: 10px; background-color: transparent;
+}
+.filter-pane .menu2 label {
+	color: gray;
+}
+.filter-pane .menu2 a {
+	color: gray;
+}
+.filter-pane .options label {
+	color: gray;
+}
+.filter-pane .advanced {
+	padding-left: 0px;
+}
+.filter-pane .advanced .menu2 {
+	margin: 0px; background-color: white;
+}
+.filter-pane .advanced .selected.menu2 {
+	margin: 3px 0px;
+}
+.filter-pane .advanced .selected.menu2 .header a {
+	font-weight: bold;
+}
+.filter-pane .advanced .menu2:hover > a {
+	color: white; text-decoration: none; background-color: rgb(255, 153, 0);
+}
+.filter-pane .advanced .menu2 a {
+	padding: 2px 2px 0px 5px; color: gray; font-weight: normal; display: block;
+}
+.filter-pane .advanced .menu2-dropdown .selected {
+	border: 0px currentColor;
+}
+.filter-pane .advanced .menu2-dropdown .selected a {
+	font-weight: bold;
+}
+.filter-pane .advanced .menu3 {
+	padding-left: 20px; background-color: white;
+}
+.filter-pane .advanced > div {
+	padding: 2px 0px 3px; font-size: 14px; font-weight: bold;
+}
+.filter-pane .advanced .header {
+	padding-left: 5px; font-size: 12px; background-color: inherit;
+}
+.filter-pane .accordian > .menu2 {
+	font-size: 12px;
+}
+.filter-pane .accordian > .selected > a {
+	font-weight: bold;
+}
+.filter-pane options {
+	padding: 10px 0px 10px 5px;
+}
+.selected.menu2 {
+	color: black !important; font-weight: bold; background-color: white;
+}
+.results-pane {
+	padding: 0px 0px 15px 15px; margin-right: 210px; margin-left: 148px; background-color: white;
+}
+.results-none {
+	padding: 10px 20px 10px 50px; height: 500px; border-left-color: rgb(211, 225, 249); border-left-width: 1px; border-left-style: solid;
+}
+.results-pane .content-list {
+	padding: 0px 15px; border-right-color: rgb(211, 225, 249); border-left-color: rgb(211, 225, 249); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.results-pane .content-list .content-list-item .entry {
+	margin-bottom: 25px;
+}
+.results-pane .content-list .content-list-item .categories a {
+	color: gray;
+}
+.results-pane .content-list .content-list-item .summary {
+	padding: 3px 0px;
+}
+.results-pane .content-list .result img {
+	padding-right: 3px; vertical-align: middle;
+}
+.results-pane .content-list .rating-stars-small {
+	vertical-align: bottom; display: inline-block; position: relative;
+}
+.results-pane .content-list .rating-stars-small .left {
+	left: 2px; top: 2px; position: absolute;
+}
+.results-pane .content-list .rating-stars-small .right {
+	top: 2px; right: 2px; position: absolute;
+}
+.search-hint .speech-bubble-up {
+	border-color: rgb(170, 170, 170); width: 400px; color: rgb(102, 102, 102); font-size: 12px; background-color: rgb(254, 254, 254) !important;
+}
+.search-hint .speech-bubble-pointer-up {
+	border-bottom-color: rgb(170, 170, 170); background-color: rgb(254, 254, 254) !important;
+}
+.search-hint .speech-bubble-pointer-up-inner {
+	border-bottom-color: rgb(254, 254, 254) !important;
+}
+.ie8 .search-hint .speech-bubble-container-up {
+	top: 15px; margin-left: 20px;
+}
+.ie7 .search-hint .speech-bubble-container-up {
+	top: 15px; margin-left: 20px;
+}
+.ie6 .search-hint .speech-bubble-container-up {
+	top: 15px; margin-left: 20px;
+}
+.sidebar-pane {
+	padding: 55px 0px 0px 10px; width: 195px; font-size: 12px; float: right;
+}
+.sidebar-pane .header {
+	font-weight: bold; margin-left: 7px; border-bottom-color: rgb(255, 153, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: white;
+}
+.sidebar-pane .results {
+	border: 0px currentColor;
+}
+.sidebar-pane .result {
+	padding: 5px; margin-top: 2px;
+}
+.sidebar-pane .result .abstract {
+	padding: 0px;
+}
+.container-adwords {
+	font-size: 12px; margin-bottom: 7px;
+}
+.container-adwords a {
+	text-decoration: none !important;
+}
+.container-adwords .title:hover {
+	text-decoration: underline;
+}
+.container-adwords .link {
+	color: green;
+}
+.container-adwords .desc {
+	color: rgb(102, 102, 102);
+}
+.msg-728x90 {
+	overflow: hidden; position: relative;
+}
+.firefox .lqm_ad iframe {
+	width: 100%;
+}
+.chrome .lqm_ad iframe {
+	width: 100%;
+}
+.ie9 .lqm_ad iframe {
+	width: 100%;
+}
+.ie10 .lqm_ad iframe {
+	width: 100%;
+}
+.CountryList {
+	border: 1px solid gray; overflow: auto; font-size: 12px; -ms-scrollbar-face-color: rgb(255, 153, 0); -ms-scrollbar-arrow-color: white;
+}
+.Country {
+	padding-left: 12px; font-size: 11px; white-space: nowrap;
+}
+.CountrySelectorDisplay {
+	padding: 5px; height: 30px; color: rgb(102, 102, 102); overflow: auto; font-size: 12px; margin-bottom: 10px;
+}
+.SetCountryDisplay {
+	padding: 5px; color: red; overflow: auto; font-size: 12px;
+}
+.Region {
+	padding-left: 7px; font-size: 12px; white-space: nowrap;
+}
+.topics {
+	margin: 12px 0px 0px !important; padding: 3px; letter-spacing: 0px; font-size: 14pt !important;
+}
+.topics .t {
+	font-size: 14pt !important;
+}
+.container-entry {
+	position: relative; -ms-zoom: 1; background-color: white !important; _border: solid 1px white;
+}
+.container-entry .text-sidebar {
+	padding: 7px 7px 0px 10px; top: 0px; width: 300px; right: 0px; border-left-color: rgb(238, 238, 238); border-left-width: 1px; border-left-style: solid; position: absolute; min-height: 100%;
+}
+.container-entry .mainlinks {
+	line-height: 22px; margin-top: 25px; white-space: nowrap; min-width: 645px;
+}
+.container-entry .mainlinks a {
+	padding: 4px; color: rgb(51, 51, 51); font-size: 16px !important; text-decoration: none !important; white-space: nowrap;
+}
+.container-entry .mainlinks a:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+.container-entry .mainlinks .compose {
+	margin-right: 20px;
+}
+.container-entry .mainlinks .rss {
+	vertical-align: middle; background-color: white;
+}
+.container-entry .mainlinks .rss:hover {
+	vertical-align: middle; background-color: white;
+}
+.container-entry .mainlinks .faq {
+	color: white; margin-left: 10px; background-color: rgb(255, 153, 0);
+}
+.question .text-sidebar {
+	margin-left: -330px; float: left; background-color: white;
+}
+.HiVote.question a {
+	color: rgb(0, 87, 130) !important;
+}
+.question .HiVote.answer a {
+	color: rgb(0, 87, 130) !important;
+}
+.LoVote.question a {
+	color: rgb(0, 87, 130) !important;
+}
+.question .LoVote.answer a {
+	color: rgb(0, 87, 130) !important;
+}
+.question .nav-links {
+	font-size: 12px; margin-top: -47px; margin-left: 25px; float: right; _margin-top: 0;
+}
+.question .nav-links a {
+	padding: 4px 3px 3px;
+}
+.question .nav-links a:hover {
+	color: white !important; text-decoration: none; background-color: rgb(255, 153, 0);
+}
+.question .nav-links img {
+	vertical-align: top;
+}
+.question h1 {
+	margin-top: 25px; margin-bottom: 0px;
+}
+.question .container-content {
+	border-right-color: currentColor; border-left-color: currentColor; border-right-width: medium; border-left-width: medium; border-right-style: none; border-left-style: none;
+}
+.qa-legend .header {
+	margin: 5px 0px 10px 5px; font-size: 1.5em; font-weight: bold;
+}
+.qa-legend ul {
+	margin: 0px 0px 0px 5px; padding: 0px; list-style-type: none;
+}
+.qa-legend ul li {
+	font-size: 1em; margin-bottom: 5px;
+}
+.qa-parent {
+	padding: 5px; margin-bottom: 10px; background-color: rgb(237, 248, 255);
+}
+.qa-list {
+	border: 1px solid rgb(255, 233, 189); width: 100%;
+}
+.qa-list .title {
+	margin: 0px; padding-bottom: 3px; font-size: 16px; font-weight: bold;
+}
+.qa-list td {
+	margin: 0px; padding: 3px; border-bottom-color: rgb(255, 233, 189); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.qa-list thead {
+	border: currentColor; color: rgb(244, 147, 0); font-weight: bold; background-color: rgb(254, 249, 231);
+}
+.qa-list thead a {
+	border: currentColor; color: rgb(244, 147, 0); font-weight: bold; background-color: rgb(254, 249, 231);
+}
+.qa-list thead td {
+	border: currentColor; color: rgb(244, 147, 0); font-weight: bold; background-color: rgb(254, 249, 231);
+}
+.qa-list .posted {
+	padding-top: 5px; font-size: 12px; white-space: nowrap;
+}
+.qa-list .Numeric {
+	text-align: right;
+}
+.qa-list .selected {
+	background-color: rgb(247, 252, 255);
+}
+.qa-list .SelectedAttr {
+	background-color: rgb(221, 242, 255);
+}
+.qa-list .Updated {
+	font-size: 12px;
+}
+.qa-list .stats {
+	padding: 0px !important; border: 1px solid rgb(255, 204, 102); width: 55px; text-align: center; font-size: 23px !important; background-color: rgb(255, 248, 223);
+}
+.qa-list .answered {
+	background-color: rgb(195, 222, 99);
+}
+.qa-list .unanswered {
+	border-color: rgb(221, 221, 221); color: rgb(221, 221, 221); background-color: transparent;
+}
+.qa-list .accepted {
+	color: rgb(40, 140, 0) !important;
+}
+.qa-list .unviewed {
+	font-weight: bold;
+}
+.qa-list .viewed {
+	font-weight: normal !important;
+}
+.qa-list .icon {
+	margin: 0px !important; padding: 3px 0px 0px 3px !important; text-align: right; vertical-align: top;
+}
+.RateHint5 {
+	background-color: rgb(0, 204, 0) !important;
+}
+.RateHint4 {
+	background-color: rgb(149, 250, 149) !important;
+}
+.RateHint3 {
+	background-color: rgb(246, 250, 246) !important;
+}
+.RateHint2 {
+	background-color: rgb(255, 204, 102) !important;
+}
+.RateHint1 {
+	background-color: rgb(255, 51, 0) !important;
+}
+.RateHint0 {
+	background-color: white;
+}
+.question .rate-item {
+	color: rgb(102, 102, 102); align: right;
+}
+.answer .rate-item {
+	color: rgb(102, 102, 102); align: right;
+}
+.question .rate-group {
+	margin-left: 15px; float: right;
+}
+.answer .rate-group {
+	margin-left: 15px; float: right;
+}
+.ie6 .question .rate-group {
+	width: 340px;
+}
+.ie6 .answer .rate-group {
+	width: 340px;
+}
+.ie7 .question .rate-group {
+	width: 340px;
+}
+.ie7 .answer .rate-group {
+	width: 340px;
+}
+.ie8 .question .rate-group {
+	width: 340px;
+}
+.ie8 .answer .rate-group {
+	width: 340px;
+}
+.answer {
+	padding-right: 1px; margin-top: 30px; margin-bottom: 5px; border-top-color: rgb(255, 153, 0); border-top-width: 1px; border-top-style: solid;
+}
+.answer .header {
+	padding: 10px 0px;
+}
+.first.answer {
+	margin-top: 0px; border-top-style: none;
+}
+.answer .text {
+	padding: 5px 10px 25px 5px; width: 99%; -ms-zoom: 1; background-color: transparent;
+}
+.fluid .text {
+	max-width: 10000px;
+}
+.answer .accepted {
+	border: 1px solid rgb(0, 87, 130); background-color: rgb(217, 239, 149);
+}
+.answer .accepted-community {
+	background-color: rgb(226, 254, 204);
+}
+.question .comment-header {
+	padding: 10px 10px 2px 2px; font-weight: bold;
+}
+.answer .comment-header {
+	padding: 10px 10px 2px 2px; font-weight: bold;
+}
+.QAAjaxAnswer {
+	padding: 5px; border: 1px solid rgb(255, 153, 0); margin-top: 30px; margin-bottom: 5px;
+}
+.QAAjaxAnswer .text {
+	margin-right: 0px; max-with: auto;
+}
+.qa-title {
+	margin-right: 40px; float: left;
+}
+.qa-info {
+	padding: 20px 0px; color: rgb(102, 102, 102); font-size: 12px;
+}
+.qa-info a.improve {
+	padding: 4px; border: 1px solid transparent; color: green; font-weight: bold; text-decoration: none;
+}
+.qa-info a.improve:hover {
+	border: 1px solid rgb(255, 153, 0);
+}
+.qa-info .version {
+	padding-left: 5px; float: left;
+}
+.answer-row {
+	-ms-zoom: 1;
+}
+.title .HiVote {
+	color: rgb(40, 140, 0) !important; background-color: inherit;
+}
+.AnswersThread .TopPager {
+	top: 25px; margin-left: 75%; position: relative;
+}
+.AnswersThread .TopPager .LeftGroup {
+	top: 0px; right: 150px; position: absolute;
+}
+.PostDateAndRepInfo {
+	margin-left: 10px; float: left;
+}
+#PostEntryContainer h1 {
+	margin-bottom: 20px;
+}
+.QAQuote {
+	color: rgb(85, 102, 85); padding-left: 0.6em; margin-right: 1em; margin-bottom: -1em; margin-left: 0.25em; border-left-color: gray; border-left-width: 0.2em; border-left-style: solid;
+}
+.AnswersPost {
+	padding-top: 10px;
+}
+.container-post {
+	overflow: hidden; margin-top: 25px; position: relative; -ms-zoom: 1;
+}
+.container-post .standalone {
+	width: 700px;
+}
+.container-post .edit {
+	width: 700px;
+}
+.container-post .InputGroup {
+	margin: 20px 0px;
+}
+.container-post .Divider {
+	margin: 20px 0px;
+}
+.container-post .right-bar {
+	left: 720px; top: 0px; position: absolute;
+}
+.container-post .right-bar .QATitleComp {
+	font-weight: normal;
+}
+.container-post .right-bar #Suggestions {
+	margin: 0px; padding: 0px; overflow: auto; list-style-type: none; max-height: 550px;
+}
+.container-post .right-bar tr {
+	margin: 5px 0px;
+}
+.container-post .right-bar .header {
+	padding: 8px; color: white; font-size: 20px; font-weight: 200; margin-top: 13px; background-color: rgb(255, 153, 0);
+}
+.container-post .submit-group {
+	width: 600px; white-space: nowrap;
+}
+.container-post .submit-group .inner-submit-group {
+	margin-left: 30px;
+}
+.container-post .preview {
+	padding: 3px; border: 1px solid rgb(255, 153, 0); width: 600px; background-color: rgb(242, 242, 242);
+}
+.list-answers {
+	padding-top: 17px;
+}
+* + html .list-answers {
+	padding-top: 0px;
+}
+.qa-legend .list-answers {
+	width: 170px; padding-top: 10px;
+}
+.list-answers {
+	clear: both; position: relative;
+}
+.list-answers .QATopPager {
+	float: right; _width: 250px;
+}
+.QARate {
+	padding: 5px 0px; border: 1px solid rgb(255, 153, 0); text-align: center; font-size: 29px; background-color: rgb(255, 248, 223);
+}
+.QAAnsw {
+	border-width: 1px; border-style: solid solid none; border-color: rgb(255, 153, 0); padding: 5px; text-align: center; font-size: 29px; background-color: rgb(195, 222, 99);
+}
+.QAAnswAcceptedAnswer {
+	padding: 5px; border: 1px solid rgb(255, 153, 0) !important; text-align: center; font-size: 29px; background-color: rgb(195, 222, 99);
+}
+.QANoAnsw {
+	border-width: 1px; border-style: solid solid none; border-color: rgb(255, 153, 0); text-align: center; font-size: 29px; background-color: rgb(255, 204, 102);
+}
+.list-answers .Attributes {
+	color: rgb(85, 85, 85);
+}
+.QATopPager {
+	top: -11px; position: relative;
+}
+* + html .QATopPager {
+	top: 25px;
+}
+.QATopPager .LeftGroup {
+	top: 0px; right: 250px; position: absolute;
+}
+.list-answers .ui-tabs-panel {
+	padding: 0px;
+}
+.list-answers .CustomTabFilters {
+	position: relative;
+}
+.list-answers .AdminFilters {
+	float: right;
+}
+.list-answers .CustomSorting {
+	margin: 8px; padding: 0px; background-color: rgb(255, 254, 247);
+}
+.list-answers .CustomSorting img {
+	padding: 0px 3px;
+}
+.list-answers .PrimarySort {
+	height: 1.6em; float: left;
+}
+.list-answers .MoreSorting {
+	height: 1.6em; float: left;
+}
+.list-answers .Message {
+	margin: 0px; padding: 20px 0px; clear: both;
+}
+.list-answers .AskQuestion {
+	float: right;
+}
+.list-answers .HighlightRow {
+	background-color: rgb(255, 255, 214);
+}
+.EditInfo {
+	padding-right: 0.5em; float: left;
+}
+.viewed a {
+	color: rgb(0, 87, 130); text-decoration: none;
+}
+.unviewed a {
+	color: rgb(0, 87, 130); text-decoration: none;
+}
+.container-question {
+	padding: 5px 0px; width: auto; -ms-overflow-x: auto; -ms-overflow-y: hidden; min-height: 190px;
+}
+.container-question .tags .t {
+	font-size: 16px;
+}
+.question .text {
+	margin-right: 330px;
+}
+.text-sidebar .filter {
+	padding: 0px 0px 5px; border: 1px solid rgb(221, 221, 221);
+}
+.text-sidebar .filter legend {
+	margin: 0px 5px; color: rgb(153, 153, 153);
+}
+.text-sidebar .header {
+	padding: 8px; color: white; font-size: 20px; font-weight: 200; background-color: rgb(255, 153, 0);
+}
+.answer-row-rating {
+	padding: 3px 10px 0px 0px;
+}
+.feature-article {
+	padding: 1px 10px 1px 0px; margin-bottom: 15px; background-color: rgb(249, 249, 249);
+}
+.feature-article .content-list-item {
+	padding: 0px;
+}
+.feature-article .header {
+	color: rgb(255, 153, 0); font-size: 21px; font-weight: bold; margin-bottom: -3px; background-color: transparent;
+}
+.feature-article .title {
+	padding-left: 10px;
+}
+.feature-article .title a {
+	font-size: 20px !important; font-weight: 600 !important;
+}
+.container-article-tabs {
+	padding: 0px; width: 115px; height: 400px; font-size: 12px; border-right-color: rgb(242, 242, 242); border-right-width: 1px; border-right-style: solid;
+}
+.container-article-tabs .tabs {
+	margin-bottom: 40px;
+}
+.container-article-tabs .tabs div {
+	padding: 5px 0px;
+}
+.container-article-tabs .add-item {
+	color: gray;
+}
+.container-article-tabs .selected {
+	background: url("/images/right-selected.gif") no-repeat right; color: rgb(255, 153, 0); font-weight: bold;
+}
+.container-article-tabs .unselected a {
+	color: gray;
+}
+.container-article-info {
+	width: 170px; color: gray; font-size: 12px;
+}
+.container-article-info .header {
+	padding: 8px; color: white; font-size: 20px; font-weight: 200; background-color: rgb(255, 153, 0);
+}
+.container-article-info .tags {
+	margin: 10px 0px;
+}
+.container-article-info .content-list-item {
+	margin: 7px 0px;
+}
+.container-article-info .content-list-item .entry {
+	color: gray; font-size: 12px;
+}
+.container-article-info .content-list-item .title {
+	font-size: 12px; font-weight: normal;
+}
+.article-summary {
+	padding: 10px; border: 1px solid rgb(242, 242, 242); overflow: hidden;
+}
+.article-summary .summary {
+	padding: 5px 0px; color: rgb(51, 51, 51); font-size: 12px;
+}
+.article-summary .parent {
+	padding: 5px 0px; color: rgb(51, 51, 51); font-size: 12px;
+}
+.article-summary .source {
+	padding: 5px 0px; color: rgb(51, 51, 51); font-size: 12px;
+}
+.article-summary .article-info tr {
+	vertical-align: top;
+}
+.article-summary .article-info td {
+	padding: 5px 10px 5px 0px; color: gray; font-size: 12px;
+}
+.article-summary .article-info td.value {
+	font-weight: bold;
+}
+.article-summary table {
+	max-width: 166px;
+}
+.article-summary img {
+	vertical-align: middle;
+}
+.container-article-parts {
+	padding: 0px;
+}
+.container-article {
+	padding: 0px 20px 0px 10px; color: rgb(17, 17, 17); position: relative; -ms-zoom: 1; min-height: 675px; max-width: 730px; background-color: white;
+}
+.fixed.container-article .text img {
+	height: auto; max-width: 100%;
+}
+.article h1 {
+	margin: 0px 0px 7px;
+}
+.article h2 {
+	color: rgb(255, 153, 0);
+}
+.article img {
+	overflow: auto;
+}
+.article pre {
+	overflow: auto;
+}
+.article .header .title {
+	color: gray;
+}
+.article .header .doctype img {
+	padding-right: 3px; vertical-align: bottom;
+}
+.article .header .author {
+	font-weight: bold;
+}
+.article .header .author a {
+	color: gray;
+}
+.article .header .modified {
+	font-style: normal;
+}
+.article .tags {
+	margin: 5px 0px;
+}
+.article .container-rating {
+	margin-top: 10px;
+}
+.article .container-rating td {
+	color: rgb(204, 204, 204);
+}
+.article-row .summary {
+	color: gray;
+}
+.revision-row .summary {
+	color: gray; padding-bottom: 15px;
+}
+.revision-row .button {
+	padding: 0px;
+}
+.article-nav {
+	width: 150px; text-align: right; right: 225px; position: absolute;
+}
+.container-submission {
+	margin: auto; padding: 0px 10px; position: relative; min-width: 940px; max-width: 1200px;
+}
+.container-submission .text-sidebar {
+	padding: 0px; border: currentColor; width: 265px; font-size: 12px; position: relative;
+}
+.container-submission .infobox td {
+	height: 20px;
+}
+.container-submission .text-sidebar p {
+	font-size: 12px;
+}
+.container-submission .entry {
+	color: gray;
+}
+.container-submission .text {
+	margin: 0px;
+}
+.container-submission .header {
+	margin-right: 0px;
+}
+.container-submission .title {
+	margin: 12px 0px 3px; line-height: 1.3em; font-size: 29px; font-weight: 200;
+}
+.container-submission .title input {
+	font-family: "Segoe UI",Arial,Sans-Serif; font-size: 1em; font-weight: 200;
+}
+.container-submission .author {
+	padding: 5px 0px; color: gray; font-weight: bold;
+}
+.container-submission .author a {
+	color: gray;
+}
+.container-submission .modified {
+	font-style: normal;
+}
+.container-submission .abstract {
+	margin: 20px 0px 10px; color: rgb(51, 51, 51); font-size: 16px;
+}
+.container-submission .section {
+	width: 180px; font-size: 12px;
+}
+.container-submission .subsection {
+	width: 125px; font-size: 12px;
+}
+.container-submission .subsection-new {
+	width: 50px; font-size: 12px;
+}
+.container-submission .dropdown-short {
+	width: 110px; font-size: 12px;
+}
+.container-submission .inline-edit {
+	border: 0px currentColor !important; padding-left: 0px; font-family: "Segoe UI",Arial,Sans-Serif; font-size: 1em;
+}
+.ie6 .container-submission .text-sidebar {
+	width: 300px; padding-left: 20px;
+}
+.ie7 .container-submission .text-sidebar {
+	width: 300px; padding-left: 20px;
+}
+.ie8 .container-submission .text-sidebar {
+	width: 300px; padding-left: 20px;
+}
+form.article-filter {
+	margin-bottom: 40px;
+}
+form.article-filter .settings {
+	padding: 20px; border: 1px solid rgb(242, 242, 242);
+}
+.header.article-row {
+	border-top-color: rgb(255, 204, 102); border-bottom-color: rgb(255, 204, 102); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(255, 248, 223); _border: 0;
+}
+.header.article-row td {
+	border-top-color: rgb(255, 204, 102); border-bottom-color: rgb(255, 204, 102); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(255, 248, 223); _border: 0;
+}
+.article-row th {
+	border-top-color: rgb(255, 204, 102); border-bottom-color: rgb(255, 204, 102); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(255, 248, 223); _border: 0;
+}
+thead .article-row {
+	border-top-color: rgb(255, 204, 102); border-bottom-color: rgb(255, 204, 102); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(255, 248, 223); _border: 0;
+}
+.article-row {
+	font-size: 12px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 254, 247);
+}
+tr.article-row td {
+	font-size: 12px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 254, 247);
+}
+.member-row {
+	font-size: 12px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 254, 247);
+}
+tr.member-row td {
+	font-size: 12px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 254, 247);
+}
+.unedited.article-row {
+	border-bottom-color: rgb(251, 237, 187); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(192, 203, 238);
+}
+.unedited.article-row td {
+	border-bottom-color: rgb(251, 237, 187); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(192, 203, 238);
+}
+.article-row .button {
+	padding: 2px; border-radius: 5px; border: 1px solid transparent; color: black; background-color: transparent;
+}
+.article-row .button:hover {
+	border: 1px solid rgb(255, 153, 0);
+}
+.article-row .tags {
+	color: rgb(102, 102, 102); margin-top: 5px;
+}
+.article-row .description {
+	color: rgb(51, 51, 51); font-size: 12px;
+}
+.article-row .title {
+	font-size: 14px; font-weight: bold;
+}
+.article-row .date {
+	padding-top: 3px;
+}
+.article-row .comment {
+	font-weight: normal !important; white-space: normal !important;
+}
+.article-row a.edit {
+	padding: 0px 3px; border-radius: 5px; border: 1px solid rgb(255, 153, 0); font-size: 12px; background-color: rgb(251, 237, 187); -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.article-row a.delete {
+	padding: 0px 3px; border-radius: 5px; border: 1px solid rgb(153, 153, 153); color: rgb(102, 102, 102); font-size: 12px; cursor: pointer; background-color: rgb(254, 254, 254); -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.posting.article-row {
+	color: green;
+}
+.posted.article-row {
+	color: green;
+}
+.needassistance.article-row {
+	color: red; font-weight: bold;
+}
+.needattention.article-row {
+	color: red; font-weight: bold;
+}
+.voting-bar {
+	margin: 25px 0px; padding: 5px 10px; -ms-zoom: 1; background-color: rgb(242, 242, 242);
+}
+.voting-bar tr {
+	font-size: 12px;
+}
+.social-bookmarks {
+	margin: 8px 0px 0px 50px;
+}
+.social-bookmarks .facebook > div > span {
+	height: 24px !important;
+}
+.ArticleTable {
+	border-top-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; border-collapse: collapse; background-color: white;
+}
+.ArticleTableNoBorder {
+	border-top-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; border-collapse: collapse; background-color: white;
+}
+.ArticleTable td {
+	margin: 0px; padding: 5px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.ArticleTableNoBorder td {
+	margin: 0px; padding: 5px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.ArticleTable th {
+	margin: 0px; padding: 5px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.ArticleTableNoBorder th {
+	margin: 0px; padding: 5px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.ArticleTable thead {
+	font-weight: bold; background-color: rgb(235, 246, 255);
+}
+.ArticleTableNoBorder thead {
+	font-weight: bold; background-color: rgb(235, 246, 255);
+}
+.ArticleTable tfoot {
+	font-weight: bold;
+}
+.ArticleTableNoBorder tfoot {
+	font-weight: bold;
+}
+.ArticleTable tr.alt-item {
+	background-color: rgb(255, 248, 223);
+}
+.ArticleTableNoBorder tr.alt-item {
+	background-color: rgb(255, 248, 223);
+}
+.ArticleTableNoBorder {
+	margin: 0px; padding: 5px;
+}
+.ArticleTableRow {
+	background-color: rgb(235, 246, 255);
+}
+.ArticleTableAltRow {
+	background-color: rgb(221, 240, 254);
+}
+#CatalogLegend {
+	padding: 5px; border: 1px solid rgb(215, 215, 215); width: 50%; margin-top: 20px;
+}
+#CatalogLegend strong {
+	text-decoration: underline;
+}
+#CatalogLegend ul {
+	margin: 5px 0px 0px 5px; padding: 0px; list-style-type: none;
+}
+#CatalogLegend ul li div {
+	margin: 3px 5px 0px 0px; border: 1px solid black; width: 30px; height: 10px; clear: left; float: left;
+}
+#CatalogLegend #CatalogGold div {
+	background-color: rgb(255, 255, 204);
+}
+#CatalogLegend #CatalogSilver div {
+	background-color: rgb(204, 204, 204);
+}
+#CatalogLegend #CatalogBronze div {
+	background-color: rgb(255, 255, 255);
+}
+.CoreContent .header {
+	padding: 8px; color: white; font-size: 20px; font-weight: 200; background-color: rgb(255, 153, 0);
+}
+#CatalogViewWrapper .CoreContent {
+	padding: 0px 0px 0px 20px; border-left-color: rgb(242, 242, 242); border-left-width: 1px; border-left-style: solid; position: relative;
+}
+#CatalogViewWrapper .MainImageSection {
+	color: rgb(102, 102, 102); padding-left: 30px; clear: right; font-size: 0.9em; float: right;
+}
+#CatalogViewWrapper .Header {
+	font-size: 1.2em; font-weight: bold;
+}
+#CatalogViewWrapper .Details {
+	margin: 10px 0px; color: rgb(102, 102, 102);
+}
+#CatalogViewWrapper .Details .InfoGroup {
+	padding-bottom: 5px;
+}
+#CatalogViewWrapper .Details div {
+	margin-bottom: 3px;
+}
+#CatalogViewWrapper .TopSection div {
+	margin-bottom: 3px;
+}
+#CatalogViewWrapper .Details span {
+	font-weight: bold;
+}
+#CatalogViewWrapper .ContactWrapper .InfoRow {
+	margin: 0px; padding: 0px;
+}
+#CatalogViewWrapper .Links {
+	margin-bottom: 50px;
+}
+#CatalogViewWrapper .Links a {
+	padding-right: 40px; float: left;
+}
+#CatalogEditWrapper .CatItemInfo {
+	padding-top: 3px; clear: both;
+}
+#CatalogEditWrapper .StartNewGroup {
+	padding-top: 10px;
+}
+#CatalogEditWrapper .Label {
+	width: 220px; font-weight: bold;
+}
+#CatalogEditWrapper .ContactWrapper .Label {
+	width: 150px;
+}
+.TabMenuSpacer {
+	border-bottom-color: rgb(255, 153, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.TabMenuItem {
+	padding: 5px; border: 1px solid rgb(255, 153, 0); text-align: center; white-space: nowrap; background-color: rgb(231, 242, 248);
+}
+.TabMenuItemSelected {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(255, 153, 0) rgb(255, 153, 0) currentColor; padding: 5px; text-align: center; white-space: nowrap; background-color: white;
+}
+.TabContents {
+	border-right-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-left-color: rgb(255, 153, 0); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.AlignedInput {
+	padding-top: 3px; clear: both;
+}
+table.FeaturedCatalogItem {
+	border: 1px solid rgb(255, 153, 0); width: 100%; background-color: white;
+}
+.FeaturedCatalogItem img {
+	padding-right: 10px;
+}
+.FeaturedCatalogItem td {
+	padding: 5px;
+}
+.CatFeatHeader {
+	padding: 2px !important; height: 20px; text-align: center; color: white; text-transform: capitalize; font-weight: bold; white-space: nowrap; background-color: rgb(255, 153, 0);
+}
+.CatalogItemWrapper {
+	padding: 5px; clear: both;
+}
+.NewRowContent {
+	padding-top: 10px; clear: both;
+}
+.ItemLinks a {
+	padding-right: 10px;
+}
+.NoHeaderListingRow .Silver {
+	background-color: rgb(245, 245, 245);
+}
+.NoHeaderListingRow .Gold {
+	background-color: rgb(255, 255, 204);
+}
+#SingleLineMode #Posted {
+	width: 10%;
+}
+#SingleLineMode #Views {
+	width: 10%;
+}
+#SingleLineMode #Title {
+	width: 80%;
+}
+#SingleLineMode #Views {
+	text-align: center;
+}
+.SmallImage {
+	width: auto; height: 6em; padding-right: 10px;
+}
+.CommentContainer {
+	margin: 5px 4px 10px 10px; border-top-color: rgb(251, 237, 187); border-top-width: 1px; border-top-style: solid; -ms-zoom: 1;
+}
+.CommentContainer a {
+	text-decoration: none;
+}
+.CommentContainer img {
+	border: currentColor;
+}
+.CommentHeader {
+	text-align: left; background-color: rgb(251, 237, 187);
+}
+.CommentFooter {
+	text-align: left; background-color: rgb(251, 237, 187);
+}
+.comment-item {
+	padding: 9px 0px; color: rgb(102, 102, 102); font-size: 11px; border-bottom-color: rgb(251, 237, 187); border-bottom-width: 1px; border-bottom-style: solid; min-height: 1px;
+}
+.first.comment-item {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.CommentContainer td {
+	padding: 1px 12px 1px 5px;
+}
+.CommentButtonBar {
+	padding: 15px 0px 5px;
+}
+.CommentButton {
+	padding: 5px 10px; border: 1px solid rgb(255, 153, 0); background-color: rgb(251, 237, 187);
+}
+.CommentButtonLite {
+	border: currentColor; font-weight: lighter;
+}
+.CommentCommands {
+	float: right; opacity: 0.25;
+}
+.hover-row:hover .CommentCommands {
+	opacity: 1;
+}
+.comment {
+	padding: 0px 0px 2px; white-space: pre-wrap; -ms-word-wrap: break-word; _white-space: pre;
+}
+.CommentAddForm {
+	text-align: center; border-top-color: white; border-top-width: 1px; border-top-style: solid; background-color: rgb(251, 237, 187);
+}
+CommentReplyForm {
+	text-align: center; border-top-color: white; border-top-width: 1px; border-top-style: solid; background-color: rgb(251, 237, 187);
+}
+CommentEditForm {
+	text-align: center; border-top-color: white; border-top-width: 1px; border-top-style: solid; background-color: rgb(251, 237, 187);
+}
+.CommentEditForm textarea {
+	margin: auto; width: 98%; overflow: auto; clear: both; white-space: pre-wrap; -ms-word-wrap: break-word; min-height: 4em; max-height: 100px; _white-space: pre;
+}
+.CommentAddForm textarea {
+	margin: auto; width: 98%; overflow: auto; clear: both; white-space: pre-wrap; -ms-word-wrap: break-word; min-height: 4em; max-height: 100px; _white-space: pre;
+}
+.CommentReplyForm textarea {
+	margin: auto; width: 98%; overflow: auto; clear: both; white-space: pre-wrap; -ms-word-wrap: break-word; min-height: 4em; max-height: 100px; _white-space: pre;
+}
+.CommentList {
+	overflow: visible;
+}
+.CommentHighlight {
+	color: rgb(0, 0, 0); background-color: rgb(255, 248, 223);
+}
+.MyComment .comment-author {
+	font-weight: bold;
+}
+div.competition {
+	margin-bottom: 30px;
+}
+div.competition .content-list-item {
+	margin: 0px 0px 12px;
+}
+div.competition .content-list-item .entry {
+	margin: -3px 0px 4px;
+}
+div.competition .content-list-item .title {
+	padding: 3px 0px;
+}
+div.competition .content-list-item .title a {
+	color: rgb(0, 87, 130); line-height: 125%; font-size: 17px; font-weight: normal;
+}
+div.competition .content-list-item .title a:hover {
+	color: rgb(0, 102, 153);
+}
+div.competition .content-list-item .summary {
+	padding: 5px 0px 3px; color: gray; font-size: 14px;
+}
+.content-list {
+	margin-bottom: 17px;
+}
+.content-list .feature {
+	border-top-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.content-list .heading {
+	color: rgb(51, 51, 51); padding-bottom: 10px; font-size: 30px; font-weight: 200;
+}
+.content-list .heading a {
+	color: rgb(51, 51, 51);
+}
+.content-list-header {
+	height: 50px; color: rgb(102, 102, 102); font-size: 29px;
+}
+.content-list-item {
+	margin: 10px 0px;
+}
+.content-list-item .thumbnail img {
+	padding-right: 3px; vertical-align: bottom;
+}
+.content-list-item .doctype img {
+	padding-right: 3px; vertical-align: bottom;
+}
+.content-list-item .entry {
+	margin: 0px; color: rgb(255, 153, 0); line-height: 20px; font-size: 12px;
+}
+.content-list-item .title {
+	padding: 0px; font-size: 14px; font-weight: bold;
+}
+.content-list-item .title a {
+	color: rgb(0, 87, 130);
+}
+.content-list-item .title a:visited {
+	color: purple;
+}
+.content-list-item .doctype {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+.content-list-item .description {
+	color: rgb(17, 17, 17); font-size: 14px;
+}
+.content-list-item .author {
+	color: rgb(255, 153, 0) !important; font-size: 11px; font-weight: bold;
+}
+.content-list-item .author a {
+	color: rgb(255, 153, 0) !important; font-size: 11px; font-weight: bold;
+}
+.content-list-item .location {
+	color: gray; font-size: 11px; font-weight: bold;
+}
+.content-list-item .modified {
+	color: gray; font-size: 11px; font-weight: bold;
+}
+.content-list-item .new {
+	color: gray; font-size: 11px;
+}
+.content-list-item .updated {
+	color: gray; font-size: 11px;
+}
+.content-list-item .moved {
+	color: gray; font-size: 11px;
+}
+.content-list-item .deleted {
+	color: gray; font-size: 11px;
+}
+.content-list-item .tags {
+	margin: 0px 0px 0px -5px;
+}
+.content-list-item .summary {
+	padding: 0px 0px 10px; color: gray; font-size: 12px;
+}
+.title-addenda {
+	text-align: right; font-size: 0.85em; font-weight: normal; margin-top: 15px; float: right;
+}
+.row {
+	overflow: hidden; -ms-zoom: 1;
+}
+.column {
+	float: left; display: inline;
+}
+.column8_1 {
+	width: 12%; float: left;
+}
+.column8_2 {
+	width: 25%; float: left;
+}
+.column8_3 {
+	width: 37%; float: left;
+}
+.column8_4 {
+	width: 50%; float: left;
+}
+.column8_5 {
+	width: 62%; float: left;
+}
+.column8_6 {
+	width: 75%; float: left;
+}
+.column8_7 {
+	width: 87%; float: left;
+}
+.tags {
+	line-height: 190%;
+}
+.tags .t a {
+	margin: 0px 2px; padding: 2px 3px; color: rgb(102, 102, 102); font-size: 12px;
+}
+.tags .t a:hover {
+	color: white !important; text-decoration: none; background-color: rgb(255, 153, 0);
+}
+.container-breadcrumb {
+	margin: 12px 0px 35px; color: gray; font-size: 12px;
+}
+.container-breadcrumb a {
+	color: gray;
+}
+.code-comment {
+	color: rgb(0, 128, 0); font-style: italic;
+}
+.code-SummaryComment {
+	color: rgb(128, 128, 128);
+}
+.code-keyword {
+	color: blue;
+}
+.code-SDKkeyword {
+	color: rgb(51, 153, 153);
+}
+.code-preprocessor {
+	color: navy;
+}
+.code-string {
+	color: purple;
+}
+.code-literal {
+	color: navy;
+}
+.code-pagedirective {
+	background-color: yellow;
+}
+.code-attribute {
+	color: red;
+}
+.code-tag {
+	color: rgb(128, 0, 0);
+}
+.code-leadattribute {
+	color: rgb(128, 0, 0);
+}
+.code-digit {
+	color: navy;
+}
+.code-none {
+	color: rgb(0, 0, 0);
+}
+.code-linenumber {
+	color: rgb(95, 158, 160); font-style: normal;
+}
+.pre-action-link {
+	text-align: right; color: rgb(0, 87, 130); font-size: 11px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: inline;
+}
+.diff-add {
+	font: 9pt/normal Consolas, "Courier New", Courier, mono; white-space: nowrap; font-size-adjust: none; font-stretch: normal;
+}
+.diff-delete {
+	font: 9pt/normal Consolas, "Courier New", Courier, mono; white-space: nowrap; font-size-adjust: none; font-stretch: normal;
+}
+.diff-same {
+	font: 9pt/normal Consolas, "Courier New", Courier, mono; white-space: nowrap; font-size-adjust: none; font-stretch: normal;
+}
+.diff-blank {
+	font: 9pt/normal Consolas, "Courier New", Courier, mono; white-space: nowrap; font-size-adjust: none; font-stretch: normal;
+}
+diff-linenumber {
+	font: 9pt/normal Consolas, "Courier New", Courier, mono; white-space: nowrap; font-size-adjust: none; font-stretch: normal;
+}
+.diff-add {
+	background-color: yellow;
+}
+.diff-delete {
+	background-color: rgb(255, 204, 102);
+}
+.diff-same {
+	text-decoration: none !important;
+}
+.diff-blank {
+	background-color: rgb(204, 204, 204);
+}
+.diff-linenumber {
+	color: rgb(153, 153, 153);
+}
+.speech-bubble-container-down {
+	position: relative;
+}
+.speech-bubble-container-up {
+	position: relative;
+}
+.speech-bubble-container-up-right {
+	position: relative;
+}
+.speech-bubble-container-left {
+	position: relative;
+}
+.speech-bubble-container-right {
+	position: relative;
+}
+.ie .speech-bubble-container-up {
+	margin-top: -4px;
+}
+.firefox .speech-bubble-container-up {
+	margin-top: -4px;
+}
+.chrome .speech-bubble-container-up {
+	margin-top: -4px;
+}
+.ie .speech-bubble-container-up-right {
+	margin-top: -4px;
+}
+.firefox .speech-bubble-container-up-right {
+	margin-top: -4px;
+}
+.chrome .speech-bubble-container-up-right {
+	margin-top: -4px;
+}
+.ie7 .speech-bubble-container-up {
+	margin-top: -10px;
+}
+.ie8 .speech-bubble-container-up {
+	margin-top: -10px;
+}
+.ie7 .speech-bubble-container-up-right {
+	margin-top: -10px;
+}
+.ie8 .speech-bubble-container-up-right {
+	margin-top: -10px;
+}
+.speech-bubble-up {
+	margin: 15px; padding: 0.6em; border: 2px solid rgb(255, 153, 0); text-align: left; color: rgb(17, 17, 17); font-weight: normal; text-decoration: none; white-space: normal; background-color: rgb(255, 255, 204) !important;
+}
+.speech-bubble-down {
+	margin: 15px; padding: 0.6em; border: 2px solid rgb(255, 153, 0); text-align: left; color: rgb(17, 17, 17); font-weight: normal; text-decoration: none; white-space: normal; background-color: rgb(255, 255, 204) !important;
+}
+.speech-bubble-left {
+	margin: 15px; padding: 0.6em; border: 2px solid rgb(255, 153, 0); text-align: left; color: rgb(17, 17, 17); font-weight: normal; text-decoration: none; white-space: normal; background-color: rgb(255, 255, 204) !important;
+}
+.speech-bubble-right {
+	margin: 15px; padding: 0.6em; border: 2px solid rgb(255, 153, 0); text-align: left; color: rgb(17, 17, 17); font-weight: normal; text-decoration: none; white-space: normal; background-color: rgb(255, 255, 204) !important;
+}
+.speech-bubble-up td {
+	color: rgb(17, 17, 17);
+}
+.speech-bubble-down td {
+	color: rgb(17, 17, 17);
+}
+.speech-bubble-left td {
+	color: rgb(17, 17, 17);
+}
+.speech-bubble-right td {
+	color: rgb(17, 17, 17);
+}
+.speech-bubble-down {
+	margin-bottom: 0px;
+}
+.tooltip .speech-bubble-up {
+	box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.5); -moz-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.tooltip .speech-bubble-down {
+	box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.5); -moz-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.tooltip .speech-bubble-left {
+	box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.5); -moz-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.tooltip .speech-bubble-right {
+	box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.5); -moz-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.speech-bubble-pointer-down {
+	width: 0px; height: 0px; border-bottom-width: 0px;
+}
+.speech-bubble-pointer-down-inner {
+	width: 0px; height: 0px; border-bottom-width: 0px;
+}
+.speech-bubble-pointer-down {
+	margin-bottom: 15px; margin-left: 35px; border-top-color: rgb(255, 153, 0); border-right-color: transparent; border-left-color: transparent; border-top-width: 14px; border-right-width: 7px; border-left-width: 7px; border-top-style: solid; border-right-style: solid; border-left-style: solid; _display: none;
+}
+.speech-bubble-pointer-down-inner {
+	margin-top: -16px; margin-left: -5px; border-top-color: rgb(255, 255, 204); border-right-color: transparent; border-left-color: transparent; border-top-width: 10px; border-right-width: 5px; border-left-width: 5px; border-top-style: solid; border-right-style: solid; border-left-style: solid; position: absolute; _display: none;
+}
+.speech-bubble-pointer-up {
+	width: 0px; height: 0px; border-top-width: 0px;
+}
+.speech-bubble-pointer-up-inner {
+	width: 0px; height: 0px; border-top-width: 0px;
+}
+.speech-bubble-pointer-up {
+	top: -12px; margin-left: 35px; border-right-color: transparent; border-bottom-color: rgb(255, 153, 0); border-left-color: transparent; border-right-width: 7px; border-bottom-width: 14px; border-left-width: 7px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; position: absolute; _display: none;
+}
+.speech-bubble-pointer-up-inner {
+	padding-top: 4px; margin-bottom: -16px; margin-left: -5px; border-right-color: transparent; border-bottom-color: rgb(255, 255, 204); border-left-color: transparent; border-right-width: 5px; border-bottom-width: 12px; border-left-width: 5px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; position: absolute; _display: none;
+}
+.speech-bubble-container-up-right .speech-bubble-pointer-up {
+	right: 35px; margin-right: 0px; margin-left: 0px;
+}
+.speech-bubble-pointer-left {
+	width: 0px; height: 0px;
+}
+.speech-bubble-pointer-left-inner {
+	width: 0px; height: 0px;
+}
+.speech-bubble-pointer-left {
+	border-width: 10px 10px 10px 0px; border-style: solid; border-color: transparent rgb(255, 153, 0) transparent transparent; top: 10px; margin-left: 6px; position: absolute; _display: none;
+}
+.speech-bubble-pointer-left-inner {
+	border-width: 8px 8px 8px 0px; border-style: solid; border-color: transparent rgb(255, 255, 204) transparent transparent; padding-top: 0px; margin-top: -8px; margin-left: 3px; position: absolute; _display: none;
+}
+.speech-bubble-pointer-right {
+	width: 0px; height: 0px;
+}
+.speech-bubble-pointer-right-inner {
+	width: 0px; height: 0px;
+}
+.speech-bubble-pointer-right {
+	border-width: 10px 0px 10px 10px; border-style: solid; border-color: transparent transparent transparent rgb(255, 153, 0); top: 35px; right: 5px; position: absolute; _display: none;
+}
+.speech-bubble-pointer-right-inner {
+	border-width: 8px 0px 8px 8px; border-style: solid; border-color: transparent transparent transparent rgb(255, 255, 204); padding-top: 0px; margin-top: -8px; margin-left: -12px; position: absolute; _display: none;
+}
+.speech-bubble-image {
+	margin: 0px 5px 30px; border: currentColor; width: 24px; height: 24px; float: left;
+}
+.tooltip {
+	text-decoration: none; position: relative;
+}
+* + html .tooltip:hover {
+	z-index: 5;
+}
+.tooltip .speech-bubble-container-up {
+	transition:opacity 0.1s linear; display: none; opacity: 0; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip .speech-bubble-container-down {
+	transition:opacity 0.1s linear; display: none; opacity: 0; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip .speech-bubble-container-left {
+	transition:opacity 0.1s linear; display: none; opacity: 0; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip .speech-bubble-container-right {
+	transition:opacity 0.1s linear; display: none; opacity: 0; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip .speech-bubble-container-up-right {
+	transition:opacity 0.1s linear; display: none; opacity: 0; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip .tooltip-flyout {
+	transition:opacity 0.1s linear; display: none; opacity: 0; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip:hover .speech-bubble-container-up {
+	transition:opacity 0.1s linear; display: block; z-index: 10000; opacity: 1; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip:hover .speech-bubble-container-down {
+	transition:opacity 0.1s linear; display: block; z-index: 10000; opacity: 1; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip:hover .speech-bubble-container-left {
+	transition:opacity 0.1s linear; display: block; z-index: 10000; opacity: 1; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip:hover .speech-bubble-container-right {
+	transition:opacity 0.1s linear; display: block; z-index: 10000; opacity: 1; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip:hover .speech-bubble-container-up-right {
+	transition:opacity 0.1s linear; display: block; z-index: 10000; opacity: 1; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip:hover .tooltip-flyout {
+	transition:opacity 0.1s linear; display: block; z-index: 10000; opacity: 1; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+a.tooltip:hover {
+	text-decoration: none !important;
+}
+.tooltip:hover .speech-bubble-container-up-right {
+	width: 150px; color: black !important; text-decoration: none !important; position: absolute; cursor: text;
+}
+.tooltip:hover .speech-bubble-container-up {
+	width: 150px; color: black !important; text-decoration: none !important; position: absolute; cursor: text;
+}
+.tooltip:hover .speech-bubble-container-up {
+	left: -35px;
+}
+.tooltip:hover .speech-bubble-container-up-right {
+	right: 0px;
+}
+.opera .tooltip:hover .speech-bubble-container-up-right {
+	left: -180px;
+}
+.tooltip:hover .speech-bubble-container-up-right .speech-bubble-pointer-up {
+	top: 1px;
+}
+.tooltip:hover .speech-bubble-container-up .speech-bubble-pointer-up {
+	top: 1px;
+}
+.tooltip:hover .tooltip-flyout {
+	top: 1px;
+}
+.tooltip:hover .speech-bubble-container-down {
+	left: -35px; width: 150px; bottom: 0px; color: black !important; text-decoration: none !important; position: absolute; cursor: text;
+}
+.tooltip:hover .speech-bubble-container-down .speech-bubble-pointer-down {
+	bottom: 3px;
+}
+.tooltip:hover .speech-bubble-container-left {
+	left: 15px; top: -35px; width: 150px; color: black !important; text-decoration: none !important; position: absolute; cursor: text;
+}
+.tooltip:hover .speech-bubble-container-left .speech-bubble-pointer-left {
+	bottom: 3px;
+}
+.tooltip:hover .speech-bubble-container-right {
+	top: -35px; width: 250px; right: -165px; color: black !important; text-decoration: none !important; position: absolute; cursor: text;
+}
+.tooltip:hover .speech-bubble-container-right .speech-bubble-pointer-right {
+	bottom: 3px;
+}
+.tooltip-flyout {
+	margin: 15px; border: 1px solid rgb(204, 204, 204); width: 175px; text-align: left; color: rgb(102, 102, 102); font-weight: normal; white-space: normal; position: relative; z-index: 5000; cursor: text; background-color: white;
+}
+.tooltip:hover .tooltip-flyout {
+	left: -15px; top: -3px; display: block; position: absolute;
+}
+.open.tooltip .tooltip-flyout {
+	left: -15px; top: -3px; display: block; position: absolute;
+}
+.tooltip-flyout .list-item {
+	padding: 4px 15px; text-decoration: none; display: block;
+}
+.tooltip-flyout .list-item:hover {
+	color: white !important; text-decoration: none; background-color: rgb(255, 153, 0) !important;
+}
+.tooltip-flyout .list-item:hover a {
+	color: white !important; text-decoration: none; background-color: rgb(255, 153, 0) !important;
+}
+* + html .speech-bubble-pointer-up {
+	display: none;
+}
+* + html .speech-bubble-pointer-down {
+	display: none;
+}
+* + html .speech-bubble-pointer-left {
+	display: none;
+}
+* + html .speech-bubble-pointer-right {
+	display: none;
+}
+.report-header {
+	padding: 4px 10px 0px 16px; font-size: 14px; font-weight: bold;
+}
+.report-header img {
+	vertical-align: middle;
+}
+.report-prompt {
+	margin: 2px 0px; padding: 2px 0px; font-size: 12px;
+}
+.report-prompt a {
+	display: inline !important;
+}
+.report-comment {
+	width: 175px; margin-left: 15px;
+}
+.report-summary {
+	margin: 10px 0px; width: 100%; display: block;
+}
+.report-count {
+	width: 15px; color: rgb(102, 102, 102); display: inline-block;
+}
+table.report-details {
+	width: 300px;
+}
+.report-details td {
+	color: rgb(17, 17, 17) !important; background-color: white !important;
+}
+.report-details th {
+	color: white !important; background-color: rgb(255, 153, 0) !important;
+}
+.report-details thead td {
+	color: white !important; background-color: rgb(255, 153, 0) !important;
+}
+.cloud {
+	text-align: left;
+}
+.cloud .breadcrumb {
+	margin: 2px 0px 10px;
+}
+.cloud .breadcrumb .tag {
+	margin: 2px 0px; padding: 2px; border: 1px solid blue; font-size: 14px; background-color: rgb(255, 255, 204);
+}
+.tag_0 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_1 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_2 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_3 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_4 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_5 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_6 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_7 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_8 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_9 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.tag_10 {
+	margin: 1px; padding: 1px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+a.tag_0:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_1:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_2:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_3:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_4:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_5:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_6:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_7:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_8:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_9:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+a.tag_10:hover {
+	color: white !important; background-color: rgb(255, 153, 0);
+}
+.tag_0 {
+	color: rgb(127, 164, 255);
+}
+.tag_1 {
+	color: rgb(111, 153, 255);
+}
+.tag_2 {
+	color: rgb(95, 142, 255);
+}
+.tag_3 {
+	color: rgb(79, 131, 255);
+}
+.tag_4 {
+	color: rgb(63, 119, 255);
+}
+.tag_5 {
+	color: rgb(47, 108, 255);
+}
+.tag_6 {
+	color: rgb(31, 97, 255);
+}
+.tag_7 {
+	color: rgb(15, 85, 255);
+}
+.tag_8 {
+	color: rgb(0, 75, 255);
+}
+.tag_9 {
+	color: rgb(0, 75, 255);
+}
+.tag_10 {
+	color: rgb(0, 75, 255);
+}
+.cloud-large {
+	padding: 3px; text-align: justify; line-height: 110%; font-size: 29px;
+}
+.cloud-large a {
+	padding: 3px;
+}
+.cloud-large .header {
+	margin: 5px 0px 7px; font-size: 29px !important; font-weight: bold; background-color: transparent; _border: 0; _text-transform: none; _background-color: white;
+}
+.tag-cloud-page .spaced {
+	margin: 10px 0px 0px 5px;
+}
+.tag-info .deleted {
+	color: rgb(102, 102, 102); text-decoration: line-through;
+}
+.tag-info .merge-source {
+	color: green;
+}
+.tag-info .merge-target {
+	color: green;
+}
+.tag-info .merge-source {
+	text-decoration: line-through;
+}
+.rename-dialog {
+	display: none;
+}
+.rename-dialog input {
+	width: 95%;
+}
+.merge-dialog {
+	display: none;
+}
+.merge-dialog .info {
+	line-height: 1.25em; font-size: 0.8em;
+}
+.add-synonym-dialog .info {
+	line-height: 1.25em; font-size: 0.8em;
+}
+.merge-dialog .info {
+	margin-bottom: 0.8em;
+}
+.merge-dialog .tag-select {
+	margin-bottom: 0.8em;
+}
+.add-synonym-dialog .info {
+	margin-bottom: 0.8em;
+}
+.add-synonym-dialog input {
+	width: 95%;
+}
+.file-upload .upload-add {
+	overflow: hidden; padding-top: 24px; position: relative; -ms-zoom: 1;
+}
+.file-upload #addFile {
+	top: 0px; right: 0px; position: absolute;
+}
+.file-upload .file {
+	top: 0px; right: 0px; position: absolute;
+}
+.file-upload .file {
+	z-index: 1; cursor: pointer; opacity: 0; -moz-opacity: 0;
+}
+.file-upload #addFile {
+	z-index: 0;
+}
+.file-upload .uploaded {
+	padding: 2px; overflow: hidden; font-size: 12px; white-space: nowrap;
+}
+.container-uploads .insert {
+	padding: 3px 3px 6px 0px; border: 1px solid transparent; transition:color 0.1s linear; -webkit-transition: color .1s linear; -moz-transition: color .1s linear; -o-transition: color .1s linear;
+}
+.container-uploads .insert:hover {
+	border: 1px solid rgb(255, 153, 0); transition:color 0.1s linear; background-color: rgb(255, 204, 102); -webkit-transition: color .1s linear; -moz-transition: color .1s linear; -o-transition: color .1s linear;
+}
+.container-uploads .replaced {
+	color: rgb(102, 102, 102) !important;
+}
+.container-uploads .replaced a {
+	color: rgb(102, 102, 102) !important;
+}
+.container-forum .container-breadcrumb {
+	margin-bottom: 0px;
+}
+table.message-list {
+	border-collapse: collapse;
+}
+.message-list .count {
+	padding: 3px; text-align: center; color: rgb(255, 153, 0); font-size: 14px; font-weight: bold;
+}
+.message-list .message-list-item {
+	padding: 3px;
+}
+.message-list .message-list-item a.title {
+	color: rgb(0, 87, 130); font-size: 14px;
+}
+.message-list .message-list-item a.title:visited {
+	color: purple;
+}
+.flag-read {
+	color: lightgray;
+}
+.flag-read a {
+	color: lightgray;
+}
+.flag-unread .indent {
+	background: url("/images/unread16.gif") no-repeat left 5px;
+}
+.flag-new .indent {
+	background: url("/images/new16.png") no-repeat left 5px;
+}
+.flag-closed .indent {
+	background: url("/images/closed.png") no-repeat left 5px;
+}
+.flag-progress .indent {
+	background: url("/images/progressing.gif") no-repeat left 5px;
+}
+.flag-completed .indent {
+	background: url("/images/tick16.png") no-repeat left 5px;
+}
+.flag-confirmed .indent {
+	background: url("/images/tick16-or.png") no-repeat left 5px;
+}
+.flag-noreplicate .indent {
+	background: url("/images/unknown.png") no-repeat left 5px;
+}
+.flag-fixed .indent {
+	background: url("/images/fixed16.png") no-repeat left 5px;
+}
+.indent.flag-consideration {
+	background: url("/images/tick16-gy.png") no-repeat left 5px;
+}
+.flag-rejected .indent {
+	background: url("/images/reject16.png") no-repeat left 5px;
+}
+.flag-accepted .indent {
+	background: url("/images/tick16-or.png") no-repeat left 5px;
+}
+.flag-answered .indent {
+	background: url("/images/answered16.png") no-repeat left 5px;
+}
+.flags span {
+	padding: 1px 1px 1px 18px; font-size: 12px; margin-right: 12px;
+}
+span.flag-read {
+	color: lightgray;
+}
+span.flag-unread {
+	background: url("/images/unread16.gif") no-repeat left top;
+}
+span.flag-new {
+	background: url("/images/new16.gif") no-repeat left top;
+}
+span.flag-progress {
+	background: url("/images/progressing.gif") no-repeat left top;
+}
+span.flag-closed {
+	background: url("/images/closed.png") no-repeat left top;
+}
+span.flag-consideration {
+	background: url("/images/tick16-gy.png") no-repeat left top;
+}
+span.flag-completed {
+	background: url("/images/tick16.png") no-repeat left top;
+}
+span.flag-confirmed {
+	background: url("/images/tick16-or.png") no-repeat left top;
+}
+span.flag-noreplicate {
+	background: url("/images/unknown.png") no-repeat left top;
+}
+span.flag-fixed {
+	background: url("/images/fixed16.png") no-repeat left top;
+}
+span.flag-rejected {
+	background: url("/images/reject16.png") no-repeat left top;
+}
+span.flag-accepted {
+	background: url("/images/tick16.png") no-repeat left top;
+}
+span.flag-answered {
+	background: url("/images/answered16.png") no-repeat left top;
+}
+table.forum {
+	margin: 0px 0px 20px; padding: 0px !important; border: 1px solid rgb(242, 242, 242); width: 100%; table-layout: fixed;
+}
+.forum table {
+	border-collapse: separate;
+}
+.forum .header1 {
+	color: rgb(51, 51, 51); font-size: 12px; vertical-align: middle;
+}
+.forum .header1 td {
+	color: rgb(51, 51, 51); font-size: 12px; vertical-align: middle;
+}
+.forum .highlight.header1 {
+	padding: 10px; border: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 153) !important;
+}
+.forum .header1 td.highlight {
+	padding: 10px; border: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 153) !important;
+}
+.forum .header2 {
+	color: white; font-size: 12px; vertical-align: middle; background-color: rgb(255, 153, 0);
+}
+.forum .header2 td {
+	color: white; font-size: 12px; vertical-align: middle; background-color: rgb(255, 153, 0);
+}
+.forum .button {
+	margin: 1px; border: 1px solid rgb(255, 204, 102);
+}
+.forum .button.new-message {
+	margin: 5px 4px 5px 0px; padding: 5px 10px;
+}
+.forum .button.new-message a {
+	font-size: 16px; font-weight: normal;
+}
+.forum .signature {
+	overflow: auto; padding-top: 0px; margin-top: 10px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; max-height: 150px;
+}
+.forum .ForumSig {
+	overflow: auto; padding-top: 0px; margin-top: 10px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; max-height: 150px;
+}
+.forum .modified {
+	margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-size: 12px; font-style: italic;
+}
+.forum .ForumMod {
+	margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-size: 12px; font-style: italic;
+}
+.forum .text-input {
+	font-size: 95%; background-color: rgb(255, 254, 247);
+}
+.forum .dropdown {
+	font-size: 95%; margin-left: 5px; background-color: rgb(255, 254, 247);
+}
+.forum .footer {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: gray currentColor currentColor; padding: 5px; font-size: 12px;
+}
+.forum .footer td {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: gray currentColor currentColor; padding: 5px; font-size: 12px;
+}
+.forum .navbar {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: gray currentColor currentColor; padding: 5px; font-size: 12px;
+}
+.forum .navbar td {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: gray currentColor currentColor; padding: 5px; font-size: 12px;
+}
+.forum .nav-link {
+	padding: 1px 4px; color: rgb(51, 51, 51);
+}
+.forum .nav-link:hover {
+	color: white !important; text-decoration: none; background-color: rgb(255, 153, 0);
+}
+.forum .selected.nav-link {
+	color: rgb(255, 153, 0); font-weight: bold;
+}
+.forum .selected.nav-link:hover {
+	color: rgb(255, 153, 0) !important; background-color: transparent;
+}
+.forum .disabled.nav-link {
+	color: gray;
+}
+.forum .disabled.nav-link:hover {
+	color: gray !important; background-color: transparent;
+}
+.root .subject-line td {
+	font-weight: bold;
+}
+.root td.subject-line {
+	border-top-color: rgb(255, 153, 0); border-top-width: 1px; border-top-style: dotted;
+}
+tr.selected:hover .subject-line td {
+	background-color: rgb(255, 217, 153) !important;
+}
+.header.selected > td {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; background-color: rgb(255, 217, 153) !important;
+}
+.content.selected > td {
+	background-color: rgb(255, 249, 226) !important;
+}
+.compact.forum .subject-line td {
+	padding: 4px 0px 4px 5px !important; font-size: 13px !important;
+}
+.tight.forum .subject-line td {
+	padding: 1px 0px 2px 5px !important; font-size: 11px !important;
+}
+.subject-line {
+	overflow: hidden; border-bottom-color: rgb(242, 242, 242); border-bottom-width: 1px; border-bottom-style: solid; background-color: transparent;
+}
+.subject-line tr {
+	background-color: inherit;
+}
+.subject-line td {
+	background-color: inherit;
+}
+.root.subject-line {
+	border-top-color: rgb(255, 153, 0); border-top-width: 1px; border-top-style: dotted;
+}
+.subject-line .sticky td {
+	background-color: rgb(255, 255, 153);
+}
+.subject-line .indent {
+	padding: 8px 0px; text-align: right; vertical-align: top; background-color: white;
+}
+.subject-line .indent img {
+	margin-right: 4px;
+}
+.subject-line .subject {
+	padding: 5px 0px 7px 5px; text-align: left; font-size: 14px; vertical-align: top;
+}
+.subject-line .subject a {
+	color: rgb(0, 87, 130);
+}
+.subject-line .icon {
+	padding: 8px 0px; width: 20px; vertical-align: top; white-space: nowrap;
+}
+.subject-line .author {
+	padding: 8px 0px 8px 2px; width: 140px; text-align: left; overflow: hidden; vertical-align: top;
+}
+.subject-line .author a {
+	color: rgb(51, 51, 51); font-size: 12px; -ms-text-overflow: ellipsis;
+}
+.subject-line .author kbd {
+	padding: 0px; color: inherit; white-space: normal; background-color: transparent;
+}
+.subject-line .date {
+	padding: 8px 0px; width: 130px !important; text-align: right; color: rgb(51, 51, 51); font-size: 12px; vertical-align: top; white-space: nowrap;
+}
+.subject-line .count {
+	padding: 5px 0px; width: 30px !important; text-align: right; vertical-align: top;
+}
+.root .subject-line .topic .subject {
+	font-size: 22px;
+}
+.root .subject-line .single-thread.thread .subject {
+	font-size: 22px;
+}
+.root .subject-line .expanded .subject {
+	font-size: 22px;
+}
+.root .topic.subject-line {
+	border-top-color: rgb(255, 153, 0); border-bottom-color: transparent; border-top-width: 1px; border-top-style: solid;
+}
+.topic.subject-line .subject {
+	font-weight: bold;
+}
+.single-thread.thread.subject-line .subject {
+	font-size: 16px; font-weight: bold;
+}
+.expanded.subject-line .subject {
+	font-size: 16px; font-weight: bold;
+}
+.expanded.subject-line {
+	border-top-color: rgb(255, 153, 0); border-bottom-color: transparent; border-top-width: 1px; border-top-style: solid;
+}
+.preview.subject-line {
+	border-top-color: rgb(242, 242, 242); border-bottom-color: transparent; border-top-width: 1px; border-top-style: solid;
+}
+.preview.subject-line .subject {
+	font-weight: bold;
+}
+.subject-line .blog.subject {
+	font-size: 24px; font-weight: normal;
+}
+.subject-line .blog.subject .modified {
+	margin: 0px; padding: 0px; color: gray; font-size: 12px; font-style: normal; font-weight: bold;
+}
+.subject-line .blog.subject .author {
+	margin: 0px; padding: 0px; color: gray; font-size: 12px; font-style: normal; font-weight: bold;
+}
+.subject-line .blog.subject .author a {
+	margin: 0px; padding: 0px; color: gray; font-size: 12px; font-style: normal; font-weight: bold;
+}
+.content > td {
+	border-bottom-color: transparent; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.content td.text {
+	padding: 7px;
+}
+.content .selected {
+	background-color: rgb(255, 249, 226);
+}
+.content a {
+	color: rgb(0, 87, 130);
+}
+.content a.new-message {
+	padding: 3px !important; background-color: transparent;
+}
+.content .footer:hover a {
+	transition:color 0.1s linear; color: rgb(0, 102, 153); -webkit-transition: color .1s linear; -moz-transition: color .1s linear; -o-transition: color .1s linear;
+}
+.content .footer:hover td {
+	transition:color 0.1s linear; color: gray; -webkit-transition: color .1s linear; -moz-transition: color .1s linear; -o-transition: color .1s linear;
+}
+.content .footer:hover a.new-message {
+	color: white !important; background-color: rgb(197, 50, 39);
+}
+.content .selected .footer td {
+	background-color: rgb(255, 249, 226);
+}
+.content .preview td {
+	color: gray; font-size: 12px;
+}
+.content .indent {
+	background-color: white;
+}
+.content .footer {
+	padding: 15px 0px 3px; border: 0px currentColor; color: gray; line-height: 24px; font-size: 12px; background-color: transparent;
+}
+.content .footer td {
+	padding: 15px 0px 3px; border: 0px currentColor; color: gray; line-height: 24px; font-size: 12px; background-color: transparent;
+}
+.content .footer a {
+	padding: 1px; border: 1px solid transparent; color: gray; _border: solid 1px white;
+}
+.content .footer td a {
+	padding: 1px; border: 1px solid transparent; color: gray; _border: solid 1px white;
+}
+.content .footer a:hover {
+	border: 1px solid rgb(255, 153, 0); color: rgb(0, 102, 153);
+}
+.content .footer td a:hover {
+	border: 1px solid rgb(255, 153, 0); color: rgb(0, 102, 153);
+}
+.root.content .topic {
+	border-bottom-color: rgb(242, 242, 242); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.content .voteform {
+	visibility: hidden;
+}
+.content:hover .voteform {
+	visibility: visible;
+}
+.vote-lo {
+	color: gray !important;
+}
+.vote-lo a {
+	color: gray !important;
+}
+.vote-hi {
+	color: darkgreen !important;
+}
+.vote-hi a {
+	color: darkgreen !important;
+}
+img.vote-hi {
+	width: 12px; margin-left: 3px; vertical-align: top;
+}
+.voteform {
+	display: block;
+}
+.vertical.voteform {
+	margin: 4px 2px 0px 0px; width: 16px; float: right;
+}
+.vertical.voteform img {
+	margin-bottom: 4px;
+}
+.message-type {
+	padding: 2px 3px; height: 22px; display: inline-block;
+}
+.selected.message-type {
+	padding: 2px; font-weight: bold; background-color: rgb(238, 238, 238);
+}
+.message-type label {
+	vertical-align: bottom;
+}
+.container-editor {
+	width: 100%; overflow: hidden; float: left; position: relative; -ms-zoom: 1;
+}
+.no-emoticons .resizable-control {
+	border-right-color: rgb(238, 238, 238); border-right-width: 7px; border-right-style: solid;
+}
+.emoticon-bar {
+	padding-right: 80px; white-space: nowrap;
+}
+.paste-dialog {
+	padding: 5px; border: 1px solid rgb(255, 153, 0); width: 150px; overflow: hidden; margin-left: 10px; position: absolute; z-index: 10; background-color: white;
+}
+.paste-dialog .header {
+	padding: 5px !important; width: auto !important; font-size: 14px; font-weight: bold; margin-right: 0px !important; background-color: rgb(255, 248, 223) !important;
+}
+.paste-dialog .close-notify {
+	border-color: rgb(255, 204, 102); padding: 2px 1px; font-family: verdana,sans serif; font-size: 12px; margin-top: 7px; margin-right: 7px; background-color: rgb(255, 248, 223) !important;
+}
+.paste-dialog .BdSel {
+	padding: 0px 5px;
+}
+.paste-options label {
+	margin: 3px 0px 0px 24px; width: 100%; display: inline-block; cursor: pointer;
+}
+.paste-dialog td {
+	white-space: nowrap;
+}
+.ie7 .paste-options label {
+	display: inline;
+}
+.paste-options tr:hover {
+	border: 1px solid rgb(255, 204, 102); background-color: rgb(255, 248, 223) !important;
+}
+.paste-preview {
+	padding: 5px 0px; width: 150px; height: 180px; overflow: hidden; font-size: 12px;
+}
+.paste-preview {
+	margin: 0px; overflow: hidden !important; white-space: nowrap !important; -ms-word-wrap: normal !important;
+}
+.paste-preview pre {
+	margin: 0px; overflow: hidden !important; white-space: nowrap !important; -ms-word-wrap: normal !important;
+}
+.paste-preview pre {
+	white-space: pre !important;
+}
+.new-message .toolbar {
+	padding: 1px; border: 1px solid transparent; transition:background-color 0.1s linear; _border: solid 1px white; -webkit-transition: background-color .1s linear; -moz-transition: background-color .1s linear; -o-transition: background-color .1s linear;
+}
+.new-message .toolbar:hover {
+	border: 1px solid rgb(255, 153, 0); transition:background-color 0.1s linear; -webkit-transition: background-color .1s linear; -moz-transition: background-color .1s linear; -o-transition: background-color .1s linear;
+}
+.new-message .active .toolbar {
+	border: 1px solid rgb(255, 204, 102);
+}
+.new-message img.toolbar {
+	padding: 2px; border: 1px solid transparent; vertical-align: bottom;
+}
+.new-message img.toolbar:hover {
+	border: 1px solid rgb(255, 248, 223) !important;
+}
+.new-message button.toolbar {
+	margin: 0px; padding: 1px; border: 1px solid white; background-color: transparent;
+}
+.signature-edit {
+	border: 1px solid rgb(127, 157, 185); resize: none;
+}
+.signature-preview {
+	padding: 2px; border: 1px solid white; overflow: hidden; cursor: pointer; background-color: white; resize: none;
+}
+.forum-guidelines {
+	margin: 15px; padding: 0.6em; border: 1px solid rgb(255, 153, 0); text-align: left; font-size: 12px; font-weight: normal; text-decoration: none; white-space: normal; background-color: rgb(255, 255, 204) !important;
+}
+.forum-guidelines p {
+	font-size: 12px;
+}
+.forum-guidelines li {
+	font-size: 12px; margin-left: -15px;
+}
+.FQ {
+	background: url("/images/quote.gif") no-repeat left top rgb(238, 238, 238); padding: 0px 10px 10px 27px; color: rgb(85, 102, 85); margin-right: 1em; margin-bottom: 1em; margin-left: 0.25em;
+}
+.FQA {
+	margin: 0px 0px 4px; font-size: 11px; font-weight: bold;
+}
+.container-member {
+	font-size: 12px;
+}
+.container-member .author {
+	color: rgb(51, 51, 51); font-size: 22px;
+}
+.container-member .company {
+	color: gray; font-size: 14px;
+}
+.member-info {
+	color: gray; font-size: 14px; font-weight: bold;
+}
+.member-info a {
+	color: rgb(0, 87, 130); font-size: 14px;
+}
+.member-signin {
+	font-size: 12px;
+}
+.member-signin td {
+	vertical-align: baseline;
+}
+.member-signin input[type='text'] {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); width: 190px; margin-bottom: 10px;
+}
+.member-signin input[type='email'] {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); width: 190px; margin-bottom: 10px;
+}
+.member-signin input[type='password'] {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); width: 190px; margin-bottom: 10px;
+}
+.member-signin input[type='button'] {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); width: 190px; margin-bottom: 10px;
+}
+.member-signin input[type='submit'] {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); width: 190px; margin-bottom: 10px;
+}
+.member-signin button {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); width: 190px; margin-bottom: 10px;
+}
+.member-signin select {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); width: 190px; margin-bottom: 10px;
+}
+.member-signin .create {
+	margin: 15px 2px 10px; width: 94px !important; text-align: center; cursor: pointer;
+}
+.member-signin .signin {
+	margin: 15px 2px 10px; width: 94px !important; text-align: center; cursor: pointer;
+}
+.member-signin .create-pro {
+	margin: 15px 2px 10px; width: auto !important; text-align: center; cursor: pointer;
+}
+.member-signin .create {
+	color: rgb(51, 51, 51); background-color: rgb(242, 242, 242);
+}
+.member-signin .signin {
+	color: white; background-color: rgb(255, 153, 0);
+}
+.member-signin .create-pro {
+	color: white; background-color: rgb(255, 153, 0);
+}
+.member-signin .oauth {
+	padding: 10px 3px 4px 0px; display: inline;
+}
+.member-signin .divider-dark {
+	margin: 20px 0px 13px; color: rgb(204, 204, 204); background-color: rgb(204, 204, 204);
+}
+.member-signin .forgot {
+	padding: 0px;
+}
+.member-signin a.forgot {
+	color: gray;
+}
+.member-signin .forgot:hover {
+	color: gray; background-color: white;
+}
+.tooltip.member-signin > span {
+	background: url("/images/circle-right.png") no-repeat 47px 2px; padding: 2px 30px 4px 6px; border: 1px solid transparent; z-index: 503;
+}
+.tooltip.member-signin:hover > span {
+	background: url("/images/circle-down.png") no-repeat 47px 2px white; border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(204, 204, 204) rgb(204, 204, 204) currentColor; position: relative;
+}
+.open.tooltip.member-signin > span {
+	background: url("/images/circle-down.png") no-repeat 47px 2px white; border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(204, 204, 204) rgb(204, 204, 204) currentColor; position: relative;
+}
+.tooltip.member-signin:hover .tooltip-flyout {
+	transition:opacity 0.1s linear; z-index: 502 !important; opacity: 1; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.open.tooltip.member-signin .tooltip-flyout {
+	transition:opacity 0.1s linear; z-index: 502 !important; opacity: 1; -webkit-transition: opacity .1s linear; -moz-transition: opacity .1s linear; -o-transition: opacity .1s linear;
+}
+.tooltip.member-signin .tooltip-flyout {
+	border-width: 1px 1px 5px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(255, 153, 0); padding: 10px; left: -163px !important; top: 3px !important; width: 200px; position: absolute; background-color: white;
+}
+.ie9 .tooltip.member-signin .tooltip-flyout {
+	left: -166px !important;
+}
+.member-settings .signature-preview {
+	padding: 2px; border: 1px solid gray; overflow: hidden; cursor: pointer; background-color: rgb(255, 255, 204);
+}
+.signature-preview:hover {
+	padding: 2px; border: 1px solid gray; overflow: hidden; cursor: pointer; background-color: rgb(255, 255, 204);
+}
+.member-settings table td {
+	padding: 2px;
+}
+.profile-pic {
+	margin: 20px; padding: 10px; border: 1px solid rgb(51, 51, 51); box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.2); -moz-box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.member-rep-list table {
+	border-collapse: separate; border-spacing: 8px;
+}
+.member-rep-list .member-rep-box {
+	padding: 10px; width: 50px;
+}
+.member-rep-list .member-rep-box a {
+	color: rgb(51, 51, 51); font-size: 12px;
+}
+.member-rep-total {
+	margin: 2px auto auto; padding: 5px; width: 150px;
+}
+.nostatus.member-rep-total {
+	border: 3px solid rgb(221, 221, 221);
+}
+.bronze.member-rep-total {
+	border: 3px solid rgb(239, 178, 119);
+}
+.silver.member-rep-total {
+	border: 3px solid rgb(223, 223, 223);
+}
+.gold.member-rep-total {
+	border: 3px solid rgb(255, 204, 0);
+}
+.platinum.member-rep-total {
+	border: 3px solid rgb(207, 231, 255);
+}
+.privileges .bronze {
+	background-color: rgb(239, 178, 119);
+}
+.privileges .silver {
+	background-color: rgb(223, 223, 223);
+}
+.privileges .gold {
+	background-color: rgb(255, 204, 0);
+}
+.privileges .platinum {
+	background-color: rgb(207, 231, 255);
+}
+.member-rep-high {
+	border-top-color: rgb(255, 204, 0); border-bottom-color: rgb(255, 204, 0); border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;
+}
+.member-rep-container {
+	max-width: 175px;
+}
+.top-experts {
+	width: 100%;
+}
+.experts-list {
+	width: 100%;
+}
+.top-experts td {
+	padding: 2px;
+}
+.experts-list td {
+	padding: 2px;
+}
+.top-experts tr {
+	vertical-align: top;
+}
+.experts-list tr {
+	vertical-align: top;
+}
+table.member-popup {
+	height: 160px;
+}
+.member-popup td {
+	font-size: 12px;
+}
+.member-popup .name {
+	padding-bottom: 5px; font-weight: bold;
+}
+.member-popup .rep {
+	padding-top: 5px; font-weight: bold;
+}
+.Label {
+	float: left;
+}
+.Input {
+	float: left;
+}
+.Label {
+	width: 70px; padding-right: 10px; font-weight: bold;
+}
+.Input {
+	font-weight: normal;
+}
+.ContactWrapper .InfoRow {
+	padding-top: 0px; clear: both;
+}
+.ContactWrapperInput .InfoRow {
+	padding-top: 0px; clear: both;
+}
+.ContactWrapper .Label {
+	width: 100px;
+}
+.ContactWrapperInput .Label {
+	width: 200px;
+}
+.ContactWrapperInput label {
+	width: 200px; text-align: left; font-weight: bold; display: inline; white-space: nowrap;
+}
+.ContactWrapperInput input {
+	display: inline;
+}
+.ContactWrapperLong .InfoRow {
+	padding-top: 0px; clear: both;
+}
+.ContactWrapperLongInput .InfoRow {
+	padding-top: 0px; clear: both;
+}
+.ContactWrapperLong .Label {
+	width: 175px;
+}
+.ContactWrapperLongInput .Label {
+	width: 200px;
+}
+.ContactWrapperInput .InfoRow {
+	padding: 3px;
+}
+.chart-column {
+	text-align: center; font-size: 9px !important; vertical-align: bottom;
+}
+.chart-row {
+	vertical-align: bottom;
+}
+.rating-bar {
+	border: 1px solid rgb(102, 102, 102); border-collapse: collapse;
+}
+.rating-bar td {
+	border: 1px solid rgb(102, 102, 102); border-collapse: collapse;
+}
+.rating-bar-stars .filled {
+	background-color: gold;
+}
+.rating-bar-stars-small .filled {
+	background-color: gold;
+}
+.rating-bar-stars-small {
+	padding: 0px;
+}
+.rating-prompt {
+	padding-right: 5px; white-space: nowrap;
+}
+.rating-stars-large .stars {
+	left: 0px; top: 0px; position: absolute; z-index: 10;
+}
+.rating-stars-medium {
+	padding: 2px; border-radius: 5px; background-color: white; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.rating-stars-medium .stars {
+	left: 2px; top: 2px; position: absolute; z-index: 10;
+}
+.rating-stars-small {
+	padding: 2px; border-radius: 5px; background-color: white; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.rating-stars-small .stars {
+	left: 2px; top: 2px; position: absolute; z-index: 10;
+}
+.rating-star-block {
+	padding: 2px;
+}
+.rating-stars-voter-large .star {
+	width: 24px; height: 24px; color: transparent; text-indent: -999em; overflow: hidden; display: inline-block;
+}
+.rating-stars-voter-large .filled.star {
+	background: url("/script/ratings/images/star-fill-lg.png") no-repeat 0px 0px;
+}
+.rating-stars-voter-large .outline.star {
+	background: url("/script/ratings/images/star-empty-lg.png") no-repeat 0px 0px;
+}
+.rating-stars-voter-medium .star {
+	width: 16px; height: 16px; color: transparent; text-indent: -999em; overflow: hidden; display: inline-block;
+}
+.rating-stars-voter-medium .filled.star {
+	background: url("/script/ratings/images/star-fill-md.png") no-repeat 0px 0px;
+}
+.rating-stars-voter-medium .outline.star {
+	background: url("/script/ratings/images/star-empty-md.png") no-repeat 0px 0px;
+}
+.rating-stars-voter-small .star {
+	width: 12px; height: 12px; color: transparent; text-indent: -999em; overflow: hidden; display: inline-block;
+}
+.rating-stars-voter-small .filled.star {
+	background: url("/script/ratings/images/star-fill-sm.png") no-repeat 0px 0px;
+}
+.rating-stars-voter-small .outline.star {
+	background: url("/script/ratings/images/star-empty-sm.png") no-repeat 0px 0px;
+}
+.rating-ignore-vote img {
+	opacity: 0.25; -moz-opacity: .25;
+}
+.rating-ignore-vote span {
+	opacity: 0.25; -moz-opacity: .25;
+}
+.rating-comment {
+	border: 1px solid rgb(204, 204, 204); top: 0px; width: 250px; right: 0px; display: none; position: absolute; z-index: 1000; box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.4); background-color: white; -moz-box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.4); -webkit-box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.4);
+}
+.container-rating {
+	position: relative;
+}
+.container-rating:hover .rating-comment {
+	display: block;
+}
+div.research {
+	margin-top: 30px;
+}
+.research h2 {
+	margin: 0px; padding: 0px 0px 10px; color: rgb(51, 51, 51); font-size: 30px; font-weight: 200;
+}
+.research h2 a {
+	color: rgb(51, 51, 51);
+}
+.content-list.research {
+	background-color: rgb(249, 249, 249);
+}
+.research table {
+	margin: 10px 0px 20px;
+}
+.research table td {
+	padding-right: 20px;
+}
+.research .topic-list h3 {
+	padding-top: 0px; margin-top: 0px;
+}
+.research .content-item {
+	padding-bottom: 10px;
+}
+.research .questions select {
+	margin: 10px 0px 20px;
+}
+.research .questions table td {
+	padding-right: 0px;
+}
+.survey .themed td {
+	padding: 2px !important; font-size: 14px !important;
+}
+.survey .header {
+	padding: 2px 0px; font-size: 16px; font-weight: bold;
+}
+.survey .content {
+	overflow: hidden; padding-top: 5px; font-size: 14px; -ms-text-overflow: ellipsis;
+}
+.survey .description {
+	color: gray; font-size: 14px; font-weight: normal; margin-bottom: 10px;
+}
+.brief.survey .description {
+	padding-top: 5px; margin-bottom: 5px;
+}
+.survey .prompt {
+	font-size: 12px;
+}
+.survey .vote-bar {
+	margin: 5px 0px 0px; padding: 2px 2px 2px 0px; color: gray; font-size: 16px; font-weight: bold;
+}
+.survey .question {
+	padding: 10px; width: 90%;
+}
+.survey .question td {
+	padding: 5px 0px; font-size: 13px; vertical-align: top;
+}
+.survey .question .rating input {
+	margin: 0px 5px;
+}
+.survey tr.rating:hover {
+	background-color: rgb(251, 237, 187);
+}
+.brief.survey .heading {
+	color: rgb(51, 51, 51); padding-bottom: 10px; font-size: 30px; font-weight: 200;
+}
+.brief.survey .heading a {
+	color: rgb(51, 51, 51);
+}
+.brief.survey .question {
+	padding: 0px;
+}
+.brief.survey .question input {
+	max-width: 150px;
+}
+.brief.survey .question textarea {
+	max-width: 150px;
+}
+.brief.survey .button {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); background-color: rgb(242, 242, 242);
+}
+.brief.survey .button:hover {
+	background-color: rgb(204, 204, 204);
+}
+.zone .box {
+	padding: 5px; border: 0px currentColor; overflow: hidden; font-size: 12px; margin-bottom: 10px; -ms-text-overflow: ellipsis;
+}
+.zone h1 {
+	margin-top: 6px; margin-bottom: 0px;
+}
+.zone h2.divider {
+	padding: 5px 0px; width: 80%; height: auto; color: rgb(51, 51, 51); border-bottom-color: rgb(253, 235, 187); border-bottom-width: 1px; border-bottom-style: solid; background-color: white;
+}
+.zone h3.divider {
+	padding: 5px 0px; width: 80%; height: auto; color: rgb(51, 51, 51); border-bottom-color: rgb(253, 235, 187); border-bottom-width: 1px; border-bottom-style: solid; background-color: white;
+}
+.zone h2.divider {
+	font-size: 29px;
+}
+.zone .description {
+	margin-top: 7px; margin-right: 10px;
+}
+.zone .sponsor {
+	color: rgb(102, 102, 102); line-height: 20px; font-size: 14px;
+}
+.zone .title {
+	padding: 0px 0px 3px; line-height: 1.3em; font-size: 22px;
+}
+.zone a {
+	color: rgb(0, 102, 206);
+}
+.zone .abstract {
+	color: rgb(51, 51, 51); padding-bottom: 5px; font-size: 16px;
+}
+.zone .author {
+	color: rgb(68, 68, 68); font-size: 16px;
+}
+.ZoneList {
+	margin-top: 7px;
+}

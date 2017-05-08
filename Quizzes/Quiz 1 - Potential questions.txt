@@ -1,0 +1,16 @@
+CS235AM Potential Quiz 1 questions
+
+Based on http://developer.xamarin.com/guides/cross-platform/getting_started/introduction_to_mobile_development/
+
+What languages are used to do native Android and iOS development?
+Java and Objective C or Swift, respectively
+
+What development machine is required for iOS development? 
+A Mac with OS-X Lion or above
+
+What development machine is required for Android development?
+Either a Mac with OS-X Lion (or above), or a PC with Windows Visa (or above)
+
+When a Xamarin application is compiled, what is the output?
+An application package that can be uploaded to an app store and used to install an app on a device. (.apk for Android and .app for iOS)
+

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COINSMobile", "COINSMobile\COINSMobile.csproj", "{5A6194ED-9C5F-4B9B-92E7-757748BDFB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COINSMobile.Core", "COINSMobile.Core\COINSMobile.Core.csproj", "{C75CAC27-6E31-4BC7-A8C9-9B5A0A091E09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A6194ED-9C5F-4B9B-92E7-757748BDFB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6194ED-9C5F-4B9B-92E7-757748BDFB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6194ED-9C5F-4B9B-92E7-757748BDFB57}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5A6194ED-9C5F-4B9B-92E7-757748BDFB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6194ED-9C5F-4B9B-92E7-757748BDFB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6194ED-9C5F-4B9B-92E7-757748BDFB57}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C75CAC27-6E31-4BC7-A8C9-9B5A0A091E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75CAC27-6E31-4BC7-A8C9-9B5A0A091E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75CAC27-6E31-4BC7-A8C9-9B5A0A091E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75CAC27-6E31-4BC7-A8C9-9B5A0A091E09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

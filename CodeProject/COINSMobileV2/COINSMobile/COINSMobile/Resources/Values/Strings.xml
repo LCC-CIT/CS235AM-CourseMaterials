@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">COINSMobile - Live Market Watch</string>
+  <string name="Aithor">Sandip.Nascar - sandip.net@gmail.com</string>
+
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+  <color name="transparent">#80000000</color>
+  <color name="light_gray">#424242</color>
+    <color name="medium_gray">#323232</color>
+    <color name="deep_gray">#1C1C1C</color>
+  
+  
+  <style name="boldText">
+    <item name="android:textSize">14.82sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#FFFFFF</item>
+  </style>
+  <style name="boldText19">
+    <item name="android:textSize">18.62sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#FFFFFF</item>
+  </style>
+  <style name="smallText">
+    <item name="android:textSize">10sp</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textColor">#BDBDBD</item>
+  </style>
+  <style name="normalText">
+    <item name="android:textStyle">normal</item>
+    <item name="android:textColor">#C0C0C0</item>
+  </style>
+</resources>

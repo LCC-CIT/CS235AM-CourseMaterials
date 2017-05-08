@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://openweathermap.org/API#forecast -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>OpenWeatherMap free weather API</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<meta name="keywords" content="weather, world, Openstreetmap, weather, layer">
+<meta name="description" content="Current weather conditions in cities for world wide">
+<meta name="domain" content="OpenWeatherMap.org">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<link rel="shortcut icon" href="http://openweathermap.org/images/sun_mini.png">
+<link rel="apple-touch-icon" href="http://openweathermap.org/images/sun_mini.png">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<script type="text/javascript" async="" src="./OpenWeatherMap free weather API_files/ga.js"></script><script id="twitter-wjs" src="./OpenWeatherMap free weather API_files/widgets.js"></script><script src="./OpenWeatherMap free weather API_files/jquery-1.7.2.min.js"></script>
+<script src="./OpenWeatherMap free weather API_files/jquery-ui.js"></script>
+<script src="./OpenWeatherMap free weather API_files/bootstrap-tab.js"></script>
+<script src="./OpenWeatherMap free weather API_files/bootstrap-alert.js"></script>
+<script src="./OpenWeatherMap free weather API_files/bootstrap-carousel.js"></script>
+
+<link href="http://openweathermap.org/stylesheets/bootstrap.css" rel="stylesheet">
+<link href="http://openweathermap.org/stylesheets/toggle-switch.css" rel="stylesheet">
+<link href="http://openweathermap.org/stylesheets/main.css" rel="stylesheet">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+  }
+
+  #map-container {
+        padding: 6px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #ccc #ccc #999 #ccc;
+        -webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+        -moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+        box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
+        width: 100%;
+  }
+
+.olControlLayerSwitcher .layersDiv {
+    background-color:#575757 !important;
+
+    /* for IE */
+    filter:alpha(opacity=90);
+    /* CSS3 standard */
+    opacity:0.9;
+    border-radius: 4px;
+    color: white;
+
+    font-family: sans-serif;
+    font-size: smaller;  
+    font-weight: bold;
+}
+
+.olControlAttribution {
+    background: #575757;
+    color: white;
+    z-index:1000;
+    font-size: 1em;
+    text-align: left;
+    position: absolute;
+    right: 3px;
+    bottom: 0.2em;
+    padding: 4px;
+    /* for IE */
+    filter:alpha(opacity=90);
+    /* CSS3 standard */
+    opacity:0.9;
+    border-radius: 4px;
+}
+
+/*hack*/
+.olButton {
+  color: white;
+  font-family: arial;  
+  display: inline;
+}
+
+</style>
+
+<script type="text/javascript">
+
+function ShowSuccessMess(mess)
+{
+	var html = '<div class="alert alert-success" ><a class="close" data-dismiss="alert" href="#">&times;</a>'+mess+'</div>';
+	$("#alert_body").html(html);
+}
+
+function ShowInfoMess(mess)
+{
+	var html = '<div class="alert alert-info" ><a class="close" data-dismiss="alert" href="#">&times;</a>'+mess+'</div>';
+	$("#alert_body").html(html);
+}
+
+function ShowAlertMess(mess)
+{
+	var html = '<div class="alert alert-error" ><a class="close" data-dismiss="alert" href="#">&times;</a>'+mess+'</div>';
+	$("#alert_body").html(html);
+}
+
+function  errorHandler(e)
+{
+	ShowAlertMess(e.status +' '+e.statusText);
+}
+
+
+function ParseJson(JSONtext)
+{
+	try{
+		JSONobject = JSON.parse(JSONtext); 
+	}catch(e){
+		ShowAlertMess('Error JSON');
+		return;
+	}
+
+	if(JSONobject.cod != '200') {
+		ShowAlertMess('Error '+ JSONobject.cod + ' ('+ JSONobject.message +')');
+		return;
+	}
+	var mes = JSONobject.cod;
+	if(JSONobject.calctime)
+		mes = mes + ' ' + JSONobject.calctime;
+	if(JSONobject.message)
+		mes = mes + ' ' + JSONobject.message;
+	console.log( mes );
+	return JSONobject;
+}
+
+function ShowCalcTime(mess)
+{
+  console.log( mess );
+}
+
+function set_cookie(name, value, expires)
+{
+if (!expires)
+{
+expires = new Date();
+}
+document.cookie = name + "=" + escape(value) + "; expires=" + expires.toGMTString() +  "; path=/";
+}
+
+function get_cookie(name) {
+    var matches = document.cookie.match(new RegExp(
+        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+      ))
+  return matches ? decodeURIComponent(matches[1]) : undefined
+}
+
+function set_lang(lang)
+{
+	expires = new Date();					
+	expires.setTime(expires.getTime() + (1000 * 60 * 60 * 24));	
+	set_cookie('lang', lang, expires);
+	window.location.reload();
+}
+
+function set_units()
+{
+  var units = 'metric';
+  if( document.getElementById("units_check").checked ) units = 'imperial';
+  expires = new Date();         
+  expires.setTime(expires.getTime() + (1000 * 60 * 60 * 24)); 
+  set_cookie('units', units, expires);
+  window.location.reload();
+}
+
+</script>
+
+</head>
+
+<body data-twttr-rendered="true" class=" hasGoogleVoiceExt">
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+
+          <a class="brand" href="http://openweathermap.org/">Open Weather Map <span class="label label-warning">beta</span></a>
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="http://openweathermap.org/Maps">Maps</a></li>
+              <li class="active"><a href="./OpenWeatherMap free weather API_files/API.htm">API</a></li>
+              <!-- <li class="active"><a href="/price">Price</a></li> -->
+
+		<li class="active"><a href="http://openweathermap.org/login">Login / Register</a></li>
+
+
+            </ul>
+          </div>
+
+<!--
+<form action="/map" method="get" enctype="multipart/form-data" class="navbar-search pull-right">
+ &nbsp;<img src="/images/flags/gb.png" alt="English" title="English" onclick="set_lang('en');" />
+&nbsp;<img src="/images/flags/ru.png" alt="Russian" title="Russian" onclick="set_lang('ru');" />
+</form>
+-->
+<div class="pull-right">
+<label class="toggle candy blue" style="width:100px" onclick="">
+    <input id="units_check" type="checkbox">
+    <p onclick="set_units()">
+      <span>&nbsp; °C &nbsp;</span>
+      <span>&nbsp; °F &nbsp;</span>
+    </p>  
+    <a class="slide-button"></a>
+  </label>  
+
+</div>
+
+        </div><!--/container -->
+
+<div id="stat" class="pull-right">
+</div>
+      </div>
+    </div>
+
+    <div class="container">
+
+    <div id="alert_body">
+    </div>
+
+
+
+<div class="page-header">
+
+<h1>Free weather data API for developers</h1>
+<ul>
+<li>We recommend you to use API key in any cases. You can get API key in a very easy way - just register on OpenWeatherMap.org and leave information about your application, then get key in your personal page. In this case we can guarantee availability and accuracy of weather data. Please read more detailed information: 
+<a href="http://openweathermap.org/appid">openweathermap.org/appid</a></li>
+<li>Find a bug? Welcome to <a href="http://bugs.openweathermap.org/projects/api/wiki/">bugs.openweathermap.org/projects/api/wiki/</a> </li>
+</ul>
+</div>
+
+<br>
+<h2>Data that you can get:</h2>
+<br>
+
+
+<div class="row">
+
+<div class="span3">
+        <h3>Current weather data</h3>
+<p>
+Using this kind of requests you can get weather data in any location on the earth. The current weather data are updated online based on data from more than 40,000 weather stations. All weather data can be obtained in JSON, XML or HTML format. Current weather for 70,000 cities in the world is based on online data from weather stations.</p>
+
+        <a class="btn btn-warning" href="http://openweathermap.org/API#weather">more</a>
+</div>
+<div class="span3">
+        <h3>5 and 14-days forecast</h3>
+        <p>You can recieve weather forecast in any location on the earth. The flexible algorithm of weather calculation let us provide weather data not only for cities but for any geographic coordinates. You can get forecast data every 3 hours or daily. The 3 hours forecast is available for 5 days. Daily forecast is available for 14 days. All weather data can be obtained in JSON or XML format.</p>
+
+        <a class="btn btn-warning" href="./OpenWeatherMap free weather API_files/OpenWeatherMap free weather API.htm">more</a>
+</div>
+<div class="span3">
+        <h3>Searching</h3>
+        <p>You use our geocoding system to find cities by name, country, zip-code or geographic coordinates. You can search by part of city name. To make searching result more accurate you can put city name and country divided by comma.</p>
+        <a class="btn btn-warning" href="http://openweathermap.org/API#search_city">more</a>
+</div>
+<div class="span3">
+        <h3>Weather maps</h3>
+<p>OpenWeatherMap service provides lots of weather maps including Precipitations, Clouds, Pressure, Temperature, Wind and many others. You can connect them to mobile applications and web sites and to use them for checking weather in your city.
+You can connect weather maps as layers to the wide range of maps including Direct tiles, WMS, OpenLayers, Leaflet, Google maps, and Yandex maps. </p>        
+        <a class="btn btn-warning" href="http://openweathermap.org/hugemaps">more</a>
+</div>
+</div>
+
+<div class="row">
+<div class="span10">
+
+<section id="weather">
+<div class="page-header">
+<h2>Getting current weather data</h2>
+</div>
+
+
+<p>
+    Using this kind of requests you can get weather data in any location on the earth. The current weather data are updated online based on data from more than 40,000 weather stations. All weather data can be obtained in JSON, XML or HTML format.</p>
+
+<h3>You can search weather data by different ways:</h3>
+<p>
+</p><ul>
+    <li>By city name</li>
+    <li>By geographic coordinats </li>
+    <li>By city ID</li>
+</ul>
+<p></p>
+
+<h4>Examples of JSON format:</h4>
+<p>
+</p><ul>
+    <li>Seaching by city name <a href="http://api.openweathermap.org/data/2.5/weather?q=London,uk">
+            api.openweathermap.org/data/2.5/weather?q=London,uk</a></li>
+    <li>Seaching by geographic coordinats <a href="http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139">
+            api.openweathermap.org/data/2.5/weather?lat=35&amp;lon=139</a></li>
+    <li>Seaching by city ID <a href="http://api.openweathermap.org/data/2.5/weather?id=2172797">
+            api.openweathermap.org/data/2.5/weather?id=2172797</a></li>
+</ul>
+<p></p>
+
+<h4>Examples of XML format:</h4>
+<p> To get data in XML or HTML formats you need to use mode = xml or html. Example: 
+</p><ul>    
+    <li>Seaching by city name in XML<a href="http://api.openweathermap.org/data/2.5/weather?q=London&mode=xml">
+            api.openweathermap.org/data/2.5/weather?q=London&amp;mode=xml</a></li>
+    <li>Seaching by geographic coordinats in HTML <a href="http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&mode=html">        api.openweathermap.org/data/2.5/weather?lat=35&amp;lon=139&amp;mode=html</a></li>
+</ul>
+<p></p>
+
+<h4>Data format:</h4>
+<p>You can use different types of metric systems by units = metric or imperial
+   <br> Example:  <a href="http://api.openweathermap.org/data/2.5/weather?q=London&mode=xml&units=metric">
+            api.openweathermap.org/data/2.5/weather?q=London&amp;mode=xml&amp;units=metric</a>
+</p>
+
+
+<h4>Multilingual support:</h4>
+<p>
+You can use lang parameter to get output in your language. We support the following languages that you can use with the corresponded lang values: 
+
+English - en,      Russian - ru,     Italian - it,     Spanish - sp,     Ukrainian - ua,  German - de,   Portuguese - pt,     Romanian - ro,       Polish - pl,     Finnish - fi,    Dutch - nl,      French  - fr,    Bulgarian - bg,      Swedish - se,    Chinese Traditional - zh_tw,    Chinese Simplified - zh_cn, Turkish - tr <br>
+Example: <a href="http://api.openweathermap.org/data/2.5/forecast/daily?id=524901&lang=zh_cn">
+    http://api.openweathermap.org/data/2.5/forecast/daily?id=524901&amp;lang=zh_cn</a>
+
+</p>
+
+
+<h4>Call back function for JavaScript code:</h4>
+<p>
+    To use JavaScrip code you can transfer callback functionName to JSONP callback. <br> Example: 
+    <a href="http://api.openweathermap.org/data/2.5/weather?q=London,uk&callback=test">
+        api.openweathermap.org/data/2.5/weather?q=London,uk&amp;callback=test</a>
+</p>
+
+<h3>More about data returned:</h3>
+<ul>    
+    <li><a href="http://bugs.openweathermap.org/projects/api/wiki/Weather_Data">Weather data in JSON format</a></li>
+    <li><a href="http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes">Weather condition codes</a></li>        
+</ul> 
+</section>
+
+</div>
+
+<div class="span2">
+
+<script async="" src="./OpenWeatherMap free weather API_files/adsbygoogle.js"></script>
+<!-- Skyscraper -->
+<ins class="adsbygoogle" style="display:inline-block;width:120px;height:600px" data-ad-client="ca-pub-9649553505534207" data-ad-slot="6999090776" data-adsbygoogle-status="done"><ins style="display:inline-table;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:120px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:120px;background-color:transparent"><iframe width="120" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+
+</div>
+
+<br>
+
+
+
+<section id="forecast">
+<div class="page-header">
+<h2>Getting forecast weather data</h2>
+</div>
+
+<p>
+You can recieve weather forecast in any location on the earth. The flexible algorithm of weather calculation let us provide weather data not only for cities but for any geographic coordinates. It is important for megapolices, for example, where weather is different on opposit city edges. You can get forecast data every 3 hours or daily. The 3 hours forecast is available for 5 days. Daily forecast is available for 14 days. 
+All weather data can be obtained in JSON or XML format.
+</p>
+
+<h3>You can search weather data by different ways:</h3>
+<p></p><ul>
+    <li>By city name</li>
+    <li>By geographic coordinats </li>
+    <li>By city ID</li>
+</ul>
+<p></p>
+
+<h3>Getting forecast data every 3 hours</h3>
+<p>
+    </p><ul>
+    <li>Seaching by city name at XML format<a href="http://api.openweathermap.org/data/2.5/forecast?q=London,us&mode=xml">
+            api.openweathermap.org/data/2.5/forecast?q=London,us&amp;mode=xml</a></li>
+    <li>
+        Seaching by geographic coordinats at JSON format<a href="http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139">
+            api.openweathermap.org/data/2.5/forecast?lat=35&amp;lon=139</a>
+    </li>
+    <li>Seaching by city ID <a href="http://api.openweathermap.org/data/2.5/forecast?id=524901">
+            api.openweathermap.org/data/2.5/forecast?id=524901</a></li>
+</ul>
+<p></p>
+</section>
+
+<br>
+
+<h3>Getting daily forecast weather data</h3>
+
+<p>
+    You can get weather forecast for 14 days. All weather data can be obtained in JSON or XML format.</p>
+
+<h4>Examples:</h4>
+<p>
+    </p><ul>
+    <li>Seaching 7 days forecast by city name at XML format and metric units <br>
+        <a href="http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=xml&units=metric&cnt=7">
+            api.openweathermap.org/data/2.5/forecast/daily?q=London&amp;mode=xml&amp;units=metric&amp;cnt=7</a></li>
+    <li>
+        Seaching 10 days forecast by geographic coordinats at JSON format <br> <a href="http://api.openweathermap.org/data/2.5/forecast/daily?lat=35&lon=139&cnt=10&mode=json">
+            api.openweathermap.org/data/2.5/forecast/daily?lat=35&amp;lon=139&amp;cnt=10&amp;mode=json</a>
+    </li>
+    <li>Seaching by city ID <br> <a href="http://api.openweathermap.org/data/2.5/forecast/daily?id=524901">
+            api.openweathermap.org/data/2.5/forecast/daily?id=524901</a></li>
+</ul>
+<p></p>
+
+<br>
+
+
+<section id="search_city">
+<div class="page-header">
+<h2>Searching of city</h2>
+</div>
+
+
+<h4>You can search weather data by different ways:</h4>
+<p></p><ul>
+    <li>By city name. Put the city name or its part and get the list of the most proper cities in the world. Example - Lon or Lond or London. The more precise city name you put the more precise list you will get. To make it more precise put the city's name or its part, comma, the name of the county or 2-letter country code. You will get all proper cities in chosen county. The order is important - the first is city name than comma than county. Example - Lon, UK or Lon, GB or London, GB or Lon, England. </li>
+    <li>By geographic coordinats.</li>
+</ul>
+<p></p>
+<p>
+
+</p>
+
+<h5>Seaching by city name</h5>
+<p>
+    <a href="http://api.openweathermap.org/data/2.5/find?q=London&units=metric&mode=xml">
+        api.openweathermap.org/data/2.5/find?q=London&amp;units=metric&amp;mode=xml</a>
+</p>
+
+<h5>Seaching by geographic coordinats</h5>
+<p>
+    <a href="http://api.openweathermap.org/data/2.5/find?lat=57&lon=-2.15">
+        api.openweathermap.org/data/2.5/find?lat=57&amp;lon=-2.15</a>
+</p>
+
+<h5>Data output format:</h5>
+<p></p><ul>
+    <li>json <a href="http://api.openweathermap.org/data/2.5/find?q=London&mode=json">
+            api.openweathermap.org/data/2.5/find?q=London&amp;mode=json</a></li>
+    <li>xml  <a href="http://api.openweathermap.org/data/2.5/find?q=London&mode=xml">
+            api.openweathermap.org/data/2.5/find?q=London&amp;mode=xml</a></li>
+</ul><p></p>
+
+<h5>Restriction output:</h5>
+<p>
+    To limit number of listed cities please setup cnt parameter 
+        <a href="http://api.openweathermap.org/data/2.5/find?lat=57&lon=-2.15&cnt=3"> 
+            api.openweathermap.org/data/2.5/find?lat=57&amp;lon=-2.15&amp;cnt=3</a>
+</p>
+
+<h5>Accuracy:</h5>
+<p>
+To setup accuracy level please use type parameter that have two values - accurate and like. In case of accurate value you will get results that exactly equivalent to your searching word. In case of like value the result is searching by substring. type ['accurate', 'like'] <br>
+Example 
+</p><ul>
+    <li>Like <a href="http://api.openweathermap.org/data/2.5/find?q=London&type=like&mode=xml">
+            api.openweathermap.org/data/2.5/find?q=London&amp;type=like&amp;mode=xml</a> </li>
+    <li>Accurate <a href="http://api.openweathermap.org/data/2.5/find?q=London&type=accurate&mode=xml">
+            api.openweathermap.org/data/2.5/find?q=London&amp;type=accurate&amp;mode=xml</a> </li>
+</ul>
+<p></p>
+
+<br>
+
+<h5>Metric systems:</h5>
+<p></p><ul>
+    <li>internal <a href="http://api.openweathermap.org/data/2.5/find?q=London">
+        api.openweathermap.org/data/2.5/find?q=London</a></li>
+    <li>metric <a href="http://api.openweathermap.org/data/2.5/find?q=London&units=metric">
+            api.openweathermap.org/data/2.5/find?q=London&amp;units=metric</a></li>
+    <li>imperial <a href="http://api.openweathermap.org/data/2.5/find?q=London&units=imperial">
+            api.openweathermap.org/data/2.5/find?q=London&amp;units=imperial</a></li>
+</ul><p></p>
+
+</section>
+
+<br>
+
+<div class="page-header">
+<h2>More detailed information about features of API</h2>
+</div>
+<p>
+
+</p><ul>    
+<li>More detailed infomration about features of API <a href="http://bugs.openweathermap.org/projects/api/wiki/">bugs.openweathermap.org/projects/api/wiki/</a></li>
+
+<li><a href="http://openweathermap.org/weather">For web developers - examples and code</a></li>
+<li><a href="http://openweathermap.org/wiki/API/data_upload">The protocol of weather station data transmission</a></li>
+<li><a href="http://openweathermap.org/tutorial/charts">How to create charts with weather data</a></li>
+<li><a href="http://openweathermap.org/tutorial/widgets">How to create weather widgets</a></li>
+<li><a href="http://openweathermap.org/tutorial/openlayers"> How to create maps with weather data</a></li>
+<li><a href="http://m.openweathermap.org/">Mobile version of site</a></li>
+</ul>    
+
+<p></p>
+
+
+<br>
+
+
+
+    </div> <!-- /container -->
+
+<br>
+
+<div class="container">
+
+<script async="" src="./OpenWeatherMap free weather API_files/adsbygoogle.js"></script>
+<!-- OWM long bottom -->
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9649553505534207" data-ad-slot="1070308379" data-adsbygoogle-status="done"><ins style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div> <!-- /container -->
+
+
+
+<footer class="footer well">
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="span4">
+      <h4>How to connect weather station?</h4>
+      <ul>
+        <li><a href="http://openweathermap.org/stations">How to connect my weather station?</a></li>
+        <li><a href="http://openweathermap.org/hugemaps">How to connect the data layer of current weather</a></li>
+        <li><a href="./OpenWeatherMap free weather API_files/API.htm">Getting Data from JSON</a></li>
+      </ul>
+    </div>
+
+    <div class="span4">
+      <h4>Information </h4>
+      <ul>
+        <li><a href="http://openweathermap.org/about">About</a></li>
+        <li><a href="http://openweathermap.org/copyright">Copyright</a></li>
+      </ul>
+    </div>
+
+    <div class="span4">
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="./OpenWeatherMap free weather API_files/follow_button.1384994725.htm" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 203px; height: 28px;"></iframe>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+
+  </div><!-- /row -->
+
+</div>
+
+</footer>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31601618-1']);
+  _gaq.push(['_setDomainName', 'openweathermap.org']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+
+  var units = 'metric';
+  if( get_cookie('units') ) units = get_cookie('units');
+  if( units == 'metric') {
+      document.getElementById("units_check").checked = true;
+  }else{
+      document.getElementById("units_check").checked = false;
+  }
+});
+</script>
+
+
+</body></html>

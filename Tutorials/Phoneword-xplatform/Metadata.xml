@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SampleMetadata>
+	<ID>b5554692-d8dc-4555-a493-13dfb129c46a</ID>
+	<IsFullApplication>true</IsFullApplication>
+	<Level>Beginner</Level>
+	<Tags>User Interface</Tags>
+	<SupportedPlatforms>Android, iOS, WP7, Windows8</SupportedPlatforms>
+    <LicenseRequirement>Starter</LicenseRequirement>
+    <Brief>Very simple example of sharing C# code across four platforms: iOS, Android, Windows Phone 7 and Windows 8. Also includes a command-line version as a 'test harness'.</Brief>
+	<Gallery>true</Gallery>
+</SampleMetadata>

@@ -1,0 +1,57 @@
+body {
+	font-family: trebuchet ms, verdana, arial, tahoma; margin-top: 20px; background-color: rgb(39, 58, 58);
+}
+img {
+	border: 0px currentColor;
+}
+h1 {
+	font-family: arial; font-size: 160%;
+}
+h2 {
+	font-family: arial; font-size: 125%;
+}
+#container {
+	margin: 20px auto; width: 760px; color: rgb(255, 255, 255); line-height: 200%; font-size: 80%;
+}
+#menu {
+	width: 760px;
+}
+#header {
+	border: 1px solid rgb(196, 215, 215); width: 760px; height: 125px; background-image: url("header.jpg");
+}
+#content {
+	padding: 10px; border: 1px solid rgb(196, 215, 215); width: 550px; margin-top: 10px;
+}
+.titleh1 {
+	width: 100%; border-bottom-color: rgb(196, 215, 215); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.subparagraph {
+	width: 50%; border-bottom-color: rgb(135, 173, 173); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.download {
+	width: auto; border-bottom-color: rgb(135, 173, 173); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+#footer {
+	padding: 0px 10px; border: 1px solid rgb(196, 215, 215); width: 740px; text-align: left; clear: both; margin-top: 10px;
+}
+a:active {
+	color: rgb(172, 200, 200); text-decoration: none;
+}
+a:visited {
+	color: rgb(172, 200, 200); text-decoration: none;
+}
+a:link {
+	color: rgb(172, 200, 200); text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+#screenshots {
+	padding: 0px 10px; border: 1px solid rgb(196, 215, 215); height: auto; margin-top: 10px; margin-bottom: 10px; margin-left: 10px; float: right;
+}
+font.disclaimer {
+	color: rgb(216, 228, 162); line-height: normal; font-family: tahoma, verdana, arial; font-size: x-small;
+}
+img.thumb {
+	margin: 5px 0px;
+}

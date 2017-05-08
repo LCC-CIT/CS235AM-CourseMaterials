@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Select a Tide Station"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <Button
+        android:text="Garibaldi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/garibaldiButton" />
+    <Button
+        android:text="Yaquina River"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yaquinaButton" />
+    <Button
+        android:text="Charlston"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/charlstonButton" />
+</LinearLayout>

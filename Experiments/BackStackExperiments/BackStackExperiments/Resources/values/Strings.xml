@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="start">Start Second Activity</string>
+	<string name="app_name">BackStackExperiments</string>
+	<string name="back">Start First Activity</string>
+</resources>

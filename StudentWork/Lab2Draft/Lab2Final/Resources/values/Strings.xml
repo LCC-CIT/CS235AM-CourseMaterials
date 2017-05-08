@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">HelloMultiScreen</string>
+	<string name="firstActButtonText">Poke Darwin</string>
+	<string name="secondActButtonText">Poke Einstein</string>
+	<string name="screen1Text">Hey Chuck...</string>
+	<string name="screen2Text">"What? "</string>
+	<string name="poke1">Einstein poked you</string>
+	<string name="poke2">Darwin poked you</string>
+	<string name="noData">Data Unavailable</string>
+	<string name="stopIt">WHAT?!?</string>
+	<string name="nm">"Never mind... "</string>
+</resources>

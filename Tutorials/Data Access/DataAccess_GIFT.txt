@@ -1,0 +1,66 @@
+::SQLite platforms::
+Which of the following are true for the Platforms on which the SQLite database engine can run? {
+~%25%Built-in to iOS
+~%25%Built-in to Android
+~%-25%Built-in to Windows Phone and RT
+~%25%Can be installed on OS-X
+~%25%Can be installed on Windows 
+}
+
+::SQLite capability::
+Which of the following descrbes the capabilities of SQLite? {
+~%33.33333%Supports almost all of standard SQL (SQL92)
+~%-33.33333%Supports Language Integrated Query (LINQ)
+~%-33.33333%Comes with it's own integrated ORM
+~%33.33333%Fast and efficient
+~%33.33333%Open-source 
+}
+
+::Database file path::
+On an Android device, an SQLite database file may be stored: {
+~%-50%Only in a file predefined by the operating system.
+~%33.33333%At a location in the file system where read-write access is allowed.
+~%-50%In a location that will be automatically backed up by the system
+~%33.33333%Either in internal or external storage (ie microSD card)
+~%33.33333%In the location specified by Environment.SpecialFolder.Personal 
+}
+
+::ORM acronym::
+What does ORM stand for? {
+~Objective Relationship Marking
+~One-time Retrieval Mechanism 
+=Object Relational Mapping
+~Overloaded Relative Markup
+~Open-source Relational Movement 
+}
+
+::An ORM represents tables as::
+An ORM repersents the tables in a database as:  {
+~Methods of a class
+=A class 
+~Properties of a class
+~Attributes of a class
+~A struct  
+}
+
+::SQLite.NET::
+In order to have SQLite.NET create a table from a class that you write, you must: {
+~Derive your class from the SQLite.Table class
+~Add the compiler directive: \#TABLE
+~Add a Table property to your class
+=Add a [Table] attribute to your class
+~Register your class with SQLite.NET 
+}
+
+::SQLite.NET table creation::
+Before SQLite.NET can work with your database, you must create the database and add the tables using some other software.{FALSE}
+
+::SQLite.NET Query Operations::
+Match the SQLite.NET query operation on the left with the correct description on the right. { 
+=Insert -> Adds a new row to the database 
+=Get<T> -> Attempts to retrieve a row using the primary key
+=Table<T> -> Returns all the rows in the table
+=Delete -> Deletes a row using its primary key
+=Query<T> -> Perform an SQL query that returns a number of rows
+=Execute -> Use this method when you don’t expect rows back from the SQL query
+}

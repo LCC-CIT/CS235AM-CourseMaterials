@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeAScreen", "PokeAScreen\PokeAScreen.csproj", "{7B2261D1-8FD8-4745-8AB6-C98CA90895DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B2261D1-8FD8-4745-8AB6-C98CA90895DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2261D1-8FD8-4745-8AB6-C98CA90895DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2261D1-8FD8-4745-8AB6-C98CA90895DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2261D1-8FD8-4745-8AB6-C98CA90895DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PokeAScreen\PokeAScreen.csproj
+	EndGlobalSection
+EndGlobal

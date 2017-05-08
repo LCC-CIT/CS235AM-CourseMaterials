@@ -1,0 +1,8 @@
+::SQLite.NET::
+In order to have SQLite.NET create a table from a class that you write, you must: {
+~Derive your class from the SQLite.Table class
+~Add the compiler directive: \#TABLE
+~Add a Table property to your class
+=Add a [Table] attribute to your class
+~Register your class with SQLite.NET 
+}

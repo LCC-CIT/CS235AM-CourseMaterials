@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="count_clicks"
+        android:title="Count"
+        android:summary="Counts button clicks when true"
+        android:defaultValue="true" />
+    <EditTextPreference
+    	android:key="name"
+        android:title="Name"
+        android:summary="User's name"
+        android:defaultValue="" 
+        android:entryValues="@array/greetings"/>
+    <SpinnerPreference
+    	android:key="greeting"
+        android:title="Greeting"
+        android:summary="How to say hi"
+        android:defaultValue="Hello" 
+        android:id="@+id/greetingSpinner"/>
+ </PreferenceScreen>

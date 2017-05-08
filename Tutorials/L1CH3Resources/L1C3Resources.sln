@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1C3Resources", "L1C3Resources\L1C3Resources.csproj", "{B7C23FA8-27F2-41FA-B3DF-2E4D9F90A6E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7C23FA8-27F2-41FA-B3DF-2E4D9F90A6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C23FA8-27F2-41FA-B3DF-2E4D9F90A6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C23FA8-27F2-41FA-B3DF-2E4D9F90A6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C23FA8-27F2-41FA-B3DF-2E4D9F90A6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = L1C3Resources\L1C3Resources.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess-Console", "DataAccessDemo\DataAccess-Console.csproj", "{C9D4D367-899A-4F8F-A962-C9FBF08245E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{9D7889E7-4662-404A-B359-96FA268A1521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess-Android", "DataAccess-Android\DataAccess-Android.csproj", "{DD9E6D45-E2D8-467C-9EA8-059046CFE085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D7889E7-4662-404A-B359-96FA268A1521}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9D7889E7-4662-404A-B359-96FA268A1521}.Debug|x86.Build.0 = Debug|Any CPU
+		{9D7889E7-4662-404A-B359-96FA268A1521}.Release|x86.ActiveCfg = Release|Any CPU
+		{9D7889E7-4662-404A-B359-96FA268A1521}.Release|x86.Build.0 = Release|Any CPU
+		{C9D4D367-899A-4F8F-A962-C9FBF08245E4}.Debug|x86.ActiveCfg = Debug|x86
+		{C9D4D367-899A-4F8F-A962-C9FBF08245E4}.Debug|x86.Build.0 = Debug|x86
+		{C9D4D367-899A-4F8F-A962-C9FBF08245E4}.Release|x86.ActiveCfg = Release|x86
+		{C9D4D367-899A-4F8F-A962-C9FBF08245E4}.Release|x86.Build.0 = Release|x86
+		{DD9E6D45-E2D8-467C-9EA8-059046CFE085}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DD9E6D45-E2D8-467C-9EA8-059046CFE085}.Debug|x86.Build.0 = Debug|Any CPU
+		{DD9E6D45-E2D8-467C-9EA8-059046CFE085}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD9E6D45-E2D8-467C-9EA8-059046CFE085}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DataAccessDemo\DataAccessDemo.csproj
+	EndGlobalSection
+EndGlobal

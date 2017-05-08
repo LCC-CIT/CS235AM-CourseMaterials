@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="start">Start Demo Activity</string>
+	<string name="app_name">ActivityExperiments</string>
+	<string name="back">Take me back!</string>
+</resources>

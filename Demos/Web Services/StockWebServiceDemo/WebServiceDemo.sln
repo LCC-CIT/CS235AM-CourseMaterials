@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsDemo.DAL", "WsDemo.DAL\WsDemo.DAL.csproj", "{9E74A79D-4CD8-4099-AF0A-D2A965AA5B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsDemo.Console", "WsDemo.Console\WsDemo.Console.csproj", "{E21C0271-DD0A-4A5A-BA7E-7864B7E60553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsDemo.DroidGUI", "WsDemo.DroidGUI\WsDemo.DroidGUI.csproj", "{E1A129D4-81E8-48A9-B776-B68463D87527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E74A79D-4CD8-4099-AF0A-D2A965AA5B4E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E74A79D-4CD8-4099-AF0A-D2A965AA5B4E}.Debug|x86.Build.0 = Debug|Any CPU
+		{9E74A79D-4CD8-4099-AF0A-D2A965AA5B4E}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E74A79D-4CD8-4099-AF0A-D2A965AA5B4E}.Release|x86.Build.0 = Release|Any CPU
+		{E1A129D4-81E8-48A9-B776-B68463D87527}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E1A129D4-81E8-48A9-B776-B68463D87527}.Debug|x86.Build.0 = Debug|Any CPU
+		{E1A129D4-81E8-48A9-B776-B68463D87527}.Release|x86.ActiveCfg = Release|Any CPU
+		{E1A129D4-81E8-48A9-B776-B68463D87527}.Release|x86.Build.0 = Release|Any CPU
+		{E21C0271-DD0A-4A5A-BA7E-7864B7E60553}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E21C0271-DD0A-4A5A-BA7E-7864B7E60553}.Debug|x86.Build.0 = Debug|Any CPU
+		{E21C0271-DD0A-4A5A-BA7E-7864B7E60553}.Release|x86.ActiveCfg = Release|Any CPU
+		{E21C0271-DD0A-4A5A-BA7E-7864B7E60553}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = WsDemo.Console\WsDemo.Console.csproj
+	EndGlobalSection
+EndGlobal

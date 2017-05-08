@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Button1Text">Poke screen 2!</string>
+	<string name="Button1PokeMessage">Screen 1 poked you!</string>
+	<string name="Button2Text">Poke screen 1!</string>
+	<string name="Button2PokeMessage">Screen 2 poked you!</string>
+	<string name="app_name">Lab2</string>
+</resources>

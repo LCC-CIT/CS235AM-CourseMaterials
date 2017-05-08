@@ -1,0 +1,5 @@
+UI with C#
+-1 layout Main.axml should only have LinearLayout
+
+UI with AXML
+no errors

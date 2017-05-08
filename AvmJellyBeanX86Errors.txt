@@ -1,0 +1,13 @@
+Starting emulator for AVD 'JellyBeanX86'
+Failed to create Context 0x3005
+emulator: WARNING: Could not initialize OpenglES emulation, using software renderer.
+could not get wglGetExtensionsStringARB
+could not get wglGetExtensionsStringARB
+could not get wglGetExtensionsStringARB
+could not get wglGetExtensionsStringARB
+could not get wglGetExtensionsStringARB
+could not get wglGetExtensionsStringARB
+could not get wglGetExtensionsStringARB
+emulator: device fd:700
+could not get wglGetExtensionsStringARB
+HAX is working and emulator runs in fast virt mode

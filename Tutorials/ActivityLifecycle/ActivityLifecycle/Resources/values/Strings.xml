@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mybutton_text">My Button</string>
+	<string name="counterbutton_text">Click to add 1. Count = </string>
+	<string name="app_name">ActivityLifecycle</string>
+</resources>

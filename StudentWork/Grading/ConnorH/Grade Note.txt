@@ -1,0 +1,8 @@
+UI in C#
+-4 The first button should set the value of a TextView
+The second should reset the same label
+
+UI with AXML
+-2 no TextView
+
+Total -6

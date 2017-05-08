@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="@string/GameLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GameLabel"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <TextView
+        android:text="@string/countLabel"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gamePlaysText"
+        android:gravity="center" />
+    <TextView
+        android:text="@string/winLabel"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerWinsText"
+        android:gravity="center" />
+    <ImageButton
+        android:src="@drawable/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/StartButton"
+        android:hapticFeedbackEnabled="true"
+        android:adjustViewBounds="false"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

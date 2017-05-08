@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpsDemo.HardCodedFrag", "RpsDemo.HardCodedFrag\RpsDemo.HardCodedFrag.csproj", "{80ABB2FF-CC25-4972-A2DE-F3BE0B86F949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpsDemo.DynamicFragLoad", "RpsDemo.DynamicFrag\RpsDemo.DynamicFragLoad.csproj", "{9C360207-CA20-40EB-B72A-435A2B18C53D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80ABB2FF-CC25-4972-A2DE-F3BE0B86F949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80ABB2FF-CC25-4972-A2DE-F3BE0B86F949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80ABB2FF-CC25-4972-A2DE-F3BE0B86F949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80ABB2FF-CC25-4972-A2DE-F3BE0B86F949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C360207-CA20-40EB-B72A-435A2B18C53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C360207-CA20-40EB-B72A-435A2B18C53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C360207-CA20-40EB-B72A-435A2B18C53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C360207-CA20-40EB-B72A-435A2B18C53D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RpsDemo.DynamicFrag\RpsDemo.DynamicFragLoad.csproj
+	EndGlobalSection
+EndGlobal

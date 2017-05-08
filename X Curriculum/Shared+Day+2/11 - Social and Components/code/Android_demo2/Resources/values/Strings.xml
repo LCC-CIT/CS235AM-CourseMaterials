@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="app_name" >Evolve Lite</string>
+
+  <!-- Labels for the TabWidget -->
+  <string name="activity_speakers_label" >Speakers</string>
+  <string name="activity_sessions_label" >Sessions</string>
+  <string name="activity_whats_on_label" >What\'s On</string>
+  <string name="activity_my_schedule_label" >Favourites</string>
+  <string name="activity_photos_label">Social2</string>
+
+  <plurals name="speaker_sessions" >
+    <item quantity="one" >One session.</item>
+    <item quantity="other" >%d sessions.</item>
+  </plurals>
+
+  <!-- String resources for menus -->
+  <string name="menu_apply_filter">Apply Sepia</string>
+  <string name="menu_authenticate_twitter">Login to Twitter</string>
+  <string name="menu_delete_picture">Delete</string>
+  <string name="menu_refresh_data" >Update</string>
+  <string name="menu_share_with_twitter">Tweet</string>
+  <string name="menu_share_with_email">Email</string>
+  <string name="menu_take_picture">Take Picture</string>
+
+  <!-- String resources to use when retrieving data. -->
+  <string name="apply_sepia_filter_title">Transmorgifying</string>
+  <string name="apply_sepia_filter_message">Applying sepia filter...</string>
+  <string name="camera_not_available">Camera is unavailable</string>
+  <string name="downloading_sessions_json_message" >Downloading data...</string>
+  <string name="downloading_sessions_json_title" >Updating</string>
+  <string name="loading_sessions_json_message">Building speaker list...</string>
+  <string name="loading_sessions_json_title">Speakers</string>
+  <string name="no_twitter_client">Please install Twitter for Android or TweetCaster.</string>
+</resources>

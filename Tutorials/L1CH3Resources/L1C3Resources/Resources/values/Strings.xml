@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">L1C3Resources</string>
+	<string name="button_clicked_text">You\'ve clicked %d times.</string>
+</resources>

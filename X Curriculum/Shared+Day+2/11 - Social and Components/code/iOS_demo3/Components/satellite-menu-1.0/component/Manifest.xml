@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="satellite-menu">
+  <name>Satellite Menu</name>
+  <publisher>IOS BITS Ltd.</publisher>
+  <publisher-url>http://iosbits.co.uk/</publisher-url>
+  <version>1.0</version>
+  <summary>An unobtrusive button that smoothly expands to a radial 'satellite' menu when tapped.</summary>
+  <samples>
+    <sample id="SatelliteMenuSample.iOS">
+      <name>iOS Samples.</name>
+      <summary>iOS Samples</summary>
+    </sample>
+  </samples>
+</component>

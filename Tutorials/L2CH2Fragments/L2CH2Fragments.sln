@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FragmentSample", "FragmentSample\FragmentSample.csproj", "{983B8E59-8A62-4E7E-AE4A-395A00E3D1FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FragmentUsingSupport", "FragmentUsingSupport\FragmentUsingSupport.csproj", "{E1CC07A6-4294-4ED3-8DDC-A6A32CFA896D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{983B8E59-8A62-4E7E-AE4A-395A00E3D1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983B8E59-8A62-4E7E-AE4A-395A00E3D1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983B8E59-8A62-4E7E-AE4A-395A00E3D1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983B8E59-8A62-4E7E-AE4A-395A00E3D1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CC07A6-4294-4ED3-8DDC-A6A32CFA896D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CC07A6-4294-4ED3-8DDC-A6A32CFA896D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CC07A6-4294-4ED3-8DDC-A6A32CFA896D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CC07A6-4294-4ED3-8DDC-A6A32CFA896D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FragmentSample\FragmentSample.csproj
+	EndGlobalSection
+EndGlobal

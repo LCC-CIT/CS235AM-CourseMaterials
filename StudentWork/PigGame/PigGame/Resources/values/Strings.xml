@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="ApplicationName">Pig Game</string>
+	<string name="Data">Press Die to roll</string>
+	<string name="EndButton">End Turn</string>
+	<string name="winLabel">click the button below</string>
+	<string name="countLabel">To play this game you must</string>
+	<string name="GameLabel">Ready to play pig?</string>
+	<string name="doneButton">Press to review</string>
+	<string name="settingsHeader">Settings</string>
+	<string name="number_of_die_to_roll">How many die would you like to roll:</string>
+	<string name="die_prompt">How many sides on the die: </string>
+	<string name="disclaimer">your roll will end on Roll mod 6</string>
+	<string name="NumberofDieRadioText">How many dies would you like to roll:</string>
+	<string-array name="die_numbers_array">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+	</string-array>
+	<string name="InputPrompt">How long would you like to play: </string>
+	<string name="commit">Commit changes and start new game</string>
+</resources>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://stock.webservice.net.in" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://stock.webservice.net.in" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Stock Details - All Exchange (created by sandip.nascar)</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://stock.webservice.net.in">
+      <s:element name="StockExists">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="symbol" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StockExistsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StockExistsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStockQuote">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="symbol" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStockQuoteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStockQuoteResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStckChart">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="symbol" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="chartparam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStckChartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStckChartResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="base64Binary" nillable="true" type="s:base64Binary" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="StockExistsSoapIn">
+    <wsdl:part name="parameters" element="tns:StockExists" />
+  </wsdl:message>
+  <wsdl:message name="StockExistsSoapOut">
+    <wsdl:part name="parameters" element="tns:StockExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStockQuoteSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStockQuote" />
+  </wsdl:message>
+  <wsdl:message name="GetStockQuoteSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStockQuoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStckChartSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStckChart" />
+  </wsdl:message>
+  <wsdl:message name="GetStckChartSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStckChartResponse" />
+  </wsdl:message>
+  <wsdl:message name="StockExistsHttpGetIn">
+    <wsdl:part name="symbol" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StockExistsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStockQuoteHttpGetIn">
+    <wsdl:part name="symbol" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStockQuoteHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStckChartHttpGetIn">
+    <wsdl:part name="symbol" type="s:string" />
+    <wsdl:part name="chartparam" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStckChartHttpGetOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:message name="StockExistsHttpPostIn">
+    <wsdl:part name="symbol" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StockExistsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStockQuoteHttpPostIn">
+    <wsdl:part name="symbol" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStockQuoteHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStckChartHttpPostIn">
+    <wsdl:part name="symbol" type="s:string" />
+    <wsdl:part name="chartparam" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStckChartHttpPostOut">
+    <wsdl:part name="Body" element="tns:base64Binary" />
+  </wsdl:message>
+  <wsdl:portType name="Stock_x0020_WebserviceSoap">
+    <wsdl:operation name="StockExists">
+      <wsdl:input message="tns:StockExistsSoapIn" />
+      <wsdl:output message="tns:StockExistsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStockQuote">
+      <wsdl:input message="tns:GetStockQuoteSoapIn" />
+      <wsdl:output message="tns:GetStockQuoteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStckChart">
+      <wsdl:input message="tns:GetStckChartSoapIn" />
+      <wsdl:output message="tns:GetStckChartSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Stock_x0020_WebserviceHttpGet">
+    <wsdl:operation name="StockExists">
+      <wsdl:input message="tns:StockExistsHttpGetIn" />
+      <wsdl:output message="tns:StockExistsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStockQuote">
+      <wsdl:input message="tns:GetStockQuoteHttpGetIn" />
+      <wsdl:output message="tns:GetStockQuoteHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStckChart">
+      <wsdl:input message="tns:GetStckChartHttpGetIn" />
+      <wsdl:output message="tns:GetStckChartHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Stock_x0020_WebserviceHttpPost">
+    <wsdl:operation name="StockExists">
+      <wsdl:input message="tns:StockExistsHttpPostIn" />
+      <wsdl:output message="tns:StockExistsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStockQuote">
+      <wsdl:input message="tns:GetStockQuoteHttpPostIn" />
+      <wsdl:output message="tns:GetStockQuoteHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStckChart">
+      <wsdl:input message="tns:GetStckChartHttpPostIn" />
+      <wsdl:output message="tns:GetStckChartHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Stock_x0020_WebserviceSoap" type="tns:Stock_x0020_WebserviceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StockExists">
+      <soap:operation soapAction="http://stock.webservice.net.in/StockExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockQuote">
+      <soap:operation soapAction="http://stock.webservice.net.in/GetStockQuote" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStckChart">
+      <soap:operation soapAction="http://stock.webservice.net.in/GetStckChart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Stock_x0020_WebserviceSoap12" type="tns:Stock_x0020_WebserviceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StockExists">
+      <soap12:operation soapAction="http://stock.webservice.net.in/StockExists" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockQuote">
+      <soap12:operation soapAction="http://stock.webservice.net.in/GetStockQuote" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStckChart">
+      <soap12:operation soapAction="http://stock.webservice.net.in/GetStckChart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Stock_x0020_WebserviceHttpGet" type="tns:Stock_x0020_WebserviceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="StockExists">
+      <http:operation location="/StockExists" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockQuote">
+      <http:operation location="/GetStockQuote" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStckChart">
+      <http:operation location="/GetStckChart" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Stock_x0020_WebserviceHttpPost" type="tns:Stock_x0020_WebserviceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="StockExists">
+      <http:operation location="/StockExists" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockQuote">
+      <http:operation location="/GetStockQuote" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStckChart">
+      <http:operation location="/GetStckChart" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Stock_x0020_Webservice">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get Stock Details - All Exchange (created by sandip.nascar)</wsdl:documentation>
+    <wsdl:port name="Stock_x0020_WebserviceSoap" binding="tns:Stock_x0020_WebserviceSoap">
+      <soap:address location="http://stock.webservice.net.in/stockquoteservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Stock_x0020_WebserviceSoap12" binding="tns:Stock_x0020_WebserviceSoap12">
+      <soap12:address location="http://stock.webservice.net.in/stockquoteservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Stock_x0020_WebserviceHttpGet" binding="tns:Stock_x0020_WebserviceHttpGet">
+      <http:address location="http://stock.webservice.net.in/stockquoteservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Stock_x0020_WebserviceHttpPost" binding="tns:Stock_x0020_WebserviceHttpPost">
+      <http:address location="http://stock.webservice.net.in/stockquoteservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

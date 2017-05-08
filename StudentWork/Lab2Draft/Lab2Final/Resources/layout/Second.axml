@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/screen2Label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/screen2Text"
+        style="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
+        android:textColor="#ff03fbfb" />
+    <Button
+        android:id="@+id/showFirst"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secondActButtonText" />
+    <ImageView
+        android:src="@drawable/darwin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2" />
+</LinearLayout>

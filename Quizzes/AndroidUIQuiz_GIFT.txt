@@ -1,0 +1,78 @@
+::Android Button image and text::
+An Android button control may display content from which of the following types of resources?  {
+~%33.33333%string
+~%33.33333%drawable
+~%33.33333%string and drawable together
+~%-33.33333%layout
+~%-33.33333%xml }
+
+
+::Android State-list drawable::
+The background of an Andorid Button control can provide a visual indication of the state of the button using a state-list drawable. Which of the following are button states that could be represented in a state-list drawable? {
+~%-25%state_up
+~%50%state_pressed
+~%-25%state_down
+~%50%state_focused
+~%-25%state_off }
+
+
+::TextView::
+What is an Android TextView control used for? {
+~It provides a way for a user to enter text
+~It provides a way for a user to enter and edit text
+=It can only display text
+~If the read-only property is false, it can be used to enter, edit, and display text
+~It is only used for entering and displaying text messages (SMS messages) }
+
+
+::Android EditText input types::
+The Android EditText control can be set to behave differently for different types of input. Which of the following are valid input types? {
+~%-33.33333%numberComplex
+~%-33.33333%monthDayYear
+~%33.33333%date
+~%33.33333%textPassword
+~%33.33333%phone }
+
+
+::Android auto-complete TextView::
+An Android Auto-complete TextView will provide the user with suggestions based on what the user types. The suggestions are provided by: { 
+~<item> elements in the XML resource file for the TextView
+~a C\# list object in an override to the OnAutoComlete method
+=an ArrayAdapter
+~the system
+~a bundle  }
+
+
+::Android CheckBox::
+[markdown]In the event handler for an Android CheckBox, the Checked property can be read on which object? { 
+~The object returned by FindViewByID
+~a CheckBox instance member of the main activity
+~a CheckBox object passed to OnCreate in a bundle
+=a CheckBox object passed to the Click event hander in the *sender* object
+~None, since the Click event is only called when the CheckBox is checked  }
+
+
+::Android RadioButton controls::
+Which of the following are true for Android RadioButton controls? {
+~%-25%Their behavior is identical to CheckBox controls- only the appearance is different
+~%33.33333%They may be grouped together by a RadioGroup
+~%-25%Initially, at least one RadioButton in a  RadioGroup must be checked
+~%33.33333%RadioButton controls may be selected or unselected programmatically
+~%33.33333%Only one RadioButton in a RadioGroup can be selected at a time }
+
+
+::Android ToggleButton controls::
+[markdown]Which of the following are true for Android ToggleButton controls? {
+~%25%A Switch is a type of ToggleButton
+~%-25%They may be grouped together by a RadioGroup
+~%25%They always give visual indication of their state
+~%25%They may only be in one of two states
+~%25%Their state can be read from their *Checked* property }
+
+::Android ToggleButton controls::
+[markdown]Which of the following are true for the Android Spinner control? {
+~%25%When a user selects it, a drop-down list of possible values is displayed
+~%25%The possible values displayed by a spinner are provided by an ArrayAdapter
+~%-25%It can only be used to select numeric values
+~%25%When the user selects a value, the ItemSelected event is raised
+~%25%The list of possible values can be defined in an *array resource* }

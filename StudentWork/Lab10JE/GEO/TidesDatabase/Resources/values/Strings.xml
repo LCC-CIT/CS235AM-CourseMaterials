@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">TidesDatabase</string>
+	<string name="StationPromt">Select which station you would like to see the tides from</string>
+</resources>

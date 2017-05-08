@@ -1,0 +1,62 @@
+//1
+// Text should explain these better- can I add explanation to the question?
+::Web services::
+Match the Web service types on the left with the correct description on the right. { 
+=REST -> Simple to consume, platform independant, based on HTTP 
+=WCF -> Microsoft specific technology 
+=SOAP-> Standards based, allows providers to abstract data and trasport implementation
+}
+
+//2
+::REST Client Libraries::
+Which of the following are classes that are part of the .NET/Mono framework and could be used to implement a REST client? {
+~%-33.33333%RestSharp
+~%33.33333%HttpWebRequest
+~%-33.33333%ServiceStack
+~%33.33333%WebClient
+~%33.33333%HttpWebResponse
+}
+
+//3
+::HttpWebRequest, HttpWebResponse::
+Match the descriptions of the steps to make and consume a REST request on the left with the matching lines of code on the right. (Assume var restUri \= string.Format( @"http://rxnav.nlm.nih.gov/REST/RxTerms/rxcui/\{0\}/allinfo", rxcui );
+{ 
+=Creating the request instance for a particular URI -> var request \= HttpWebRequest.Create(restUri, rxcui));
+=Setting the response data format property on the request instance -> request.ContentType \= "application/json"; 
+=Setting request method properties on the request instance -> request.Method \= "GET"; 
+=Retrieving an HttpWebResponse from the request -> var HttpWebResponse response \= request.GetResponse() as HttpWebResponse;
+=Read data out of the response -> StreamReader reader \= new StreamReader(response.GetResponseStream();
+}
+
+//4
+::Asynch callback::
+In the sample code, in the section, Calling Services Asynchronously, which of the following methods will be called first when the web service issues an asynchronous response? {
+~ViewDidAppear
+~BeginInvokeOnMainThread
+~GetRxTermAsynch
+=FinishedGettingDrugConcept
+~ReloadData
+}
+
+//5
+::Response data format::
+REST responses are most often formatted according to which standards? {
+~%50%JSON
+~%50%XML
+~%-33.33333%CSV
+~%-33.33333%HTML
+~%-33.33333%XHTML
+}
+
+//6
+::Response parsing classes::
+All of the following classes and class libraries can be used for deserializing REST responses. Which ones are included in the .NET/Mono framework? {
+~%33.33333%System.Xml
+~%33.33333%System.Json
+~%-33.33333%Json.NET
+~%-33.33333%ServiceStack.Text
+~%33.33333%System.Xml.LInq
+}
+
+
+//End
