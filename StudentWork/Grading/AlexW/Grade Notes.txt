@@ -1,8 +1,0 @@
-in code solution
--1 forgot to remove count = 1
--1 hello from the button not a string constant
-
-AXML solution
-No errors
-
-total -2

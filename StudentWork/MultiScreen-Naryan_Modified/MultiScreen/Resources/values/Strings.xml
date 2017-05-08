@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">MultiScreen</string>
-	<string name="progress"> screen changes</string>
-	<string name="goTo">Press to switch</string>
-	<string name="poke">Click to poke</string>
-	<string name="label">first activity</string>
-</resources>

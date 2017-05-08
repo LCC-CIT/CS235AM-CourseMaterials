@@ -1,8 +1,0 @@
-UI with C#
--1 forgot to get rid of count variable
--1 should have stored strings in string constant
-
-UI with AXML
-no errors
-
-total -2

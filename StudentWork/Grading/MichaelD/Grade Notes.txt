@@ -1,6 +1,0 @@
-UI with C#
--1 Main.axml should only contain LinearLayout
--1 strings should be stored in string constants
-
-UI with AXML
-no errors

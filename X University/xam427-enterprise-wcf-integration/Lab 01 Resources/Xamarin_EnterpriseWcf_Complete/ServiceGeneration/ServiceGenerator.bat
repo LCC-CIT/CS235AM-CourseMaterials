@@ -1,1 +1,0 @@
-"%ProgramFiles(x86)%\Microsoft SDKs\Silverlight\v5.0\Tools\SLsvcUtil.exe" http://localhost:2116/MonkeyService.svc

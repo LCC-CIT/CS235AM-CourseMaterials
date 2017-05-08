@@ -1,8 +1,0 @@
-in code solution
--1 Main.axml still contains Button myButton
--1 strings should be sored in values strings.xml
-
-in xml solution
-no errors
-
-total - 2

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="app_name">Lab02</string>
-	<string name="viewTextDefault">Welcome</string>
-	<string name="buttonText1">Poke screen 2</string>
-	<string name="buttonText2">Poke screen 1</string>
-</resources>

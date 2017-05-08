@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>	
-	<string name="app_name">Poke-A-Screen</string>
-	<string name="ButtonPoke1">Poke Screen Two.</string>
-	<string name="ButtonPoke2">Poke Screen One.</string>
-	<string name="Scrn1Message">Screen one poked you.</string>
-	<string name="Scrn2Message">Screen two poked you.</string>
-</resources>

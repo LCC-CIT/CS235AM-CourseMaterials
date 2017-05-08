@@ -1,8 +1,0 @@
-UI with C#
--1 Main.axml should only have LinearLayout
-
-UI with AXML
--8 layout should be defined in Main.axml not
-MainActivity.cs
-
-total -9
