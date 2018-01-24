@@ -1,5 +1,228 @@
-<!DOCTYPE html><html>  <head>    <meta http-equiv="content-type" content="text/html; charset=UTF-8">    <title>Week 9, Day 1, REST Services</title>    <style type="text/css">body {  font-family: "Arial", "Helvetica", "sans-serif";}#week01 {  background-color: #f8ff2e;}code {  display:block;  font-size: larger;  background-color: lightgoldenrodyellow;  max-height:400px;  width:75%;  overflow:scroll;}.exercise {  background-color: #c6ffe2;}</style> </head>  <body>    <header> <b>CS295N Web Development 1: ASP.NET&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; January 10, 2018<br>      </b>      <div>Lesson Plan</div>      <div>Brian Bird</div>      <br>      <i><b>Topic: Creating your first app<br>        </b></i></header>    <section>      <article> <br>        <b>Weeks + Topics<br>        </b>        <table style="width: 807px; height: 127px;" border="1">          <tbody>            <tr>              <td id="week01">1. Intro to Android app dev with Xamarin</td>              <td>6. Displaying data in lists</td>            </tr>            <tr>              <td>2. Multi-screen applications</td>              <td>7. Storing data with SQLite</td>            </tr>            <tr>              <td>3. Android activity life-cycle</td>              <td id="week08">8. Geo-location</td>            </tr>            <tr>              <td>4. UI Fragments</td>              <td id="week09">9. Publishing to the Google Play store<br>              </td>            </tr>            <tr>              <td>5. Midterm</td>              <td>10. Term project<br>              </td>            </tr>          </tbody>        </table>        <b><br>          <br>          Introduction</b><br>        <ul>          <li>Review due dates on Moodle</li>          <ul>          </ul>        </ul>      </article>      <article>        <div><b>Overview</b></div>        <div>          <ul>            <b>              <li><a href="#topic1">Development Environment</a></li>              <li><a href="#topic2">Android "Single-View App" Project</a></li>              <li><a href="#topic3">C# review<br>                </a></li>              <br>            </b>          </ul>        </div>      </article>    </section>    <section>      <article id="topic1">        <p> <u><b>Development Environment</b></u></p>        <ul>          <ul>            <ul>            </ul>          </ul>        </ul>        We will be using Visual Studio with the Xamarin mobile development        extensions.        <ul>          <ul>            <ul>            </ul>          </ul>          <li>Set up Visual Studio and Tools</li>          <ul>            <li>Include "Mobile Development" in Visual Studio setup</li>            <ul>            </ul>            <li>The Google Android SDK will be installed with the above              selection</li>            <li>If the Android Virtual Device Manager provided in the Android              SDK isn't working, you can <a href="https://developer.xamarin.com/guides/android/getting_started/installation/android-emulator/xamarin-device-manager/"                target="_blank">download                the Xamarin Device Manager</a></li>            <ul>            </ul>            <li>Optional: Install the Microsoft Android Emulator if using              Windows 10 Pro or above </li>            <ul>            </ul>          </ul>          <li>Tour the Android SDK</li>          <li>Set up an emulator</li>          <ul>            <ul>            </ul>          </ul>        </ul>        <ul>          <ul>          </ul>          <ul>          </ul>        </ul>        <p></p>      </article>      <article id="topic2">        <p><u><b>Android "Single-View App" Project </b></u></p>        <ul>        </ul>        There are multiple project templates for Android. This app will have one        activity with an XML UI layout that includes a button.<br>        <ul>          <li>Tour of the project solution</li>          <ul>            <li>Components</li>            <li>Assets</li>            <li>Resources</li>            <ul>              <li>Layout</li>              <li>Multiple sizes and resolutions of images</li>            </ul>            <li>MainActivity</li>          </ul>          <li>Tour of the MainActivity</li>          <ul>            <li>Concept of a <i>framework</i></li>            <ul>              <li>Prefabbed skeletal app</li>              <li>Uses callbacks</li>              <ul>                <li>Callback methods are called by the framework, not by our                  code</li>                <li>Our MainActivity class inherits from the SDK Activity class</li>                <li>We override the base class call-back methods to implement                  our own functionality</li>              </ul>            </ul>          </ul>          <li>Modifying the code</li>          <ul>            <li>Creating a UI in XML</li>            <li>Creating a UI in code</li>            <li>Handling UI events</li>          </ul>          <li>Deploying the app</li>          <ul>            <li>To an emulator</li>            <li>To a device</li>          </ul>        </ul>      </article>      <article id="topic3">        <p><u><b>C# Review<br>            </b></u></p>        <ul>          <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/"              title="Microsoft docs"              target="_blank">Attributes</a></li>          <ul>            <li>Associate<span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">                metadata, or declarative information, with code<span class="Apple-converted-space">                  <br>                </span></span></li>            <li><span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Your
-                program can examine its own metadata</span></li>          </ul>          <li><span style=" color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"><a                href="https://docs.microsoft.com/en-us/dotnet/csharp/delegates-overview"                title="Microsoft docs"                target="_blank">Delegates</a></span></li>          <ul>            <li>Facilitates anonymous methods<br>              <span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"></span></li>            <li><span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">A<span                  class="Apple-converted-space">                </span></span><em style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">late
-                binding</em><span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"><span                  class="Apple-converted-space">&nbsp;</span>mechanism
-                - the algorithm (code) is provided at run-time.</span></li>            <li><span style=" color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Used
-                in Activities to define event handlers<br>              </span></li>          </ul>          <ul>          </ul>        </ul>      </article>    </section>  </body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Week 1, Day 2, First App</title>
+    <style type="text/css">
+body {
+  font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+#week01 {
+  background-color: #f8ff2e;
+}
+
+code {
+  display:block;
+  font-size: larger;
+  background-color: lightgoldenrodyellow;
+  max-height:400px;
+  width:75%;
+  overflow:scroll;
+}
+
+.exercise {
+  background-color: #c6ffe2;
+}
+
+</style> </head>
+  <body>
+    <header> <b><b>CS235AM, Mobile Application Development: Android
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</b>&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; January 10, 2018<br>
+      </b>
+      <div>Lesson Plan</div>
+      <div>Brian Bird</div>
+      <br>
+      <i><b>Topic: Creating your first app<br>
+        </b></i></header>
+    <section>
+      <article> <br>
+        <b>Weeks + Topics<br>
+        </b>
+        <table style="width: 807px; height: 127px;" border="1">
+          <tbody>
+            <tr>
+              <td id="week01">1. Intro to Android app dev with Xamarin</td>
+              <td>6. Displaying data in lists</td>
+            </tr>
+            <tr>
+              <td>2. Multi-screen applications</td>
+              <td>7. Storing data with SQLite</td>
+            </tr>
+            <tr>
+              <td>3. Android activity life-cycle</td>
+              <td id="week08">8. Geo-location</td>
+            </tr>
+            <tr>
+              <td>4. UI Fragments</td>
+              <td id="week09">9. Publishing to the Google Play store<br>
+              </td>
+            </tr>
+            <tr>
+              <td>5. Midterm</td>
+              <td>10. Term project<br>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <b><br>
+          <br>
+          Introduction</b><br>
+        <ul>
+          <li>Review due dates on Moodle</li>
+          <ul>
+          </ul>
+        </ul>
+      </article>
+      <article>
+        <div><b>Overview</b></div>
+        <div>
+          <ul>
+            <b>
+              <li><a href="#topic1">Development Environment</a></li>
+              <li><a href="#topic2">Android "Single-View App" Project</a></li>
+              <li><a href="#topic3">C# review<br>
+                </a></li>
+              <br>
+            </b>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section>
+      <article id="topic1">
+        <p> <u><b>Development Environment</b></u></p>
+        <ul>
+          <ul>
+            <ul>
+            </ul>
+          </ul>
+        </ul>
+        We will be using Visual Studio with the Xamarin mobile development
+        extensions.
+        <ul>
+          <ul>
+            <ul>
+            </ul>
+          </ul>
+          <li>Set up Visual Studio and Tools</li>
+          <ul>
+            <li>Include "Mobile Development" in Visual Studio setup</li>
+            <ul>
+            </ul>
+            <li>The Google Android SDK will be installed with the above
+              selection</li>
+            <li>If the Android Virtual Device Manager provided in the Android
+              SDK isn't working, you can <a href="https://developer.xamarin.com/guides/android/getting_started/installation/android-emulator/xamarin-device-manager/"
+                target="_blank">download
+                the Xamarin Device Manager</a></li>
+            <ul>
+            </ul>
+            <li>Optional: Install the Microsoft Android Emulator if using
+              Windows 10 Pro or above </li>
+            <ul>
+            </ul>
+          </ul>
+          <li>Tour the Android SDK</li>
+          <li>Set up an emulator</li>
+          <ul>
+            <ul>
+            </ul>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+          </ul>
+          <ul>
+          </ul>
+        </ul>
+        <p></p>
+      </article>
+      <article id="topic2">
+        <p><u><b>Android "Single-View App" Project </b></u></p>
+        <ul>
+        </ul>
+        There are multiple project templates for Android. This app will have one
+        activity with an XML UI layout that includes a button.<br>
+        <ul>
+          <li>Tour of the project solution</li>
+          <ul>
+            <li>Components</li>
+            <li>Assets</li>
+            <li>Resources</li>
+            <ul>
+              <li>Layout</li>
+              <li>Multiple sizes and resolutions of images</li>
+            </ul>
+            <li>MainActivity</li>
+          </ul>
+          <li>Tour of the MainActivity</li>
+          <ul>
+            <li>Concept of a <i>framework</i></li>
+            <ul>
+              <li>Prefabbed skeletal app</li>
+              <li>Uses callbacks</li>
+              <ul>
+                <li>Callback methods are called by the framework, not by our
+                  code</li>
+                <li>Our MainActivity class inherits from the SDK Activity class</li>
+                <li>We override the base class call-back methods to implement
+                  our own functionality</li>
+              </ul>
+            </ul>
+          </ul>
+          <li>Modifying the code</li>
+          <ul>
+            <li>Creating a UI in XML</li>
+            <li>Creating a UI in code</li>
+            <li>Handling UI events</li>
+          </ul>
+          <li>Deploying the app</li>
+          <ul>
+            <li>To an emulator</li>
+            <li>To a device</li>
+          </ul>
+        </ul>
+      </article>
+      <article id="topic3">
+        <p><u><b>C# Review<br>
+            </b></u></p>
+        <ul>
+          <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/"
+              title="Microsoft docs"
+              target="_blank">Attributes</a></li>
+          <ul>
+            <li>Associate<span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">
+                metadata, or declarative information, with code<span class="Apple-converted-space">
+                  <br>
+                </span></span></li>
+            <li><span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Your
+                program can examine its own metadata</span></li>
+          </ul>
+          <li><span style=" color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"><a
+                href="https://docs.microsoft.com/en-us/dotnet/csharp/delegates-overview"
+                title="Microsoft docs"
+                target="_blank">Delegates</a></span></li>
+          <ul>
+            <li>Facilitates anonymous methods<br>
+              <span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"></span></li>
+            <li><span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">A<span
+                  class="Apple-converted-space">
+                </span></span><em style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;">late
+                binding</em><span style="color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"><span
+                  class="Apple-converted-space">&nbsp;</span>mechanism
+                - the algorithm (code) is provided at run-time.</span></li>
+            <li><span style=" color: rgb(34, 34, 34); font-family: segoe-ui_normal, &quot;Segoe UI&quot;, Segoe, &quot;Segoe WP&quot;, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Used
+                in Activities to define event handlers<br>
+              </span></li>
+          </ul>
+          <ul>
+          </ul>
+        </ul>
+      </article>
+    </section>
+  </body>
+</html>
