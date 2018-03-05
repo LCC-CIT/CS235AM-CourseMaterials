@@ -83,14 +83,14 @@ code {
       </table>
       <br>
       <h2><b><b>Contents</b></b></h2>
-      <div>
+      <div> <br>
         <ul>
           <b>
             <li><a href="#topic1">Introduction</a></li>
-            <li><a href="#topic2">Ad-hoc distribution</a></li>
-            <li><a href="#topic3">Google Play:Alpha and Beta Testing</a></li>
-            <li><a href="#topic4">Google Play: Releasing an app</a></li>
-            <li><a href="#topic5">Models</a></li>
+            <li><a href="#topic2">Preparation for distribution</a></li>
+            <li><a href="#topic3">Ad-hoc distribution</a></li>
+            <li><a href="#topic4">Google Play:Alpha and Beta Testing</a></li>
+            <li><a href="#topic5">Google Play: Releasing an app</a></li>
             <li><a href="#topic6">Example</a></li>
             <li><a href="#topic7">Further Reading</a></li>
             <li><a href="#topic8">Next Class</a></li>
@@ -117,182 +117,114 @@ code {
           <ul>
             <li>Add-hoc distribution</li>
             <li>Publish to the Play Store for testing</li>
-            <li>Release an app to the general publich<br>
+            <li>Release an app to the general publish</li>
+          </ul>
+          <li>Registering to distribute apps through Google Play<br>
+          </li>
+          <ul>
+            <li><a
+href="https://support.google.com/googleplay/android-developer/answer/6112435">How
+
+                to use the Play Console</a><br>
             </li>
           </ul>
         </ul>
       </article>
       <article id="topic2">
-        <h2>Ad-Hoc Distribution</h2>
-        <h3>Object Relationships</h3>
-        <ul>
-          <li> Inheritance: is-a, triangle</li>
+        <h2>Preparation for Distribution</h2>
+        These steps need to be completed regardless of the distribution
+        method. Even to dis<br>
+        <br>
+        <ol>
+          <li>Ensure the app has an icon - set in the project
+            properties, "Android Manifest"</li>
+          <li>Set the application version - same as above</li>
+          <li>Specify the best linking option - in project properties,
+            "Android Options", Linking, choose "Sdk Assemblies only"</li>
+          <li>Enable pro-guard - prevents reverse engineering and
+            shrinks the APK. Same property page as above</li>
+          <li>Archive for publishing - Go to "Build", "Archive..." - The
+            archive (APK) will be built<br>
+          </li>
+          <li>Sign the APK - Go to "Tools",&nbsp; "Archive Manager" (you
+            are already there if you just did step 5)<br>
+          </li>
           <ul>
-            <li> Example: A student is a person</li>
+            <li>Click the Distribute button</li>
+            <li>Choose a type of distribution (Ad-Hoc or Google Play)</li>
+            <li>Click + to create a new signing identity (You must fill
+              in <span style="text-decoration: underline;">all</span>
+              the fields)<br>
+            </li>
+            <li>Save the APK to a folder of your choice</li>
           </ul>
-          <li> Composition: has-a, black diamond</li>
-          <ul>
-            <li> Example: A student has an address</li>
-          </ul>
-          <li> Aggregation: whole-part, open diamond</li>
-          <ul>
-            <li> A student is a part of a class</li>
-          </ul>
-        </ul>
-        <h3>Types of Models</h3>
-        <ul>
-          <li>Domain Model</li>
-          <ul>
-            <li>Represents things in the application domain</li>
-            <li>Usually represents the entities stored in the database
-              and / or repositories</li>
-            <li>Used by the Controller and possibly Views</li>
-          </ul>
-          <li>View Model</li>
-          <ul>
-            <li>Just used to pass data from a controller method to a
-              View</li>
-          </ul>
-        </ul>
-        <h3> </h3>
+          <li>The APK file is now ready for distribution<br>
+          </li>
+        </ol>
+        <p>Reference: Xamarin Guide: <a
+href="https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/release-prep/">Preparing
+            an Application for Release</a><br>
+        </p>
       </article>
       <article id="topic3">
-        <h2>Alpha and&nbsp; Beta Testing via the Play Store </h2>
+        <h2>Ad-Hoc Distribution</h2>
+        Prepare the APK for distribution using the steps above. Next, do
+        one of the following:<span style="font-weight: bold;"></span><br>
         <ul>
-          <li>MVC facilitates unit testing</li>
+          <li>Copy the APK file to a device using a USB cable</li>
+          <li>Put the APK on a flash drive</li>
+          <li>Email a copy of the APK</li>
+          <li>Post the APK on a website for download</li>
           <ul>
-            <li>One reason to use the MVC pattern is that it facilitates
-              unit testing</li>
+            <li>A free website developers can use to distribute their
+              APKs for testing: <a
+                href="https://www.diawi.com/features-services">diawi</a><br>
+            </li>
           </ul>
-          <li>What to test?</li>
-          <ul>
-            <li>Business logic (in models, or in separate classes)</li>
-            <ul>
-              <li>If Models just contain simple C# properties, they
-                don't really need tests</li>
-            </ul>
-            <li>Controller methods</li>
-            <ul>
-              <li>This is what usually makes the most sense to test</li>
-            </ul>
-          </ul>
-          <li>Test using data from a real database? No!</li>
-          <ul>
-            <li>Why?</li>
-            <ul>
-              <li>The database may not contain optimal data for doing
-                certain tests. </li>
-              <li>It’s not advisable to put test data into a production
-                database</li>
-              <li>The data can change over time and cause tests to fail.</li>
-              <li>The tests could cause unwanted changes to the real
-                data.</li>
-            </ul>
-            <li>Solution - test against a "fake" repository</li>
-          </ul>
-          <li>xUnit</li>
-          <ul>
-            <li>Used by the .NET Core team to test their own code.</li>
-            <li>Test runner integrated in Visuals Studio</li>
-            <li>Note: Assert.Equal method uses the Equal method of .NET
-              objects for comparison. Primitive .NET types and many
-              classes in the .NET library have fully implemented this
-              method. You only need to write a Compare class (as shown
-              in the textbook) if you are using a class that doesn't
-              already have a comparator implemented for the Equals
-              method.</li>
-          </ul>
-          <li>Reference - <a href="https://xunit.github.io">xunit.github.io</a>
-          </li>
         </ul>
+        <span style="font-weight: bold;"></span>
+        <h3> </h3>
       </article>
       <article id="topic4">
+        <h2>Alpha and&nbsp; Beta Testing via the Play Store </h2>
+        <ul>
+          <li>??</li>
+        </ul>
+      </article>
+      <article id="topic5">
         <h2><br>
         </h2>
         <h2>Releasing Apps on Google Play </h2>
         <ul>
         </ul>
-        Rather than accessing data directly through Entity Framework,
-        the data will be accessed through a repository.<br>
+        R??
         <ul>
-          <li>Reasons for using a repository:</li>
-          <ul>
-            <li>It facilitates unit testing since the repository can be
-              replaced by a fake for testing</li>
-            <li>It can facilitate a simple source of "hard coded" data
-              for integration testing during early development</li>
-            <li>It provides an additional layer of abstraction for
-              implementing common data operations</li>
-          </ul>
-          <li>Implementation</li>
-          <ul>
-            <li>Real and Fake repositories both inherit from an
-              interface</li>
-            <ul>
-              <li>This supports dependency injection so that the fake
-                repository can be easily injected when testing.</li>
-            </ul>
-          </ul>
-          <li>Fake repositories</li>
-          <ul>
-            <li>Just used for unit testing</li>
-            <li>Contain hard-coded test data</li>
-            <li>Different test data can be supplied for different tests</li>
-            <ul>
-            </ul>
-          </ul>
+        </ul>
+        <ul>
         </ul>
       </article>
       <article id="topic6">
         <h2>Example</h2>
-        <p>Design the domain model for a Book Information web site that
-          provides information about Books and Authors. Store the
-          following information:</p>
-        <p>Author</p>
-        <ul>
-          <li>Name</li>
-          <li>Birth date</li>
-        </ul>
-        <p>Book</p>
-        <ul>
-          <li>Title</li>
-          <li>Author or authors</li>
-          <li>Publication date</li>
-        </ul>
+        <p>D??</p>
         <p><br>
         </p>
       </article>
       <article id="topic7">
         <h2>Further Reading</h2>
         <a
-href="https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing">Testing
+href="https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/">Xamarin
 
-
-
-
-
-
-
-          Controller Logic in ASP.NET Core</a><span style="color:
-          #0000ee;"></span><br>
+          Guide: Deployment and Testing</a><span style="color: #0000ee;"></span><br>
         <a
 href="https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing">
         </a> <br>
         <a
-href="http://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html">Dependency
+          href="https://developer.android.com/studio/publish/index.html">Google
 
-
-
-
-
-
-
-          Injection Demystified</a><br>
+          Guide: Android Studio - Publish Your App</a><br>
         <br>
       </article>
       <article id="topic8">
-        <h2><br>
-        </h2>
         <h2>Next Class</h2>
         <p>We will go into more detail on unit testing</p>
         <p><br>
