@@ -1,309 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Publish an App</title>
-    <style type="text/css">
-body {
-  font-family: "Arial", "Helvetica", "sans-serif";
-}
-
-#week09 {
-  background-color: #f8ff2e;
-}
-
-code {
-  display:block;
-  font-size: larger;
-  background-color: lightgoldenrodyellow;
-  max-height:400px;
-  width:75%;
-  overflow:scroll;
-}
-
-.exercise {
-  background-color: #c6ffe2;
-}
-
-</style>
-  </head>
-  <body>
-    <header> <b>CS235AM Mobile App Development: Android &nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; <br>
-      </b>
-      <div>Brian Bird</div>
-      <br>
-      <h1> <i><b>Distributing or Publishing an App<br>
-          </b></i></h1>
-      <b>Topics by week<br>
-      </b>
-      <table width="807" height="127" border="1">
-        <tbody>
-          <tr>
-            <td id="week01">1. Intro and single-screen apps<br>
-            </td>
-            <td id="week06">6. <strike>Midterm</strike> Adapting to
-              size and orientation: Fragments<br>
-            </td>
-          </tr>
-          <tr>
-            <td id="week02">2. Multi-screen (multi-activity) apps<br>
-            </td>
-            <td>7. Managing Data: SQLite </td>
-          </tr>
-          <tr>
-            <td id="week03">3. Activity lifecycle and state<br>
-            </td>
-            <td id="week08" style="width: 395.333px;">8. Geolocation -
-              optional<br>
-            </td>
-          </tr>
-          <tr>
-            <td id="week04">4. ListViews and Adapters<br>
-            </td>
-            <td id="week09">9. Distributing or publishing an app<br>
-            </td>
-          </tr>
-          <tr>
-            <td id="week05">5. Adapting to size and orientation: Layouts<br>
-            </td>
-            <td id="week10">10. Work on term projects<br>
-            </td>
-          </tr>
-          <tr>
-            <td valign="top"><br>
-            </td>
-            <td valign="top">11. Term project presentations<br>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <h2><b><b>Contents</b></b></h2>
-      <div> <br>
-        <ul>
-          <b>
-            <li><a href="#topic1">Introduction</a></li>
-            <li><a href="#topic2">Preparation for distribution</a></li>
-            <li><a href="#topic3">Ad-hoc distribution</a></li>
-            <li><a href="#topic4">Google Play:Alpha and Beta Testing</a></li>
-            <li><a href="#topic5">Google Play: Releasing an app</a></li>
-            <li><a href="#topic6">Example</a></li>
-            <li><a href="#topic7">Further Reading</a></li>
-            <li><a href="#topic8">Next Class</a></li>
-          </b>
-        </ul>
-      </div>
-    </header>
-    <section>
-      <article id="topic1">
-        <h2>Introduction</h2>
-        <ul>
-          <li>Review lab due dates on Moodle</li>
-          <li>Answer questions about past labs</li>
-        </ul>
-        <h3>Announcements</h3>
-      </article>
-      <ul>
-        <li>Registration for CS235IM </li>
-      </ul>
-      <article id="topic1">
-        <h3>Overview</h3>
-        <ul>
-          <li>Three ways to distribute your apps</li>
-          <ul>
-            <li>Add-hoc distribution</li>
-            <li>Publish to the Play Store for testing</li>
-            <li>Release an app to the general publish</li>
-          </ul>
-          <li>Registering to distribute apps through Google Play<br>
-          </li>
-          <ul>
-            <li><a
-href="https://support.google.com/googleplay/android-developer/answer/6112435">How
+<!DOCTYPE html><html>  <head>    <meta http-equiv="content-type" content="text/html; charset=UTF-8">    <title>Publish an App</title>    <style type="text/css">body {  font-family: "Arial", "Helvetica", "sans-serif";}#week09 {  background-color: #f8ff2e;}code {  display:block;  font-size: larger;  background-color: lightgoldenrodyellow;  max-height:400px;  width:75%;  overflow:scroll;}.exercise {  background-color: #c6ffe2;}</style> </head>  <body>    <header> <b>CS235AM Mobile App Development: Android &nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; <br>      </b>      <div>Brian Bird</div>      <br>      <h1> <i><b>Distributing or Publishing an App<br>          </b></i></h1>      <b>Topics by week<br>      </b>      <table border="1" height="127" width="807">        <tbody>          <tr>            <td id="week01">1. Intro and single-screen apps<br>            </td>            <td id="week06">6. <strike>Midterm</strike> Adapting to size and              orientation: Fragments<br>            </td>          </tr>          <tr>            <td id="week02">2. Multi-screen (multi-activity) apps<br>            </td>            <td>7. Managing Data: SQLite </td>          </tr>          <tr>            <td id="week03">3. Activity lifecycle and state<br>            </td>            <td id="week08" style="width: 395.333px;">8. Geolocation - optional<br>            </td>          </tr>          <tr>            <td id="week04">4. ListViews and Adapters<br>            </td>            <td id="week09">9. Distributing or publishing an app<br>            </td>          </tr>          <tr>            <td id="week05">5. Adapting to size and orientation: Layouts<br>            </td>            <td id="week10">10. Work on term projects<br>            </td>          </tr>          <tr>            <td valign="top"><br>            </td>            <td valign="top">11. Term project presentations<br>            </td>          </tr>        </tbody>      </table>      <br>      <h2><b><b>Contents</b></b></h2>      <div> <br>        <ul>          <b>            <li><a href="#topic1">Introduction</a></li>            <li><a href="#topic2">Preparation for distribution</a></li>            <li><a href="#topic3">Ad-hoc distribution</a></li>            <li><a href="#topic4">Google Play:Alpha and Beta Testing</a></li>            <li><a href="#topic5">Google Play: Releasing an app</a></li>            <li><a href="#topic6">Example</a></li>            <li><a href="#topic7">Further Reading</a></li>            <li><a href="#topic8">Next Class</a></li>          </b>        </ul>      </div>    </header>    <section>      <article id="topic1">        <h2>Introduction</h2>        <ul>          <li>Review lab due dates on Moodle</li>          <li>Answer questions about past labs</li>        </ul>        <h3>Announcements</h3>      </article>      <ul>        <li>Registration for CS235IM </li>      </ul>      <article id="topic1">        <h3>Overview</h3>        <ul>          <li>Three ways to distribute your apps</li>          <ul>            <li>Add-hoc distribution</li>            <li>Publish to the Play Store for testing</li>            <li>Release an app to the general publish</li>          </ul>          <li>Registering to distribute apps through Google Play<br>          </li>          <ul>            <li><a href="https://support.google.com/googleplay/android-developer/answer/6112435">How
 
 
 
 
-                to use the Play Console</a><br>
-            </li>
-          </ul>
-        </ul>
-      </article>
-      <article id="topic2">
-        <h2>Preparation for Distribution</h2>
-        These steps need to be completed regardless of the distribution
-        method. Even to dis<br>
-        <br>
-        <ol>
-          <li>Ensure the app has an icon - set in the project
-            properties, "Android Manifest"</li>
-          <li>Set the application version - same as above</li>
-          <li>Specify the best linking option - in project properties,
-            "Android Options", Linking, choose "Sdk Assemblies only"</li>
-          <li>Enable pro-guard - prevents reverse engineering and
-            shrinks the APK. Same property page as above</li>
-          <li>Archive for publishing - Go to "Build", "Archive..." - The
-            archive (APK) will be built<br>
-          </li>
-          <li>Sign the APK - Go to "Tools",&nbsp; "Archive Manager" (you
-            are already there if you just did step 5)<br>
-          </li>
-          <ul>
-            <li>Click the Distribute button</li>
-            <li>Choose a type of distribution (Ad-Hoc or Google Play)</li>
-            <li>Click + to create a new signing identity (You must fill
-              in <span style="text-decoration: underline;">all</span>
-              the fields)<br>
-            </li>
-            <li>Save the APK to a folder of your choice</li>
-          </ul>
-          <li>The APK file is now ready for distribution<br>
-          </li>
-        </ol>
-        <p>Reference: Xamarin Guide: <a
-href="https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/release-prep/">Preparing
+                to use the Play Console</a><br>            </li>          </ul>        </ul>      </article>      <article id="topic2">        <h2>Preparation for Distribution</h2>        These steps need to be completed regardless of the distribution method.        Even to dis<br>        <br>        <ol>          <li>Ensure the app has an icon - set in the project properties,            "Android Manifest"</li>          <li>Set the application version - same as above</li>          <li>Specify the best linking option - in project properties, "Android            Options", Linking, choose "Sdk Assemblies only"</li>          <li>Enable pro-guard - prevents reverse engineering and shrinks the            APK. Same property page as above</li>          <li>Archive for publishing - Go to "Build", "Archive..." - The archive            (APK) will be built<br>          </li>          <li>Sign the APK - Go to "Tools",&nbsp; "Archive Manager" (you are            already there if you just did step 5)<br>          </li>          <ul>            <li>Click the Distribute button</li>            <li>Choose a type of distribution (Ad-Hoc or Google Play)</li>            <li>Click + to create a new signing identity (You must fill in <span                style="text-decoration: underline;">all</span>              the fields)<br>            </li>            <li>Save the APK to a folder of your choice</li>          </ul>          <li>The APK file is now ready for distribution<br>          </li>        </ol>        <p>Reference: Xamarin Guide: <a href="https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/release-prep/">Preparing
 
 
 
-            an Application for Release</a><br>
-        </p>
-      </article>
-      <article id="topic3">
-        <h2>Ad-Hoc Distribution</h2>
-        Prepare the APK for distribution using the steps above. <br>
-        Next, do one of the following:<span style="font-weight: bold;"></span><br>
-        <ul>
-          <li>Copy the APK file to a device using a USB cable</li>
-          <li>Put the APK on a flash drive</li>
-          <li>Email a copy of the APK</li>
-          <li>Post the APK on a website for download</li>
-          <ul>
-            <li> <a href="https://www.diawi.com/features-services">diawi</a>
-              is a website developers can use to distribute their APKs
-              for testing.</li>
-            <li>Use your own web site - just upload the APK to the
-              server and add a link to a web page.</li>
-          </ul>
-        </ul>
-        <p>Users will need to enable installation of apps from outside
-          an app store<br>
-        </p>
-        <ul>
-          <li>Pre-Oreo (API leve 25 or lower): open the settings on
-            their device and go to "Security", "Unknown Sources" to
-            enable installation of the app.</li>
-          <li>Oreo (API level 26 or above): When you tap the APK file to
-            open it on your device, you will be presented with a pop-up
-            dialog asking you to approive instalation of an app from an
-            unknown source.<br>
-          </li>
-        </ul>
-        <p>Reference: Xamarin Guide: <a
-href="https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/publishing/publishing-independently/">Publishing
+            an Application for Release</a><br>        </p>      </article>      <article id="topic3">        <h2>Ad-Hoc Distribution</h2>        Prepare the APK for distribution using the steps above. <br>        Next, do one of the following:<span style="font-weight: bold;"></span><br>        <ul>          <li>Copy the APK file to a device using a USB cable</li>          <li>Put the APK on a flash drive</li>          <li>Email a copy of the APK</li>          <li>Post the APK on a website for download</li>          <ul>            <li> <a href="https://www.diawi.com/features-services">diawi</a> is              a website developers can use to distribute their APKs for testing.</li>            <li>Use your own web site - just upload the APK to the server and              add a link to a web page.</li>          </ul>        </ul>        <p>Users will need to enable installation of apps from outside an app          store<br>        </p>        <ul>          <li>Pre-Oreo (API leve 25 or lower): open the settings on their device            and go to "Security", "Unknown Sources" to enable installation of            the app.</li>          <li>Oreo (API level 26 or above): When you tap the APK file to open it            on your device, you will be presented with a pop-up dialog asking            you to approve installation of an app from an unknown source.<br>          </li>        </ul>        <p>Reference: Xamarin Guide: <a href="https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/publishing/publishing-independently/">Publishing
 
-            Independently</a><br>
-        </p>
-        <ul>
-          <ul>
-          </ul>
-        </ul>
-        <span style="font-weight: bold;"></span>
-        <h3> </h3>
-      </article>
-      <article id="topic4">
-        <h2>Distributing Apps via the Google Play Store </h2>
-        <ul>
-        </ul>
-        Launcher icons are required in order to publish your app to
-        Google Play.<br>
-        <ul>
-          <li>Launcher icons required for all screen resolutions</li>
-          <ul>
-            <li>hdpi</li>
-            <li>mdpi</li>
-            <li>xhdpi</li>
-            <li>xxhdpi</li>
-            <li>xxxhdpi</li>
-          </ul>
-          <li>One easy way to create icons: <a
-              href="https://romannurik.github.io/AndroidAssetStudio/index.html">Android
-              Asset Studio Web Site</a><br>
-          </li>
-        </ul>
-        <ul>
-        </ul>
-      </article>
-      <article id="topic5">(Note to myself: to log in to the <a
-href="https://play.google.com/apps/publish/?account=5898540963327640634#AppListPlace">Google
-          Play Console</a> use my personal Google account)<br>
-        <h3>Alpha and Beta Testing via the Play Store</h3>
-        <p>On the Google Play Console:<br>
-        </p>
-        <ul>
-          <li>Select an app that has been uploaded</li>
-          <ul>
-            <li>Select "App releases" <br>
-            </li>
-            <ul>
-              <li>Click on "Manage alpha" or "Manage beta"</li>
-              <ul>
-                <li>Choose a testing option:</li>
-                <ul>
-                  <li>Open</li>
-                  <li>Closed</li>
-                  <li>Via Google Groups or Google+<br>
-                  </li>
-                </ul>
-              </ul>
-            </ul>
-          </ul>
-        </ul>
-        <h2>Releasing Apps on Google Play </h2>
-        <ul>
-        </ul>
-        ...
-        <ul>
-        </ul>
-        <ul>
-        </ul>
-      </article>
-      <article id="topic6">
-        <h2>Example</h2>
-        <p>...</p>
-        <p><br>
-        </p>
-      </article>
-      <article id="topic7">
-        <h2>Further Reading</h2>
-        <a
-href="https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/">Xamarin
+            Independently</a><br>        </p>        <ul>          <ul>          </ul>        </ul>        <span style="font-weight: bold;"></span>        <h3> </h3>      </article>      <article id="topic4">        <h2>Distributing Apps via the Google Play Store </h2>        <ul>        </ul>        Launcher icons are required in order to publish your app to Google Play.<br>        <ul>          <li>Launcher icons required for all screen resolutions</li>          <ul>            <li>hdpi</li>            <li>mdpi</li>            <li>xhdpi</li>            <li>xxhdpi</li>            <li>xxxhdpi</li>          </ul>          <li>One easy way to create icons: <a href="https://romannurik.github.io/AndroidAssetStudio/index.html">Android
+              Asset Studio Web Site</a><br>          </li>        </ul>        <ul>        </ul>      </article>      <article id="topic5">(Note to myself: to log in to the <a href="https://play.google.com/apps/publish/?account=5898540963327640634#AppListPlace">Google
+          Play Console</a> use my personal Google account)<br>        <h3>Alpha and Beta Testing via the Play Store</h3>        <p>On the Google Play Console:<br>        </p>        <ul>          <li>Select an app that has been uploaded</li>          <ul>            <li>Select "App releases" <br>            </li>            <ul>              <li>Click on "Manage alpha" or "Manage beta"</li>              <ul>                <li>Choose a testing option:</li>                <ul>                  <li>Open</li>                  <li>Closed</li>                  <li>Via Google Groups or Google+<br>                  </li>                </ul>              </ul>            </ul>          </ul>        </ul>        <h2>Releasing Apps on Google Play </h2>        <ul>        </ul>        ...        <ul>        </ul>        <ul>        </ul>      </article>      <article id="topic6">        <h2>Example</h2>        <p>...</p>        <p><br>        </p>      </article>      <article id="topic7">        <h2>Further Reading</h2>        <a href="https://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/">Xamarin
 
 
 
 
-          Guide: Deployment and Testing</a><span style="color: #0000ee;"></span><br>
-        <a
-href="https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing">
-        </a> <br>
-        <a
-          href="https://developer.android.com/studio/publish/index.html">Google
-
-
-
-
-          Guide: Android Studio - Publish Your App</a><br>
-        <br>
-      </article>
-      <article id="topic8">
-        <h2>Next Class</h2>
-        <p>...</p>
-        <p><br>
-        </p>
-      </article>
-    </section>
-  </body>
-</html>
+          Guide: Deployment and Testing</a><span style="color: #0000ee;"></span><br>        <a href="https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing">        </a> <br>        <a href="https://developer.android.com/studio/publish/index.html">Google          Guide: Android Studio - Publish Your App</a><br>        <br>      </article>      <article id="topic8">        <h2>Next Class</h2>        <p>...</p>        <p><br>        </p>      </article>    </section>  </body></html>
