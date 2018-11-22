@@ -62,3 +62,8 @@ _ReSharper*/
 
 #Test files
 *.testsettings
+Demos/DelegateDemo/.vs/DelegateDemo/xs/sqlite3/db.lock
+Demos/DelegateDemo/.vs/DelegateDemo/xs/sqlite3/storage.ide
+Demos/DelegateDemo/.vs/DelegateDemo/xs/sqlite3/storage.ide-shm
+Demos/DelegateDemo/.vs/DelegateDemo/xs/sqlite3/storage.ide-wal
+Demos/DelegateDemo/.vs/DelegateDemo/xs/UserPrefs.xml
