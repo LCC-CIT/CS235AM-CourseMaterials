@@ -1,187 +1,2 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>SQLite</title>
-    <style type="text/css">
-body {
-  font-family: "Arial", "Helvetica", "sans-serif";
-}
-
-#week07 {
-  background-color: #f8ff2e;
-}
-
-code {
-  display:block;
-  font-size: larger;
-  background-color: lightgoldenrodyellow;
-  max-height:400px;
-  width:90%;
-  overflow:scroll;
-}
-
-.exercise {
-  background-color: #c6ffe2;
-}
-
-</style>
-  </head>
-  <body>
-    <header> <b>CS235AM, Mobile Application Development: Android
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br>
-      </b>
-      <div>Lesson Plan</div>
-      <div>Brian Bird</div>
-      <i><b><br>
-        </b></i></header>
-    <section>
-      <article> <br>
-        <b>Weeks + Topics<br>
-        </b>
-        <table style="width: 807px; height: 127px;" border="1">
-          <tbody>
-            <tr>
-              <td id="week01">1. Intro to Android app dev with Xamarin</td>
-              <td>6. Displaying data in lists</td>
-            </tr>
-            <tr>
-              <td id="week02">2. Multi-screen applications</td>
-              <td id="week07">7. Storing data with SQLite</td>
-            </tr>
-            <tr>
-              <td>3. Android activity life-cycle</td>
-              <td id="week08">8. Geo-location</td>
-            </tr>
-            <tr>
-              <td>4. UI Fragments</td>
-              <td id="week09">9. Publishing to the Google Play store<br>
-              </td>
-            </tr>
-            <tr>
-              <td>5. Midterm</td>
-              <td>10. Term project<br>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <b><br>
-          <br>
-          Introduction</b><br>
-        <ul>
-          <li>Review due dates on Moodle</li>
-        </ul>
-        <div><b>Overview</b></div>
-        <ul>
-          <b>
-            <li><a href="#topic1">Database Fundamentals<br>
-              </a></li>
-            <li><a href="#topic2">SQLite.NET ORM</a></li>
-            <li><a href="#topic3">Reference</a></li>
-            <br>
-          </b>
-        </ul>
-      </article>
-    </section>
-    <h3>Why Use a Database?</h3>
-    <section>
-      <article id="topic3">How is using a DBMS (Database Management
-        System) better than using a simple file (text, XML, or JSON) for
-        persisting data?<br>
-        <br>
-        <h3>
-          Advantages of Using a Database</h3>
-        <meta http-equiv="Content-Type" content="text/html;
-          charset=UTF-8">
-        Data items can be found quickly (without having all of the data
-        in memory)<br>
-        Data can be filtered based on complex criteria<br>
-        Data items can be added, changed, or deleted without rewriting
-        the entire file. <br>
-        <h3>Features of a Relational Database</h3>
-        In an RDBMS (Relational Database Management System):<br>
-        Data is stored in tables (also called relations) which organize
-        data by column and row (like a spreadsheet)<br>
-        Queries return rows of data based on column-oriented criteria<br>
-        <h3>Schema</h3>
-        The schema of a database is the definition of the database’s
-        tables and the names and types of each column in each table.<br>
-        <h3>Primary Key</h3>
-        Each row should have a primary key<br>
-        The PK is a unique identifier<br>
-        Integers are often used, but strings can be used too<br>
-        They don’t need to be in any particular sequence<br>
-        Note: The rows in a table have no inherent order.<br>
-        <br>
-        <h3>SQL</h3>
-        SQL (pronounced sequel) is the most popular language for
-        querying. <br>
-        It has some attributes of a functional language<br>
-        No state (no variables)<br>
-        No sequence of operations (all at once operations)<br>
-        Many popular RDBMS’s use SQL: Oracle, SQL Server, My SQL<br>
-        Example Query<br>
-        Select Spanish from Dictionary where English = “dog”<br>
-        <br>
-        Select * from Dictionary where PartOfSpeech = “verb”<br>
-        <br>
-        <h3>SQLite</h3>
-        A popular Open Source RDBMS<br>
-        Used mainly in embedded applications<br>
-        Built into Android and iOS (as well as other operating systems)<br>
-        Implements most of the SQL92 standard<br>
-        <a href="http://sqlite.org" target="_blank">SQLite web site</a><br>
-        <h3>SQLite.NET ORM</h3>
-        Object Relational Mapper<br>
-        A C# wrapper around the database API<br>
-        Table Schema are represented by C# classes (data models)<br>
-        Lets you use C# (including LINQ) to perform database operations
-        so you don’t need to learn SQL<br>
-        <a href="https://github.com/praeclarum/sqlite-net"
-          target="_blank">SQLite-Net GitHub Web Page</a><br>
-        <h3>Data Model</h3>
-        UML Class Diagram<br>
-        C# Class Definition<br>
-        [Table]public class Dictionary <br>
-        {<br>
-        &nbsp; [PrimaryKey]<br>
-        &nbsp; public int ID {get; set;}<br>
-        &nbsp; public string English {get; set;}<br>
-        &nbsp; public string Spanish {get; set;}<br>
-        &nbsp; public string PartOfSpeech {get; set}<br>
-        }<br>
-        <h3>Data Operations Using LINQ</h3>
-        LINQ is a part of all .NET languages<br>
-        Language Integrated Query uses the syntax of a functional
-        language – this is why it resembles SQL<br>
-        LINQ can be used to query data from any class that implements
-        IQueryable<br>
-        <br>
-        <h3>LINQ Example</h3>
-        from&nbsp;w&nbsp;in&nbsp;db.Table&lt;Dictionary&gt;&nbsp;()&nbsp;where&nbsp;w.English
-        == “dog”&nbsp;select&nbsp;w.Spanish;<br>
-        from w in db.Table&lt;Dictionary&gt;()where w.PartOfSpeech ==
-        “verb”select w;<br>
-        <h3>Next Session …</h3>
-        In this session you were introduced to:<br>
-        &nbsp;The SQLite RDBMS<br>
-        The SQLite.Net ORM<br>
-        In Part 2, we will dig deeper into using SQLite.Net in an
-        Android application<br>
-        <br>
-        <meta name="ProgId" content="PowerPoint.Slide">
-        <meta name="Generator" content="Microsoft PowerPoint 15">
-        <!--StartFragment--><!--EndFragment-->
-        <h2>Reference</h2>
-        <p><br>
-          Updated Xamarin Guide for Data Access: <a
-href="https://developer.xamarin.com/guides/android/data-and-cloud-services/data-access/"
-            target="_blank">https://developer.xamarin.com/guides/android/data-and-cloud-services/data-access/</a></p>
-        <p><br>
-        </p>
-      </article>
-    </section>
-  </body>
-</html>
+<!DOCTYPE html><html>  <head>    <meta http-equiv="content-type" content="text/html; charset=UTF-8">    <title>SQLite</title>    <style type="text/css">body {  font-family: "Arial", "Helvetica", "sans-serif";}#week07 {  background-color: #f8ff2e;}code {  display:block;  font-size: larger;  background-color: lightgoldenrodyellow;  max-height:400px;  width:90%;  overflow:scroll;}.exercise {  background-color: #c6ffe2;}</style> </head>  <body>    <header> <b>CS235AM, Mobile Application Development: Android        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br>      </b>      <div>Lesson Plan</div>      <div>Brian Bird</div>      <i><b><br>        </b></i></header>    <section>      <article> <br>        <b>Weeks + Topics<br>        </b>        <table style="width: 807px; height: 127px;" border="1">          <tbody>            <tr>              <td id="week01">1. Intro to Android app dev with Xamarin</td>              <td>6. Displaying data in lists</td>            </tr>            <tr>              <td id="week02">2. Multi-screen applications</td>              <td id="week07">7. Storing data with SQLite</td>            </tr>            <tr>              <td>3. Android activity life-cycle</td>              <td id="week08">8. Geo-location</td>            </tr>            <tr>              <td>4. UI Fragments</td>              <td id="week09">9. Publishing to the Google Play store<br>              </td>            </tr>            <tr>              <td>5. Midterm</td>              <td>10. Term project<br>              </td>            </tr>          </tbody>        </table>        <b><br>          <br>          Introduction</b><br>        <ul>          <li>Review due dates on Moodle</li>        </ul>        <div><b>Overview</b></div>        <ul>          <b>            <li><a href="#topic1">Database Fundamentals<br>              </a></li>            <li><a href="#topic2">SQLite.NET ORM</a></li>            <li><a href="#topic3">Reference</a></li>            <br>          </b>        </ul>      </article>    </section>    <h3>Why Use a Database?</h3>    <section>      <article id="topic3">How is using a DBMS (Database Management System)        better than using a simple file (text, XML, or JSON) for persisting        data?<br>        <br>        <h3> Advantages of Using a Database</h3>        Data items can be found quickly (without having all of the data in        memory)<br>        Data can be filtered based on complex criteria<br>        Data items can be added, changed, or deleted without rewriting the        entire file. <br>        <h3>Features of a Relational Database</h3>        In an RDBMS (Relational Database Management System):<br>        Data is stored in tables (also called relations) which organize data by        column and row (like a spreadsheet)<br>        Queries return rows of data based on column-oriented criteria<br>        <h3>Schema</h3>        The schema of a database is the definition of the database’s tables and        the names and types of each column in each table.<br>        <h3>Primary Key</h3>        Each row should have a primary key<br>        The PK is a unique identifier<br>        Integers are often used, but strings can be used too<br>        They don’t need to be in any particular sequence<br>        Note: The rows in a table have no inherent order.<br>        <br>        <h3>SQL</h3>        SQL (pronounced sequel) is the most popular language for querying. <br>        It has some attributes of a functional language<br>        No state (no variables)<br>        No sequence of operations (all at once operations)<br>        Many popular RDBMS’s use SQL: Oracle, SQL Server, My SQL<br>        Example Query<br>        Select Spanish from Dictionary where English = “dog”<br>        <br>        Select * from Dictionary where PartOfSpeech = “verb”<br>        <br>        <h3>SQLite</h3>        A popular Open Source RDBMS<br>        Used mainly in embedded applications<br>        Built into Android and iOS (as well as other operating systems)<br>        Implements most of the SQL92 standard<br>        <a href="http://sqlite.org" target="_blank">SQLite web site</a><br>        <h3>SQLite.NET ORM</h3>        Object Relational Mapper<br>        A C# wrapper around the database API<br>        Table Schema are represented by C# classes (data models)<br>        Lets you use C# (including LINQ) to perform database operations so you        don’t need to learn SQL<br>        <a href="https://github.com/praeclarum/sqlite-net" target="_blank">GitHub:          sqlite-net</a><br>        <a href="https://www.nuget.org/packages/sqlite-net-pcl" target="_blank"><span            style="color: #0000ee;">Nuget:            sqlite-net-pcl</span></a><br>        <h3>Data Model</h3>        UML Class Diagram<br>        C# Class Definition<br>        [Table]public class Dictionary <br>        {<br>        &nbsp; [PrimaryKey]<br>        &nbsp; public int ID {get; set;}<br>        &nbsp; public string English {get; set;}<br>        &nbsp; public string Spanish {get; set;}<br>        &nbsp; public string PartOfSpeech {get; set}<br>        }<br>        <h3>Data Operations Using LINQ</h3>        LINQ is a part of all .NET languages<br>        Language Integrated Query uses the syntax of a functional language –        this is why it resembles SQL<br>        LINQ can be used to query data from any class that implements IQueryable<br>        <br>        <h3>LINQ Example</h3>        from&nbsp;w&nbsp;in&nbsp;db.Table&lt;Dictionary&gt;&nbsp;()&nbsp;where&nbsp;w.English
+        == “dog”&nbsp;select&nbsp;w.Spanish;<br>        from w in db.Table&lt;Dictionary&gt;()where w.PartOfSpeech ==        “verb”select w;<br>        <h3>Next Session …</h3>        In this session you were introduced to:<br>        <ul>          <li> &nbsp;The SQLite RDBMS</li>          <li> The SQLite.Net ORM</li>        </ul>        In Part 2, we will dig deeper into using SQLite.Net in an Android        application<br>        We will also use a desktop database browser to look at our database        schema and data.<br>        <br>        <meta name="ProgId" content="PowerPoint.Slide">        <meta name="Generator" content="Microsoft PowerPoint 15">        <h2>Reference</h2>        <p><br>          Updated Xamarin Guide for Data Access: <a href="https://developer.xamarin.com/guides/android/data-and-cloud-services/data-access/"            target="_blank">https://developer.xamarin.com/guides/android/data-and-cloud-services/data-access/</a></p>        <p><br>        </p>      </article>    </section>  </body></html>
