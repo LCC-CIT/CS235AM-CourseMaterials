@@ -130,10 +130,10 @@ Friday
 
 Example: Activities and deadlinesfor the first two weeks
 
-| Week | Sun  | Mon                                                          | Tu               | Wed              | Th   | Fri                                   | Sat. |
-| ---- | ---- | ------------------------------------------------------------ | ---------------- | ---------------- | ---- | ------------------------------------- | ---- |
-| 1    |      | Start week 1 reading<br />Start lab 1                        |                  | Reading quiz due |      | Lab 1 beta due                        |      |
-| 2    |      | Lab 1 code review due<br />Start week 2 reading<br />Start Lab 2 | Reading quiz due |                  |      | Lab 1 release due<br />Lab 2 beta due |      |
+| Week | Sun  | Mon                                                          | Tu           | Wed          | Th   | Fri                           | Sat. |
+| ---- | ---- | ------------------------------------------------------------ | ------------ | ------------ | ---- | ----------------------------- | ---- |
+| 1    |      | Start week 1 reading<br><br>Start lab 1                      |              | Reading quiz |      | Lab 1 beta                    |      |
+| 2    |      | Lab 1 code review<br><br>Start week 2 reading<br><br>Start Lab 2 | Reading quiz |              |      | Lab 1 releaser><br>Lab 2 beta |      |
 
  
 
@@ -216,7 +216,7 @@ Please be aware that any accessible tables and chairs in this room should remain
 
 | **Week** | **Topics**                                                   | **Reading** | **Assignments Due**                                          |
 | -------- | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ |
-| **1**    | Intro to the Android mobile platform. <br />Android application development.<br />Android project resources. | TBD         | Reading quiz 1<br />Lab 1: Hello Android – Beta<br />Group A: Reset button<br />Group B: Extra label and button |
+| **1**    | Intro to the Android mobile platform. <br><br>Android application development.<br><br>Android project resources. | Skim Murach Ch. 1: An Intro to Android and Android Studio,  <br>Read Murach’s [Android Studio Update for 2017](https://www.murach.com/shop/murach-s-android-programming-2nd-edition-detail),  <br><br>Optional: [Android Studio Overview](http://developer.android.com/tools/studio/index.html) | Reading quiz 1<br><br>Lab 1: Hello Android – Beta<br><br>Group A: Reset button<br><br>Group B: Extra label and button |
 | **2**    | Multi-screen applications and Intent objects                 | TBD         | Reading quiz 2<br />Lab 2: Multi-screen apps – beta version<br />Group A: 99 bugs<br />Group B: Let’s Make a deal<br />Lab 1 Code review and release version |
 | **3**    | Activity life-cycleSaving and restoring Activity state       | TBD         | Reading quiz 3<br />Lab 3: layout and orientation app – beta version<br />Group A: Awesome Quotes<br />Group B: Who Said It? (Quiz app)<br />Lab 2 Code review and release version |
 | **4**    | UI Layouts and Orientation                                   | TBD         | Lab 4: Fragments app – beta version<br />Group A: Pig with 8-sided die<br />Group B: Pig with 6-sided die<br />Lab 3 Code review and release version |
